@@ -1,0 +1,12 @@
+{
+  "torch": "1.13.1+cu116",
+  "cuda_runtime": "11.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "device": "cuda:0",
+  "iterations": 10,
+  "initial_loss": 1.1283817291259766,
+  "final_loss": 0.9264593124389648,
+  "seconds": 3.1788292999999994,
+  "max_allocated_mb": 25.5205078125,
+  "scope": "synthetic-tensor CUDA forward/backward/optimizer smoke test, not seal model training"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "page": "01-home",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "02-generate",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "03-catalog",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "04-detail",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "05-culture",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "06-customize",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "07-experience",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  },
+  {
+    "page": "08-account",
+    "alerts": 0,
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 389,
+    "width": 389
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "url": "/api/files/4716fe18-027d-4740-a761-1d9ae0758e96",
+  "panel": "三维打样与导出\n实际印面浮雕\n\n设置实物尺寸，生成封闭的印面模型，可继续用于切片和打印。\n\n印面边长 / mm\n底座厚度 / mm\n字口高差 / mm\n网格精度\n标准 · 64\n精细 · 96\n高 · 128\n镜像刻印\n通常开启，钤印后为正字\n生成三维印面\n封闭网格检查通过\n面数\n36,860\n体积\n3,493.635 mm³\n模型方向\n镜像刻印\n实际文件\n下载钤印 PNG\n下载 STL 模型\n导出来源与制印记录\n\nSTL导入切片软件时按毫米设置。网格检查不等于薄壁、材料或打印工艺验证。",
+  "layout": {
+    "header": [
+      {
+        "cls": "gw-title",
+        "display": "block",
+        "height": 98.30805206298828,
+        "tag": "HEADER",
+        "text": "SEAL DESIGN · 实际创作印面设计从一张印稿，到可导出的三维印面。"
+      },
+      {
+        "cls": "",
+        "display": "inline",
+        "height": 14.717458724975586,
+        "tag": "SMALL",
+        "text": "SEAL DESIGN · 实际创作"
+      },
+      {
+        "cls": "",
+        "display": "block",
+        "height": 46.50947570800781,
+        "tag": "H1",
+        "text": "印面设计"
+      },
+      {
+        "cls": "",
+        "display": "block",
+        "height": 20.35149574279785,
+        "tag": "P",
+        "text": "从一张印稿，到可导出的三维印面。"
+      }
+    ],
+    "panels": [
+      {
+        "client": [
+          416,
+          822
+        ],
+        "cls": "im-rect im-panel gw-panel gw-design",
+        "scroll": [
+          416,
+          854
+        ]
+      },
+      {
+        "client": [
+          551,
+          650
+        ],
+        "cls": "im-rect im-panel gw-panel gw-preview",
+        "scroll": [
+          551,
+          650
+        ]
+      },
+      {
+        "client": [
+          405,
+          650
+        ],
+        "cls": "im-rect im-panel gw-panel gw-output",
+        "scroll": [
+          405,
+          650
+        ]
+      },
+      {
+        "client": [
+          984,
+          142
+        ],
+        "cls": "im-rect im-panel gw-panel gw-history",
+        "scroll": [
+          984,
+          149
+        ]
+      }
+    ]
+  }
+}

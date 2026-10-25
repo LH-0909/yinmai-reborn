@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-23",
+  "scope": "Actual official collection records, independently matched to live MySQL-backed API",
+  "physical_objects": 3,
+  "documentary_drafts_not_proven_physical": 14,
+  "graph_counts": {
+    "nodes": 78,
+    "edges": 146,
+    "documents": 18,
+    "receipts": 21,
+    "matched": 78,
+    "context": 0,
+    "by_kind": {
+      "character": 50,
+      "collection": 1,
+      "document": 1,
+      "resource": 5,
+      "script": 3,
+      "seal_draft": 14,
+      "seal_object": 3,
+      "seal_type": 1
+    }
+  },
+  "records": [
+    {
+      "node_id": "node-3d244aa320beed02a27bc8345fde",
+      "official_title": "白玉盘龙纽“皇帝尊亲之宝”",
+      "accession_number": "故00166815",
+      "museum": "故宫博物院",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233558.html",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "page_sha256": "72bf7b231d8f326697f77555f8b4e309be9ca88e9d42372614b95b0dc737dd76",
+      "fetched_at": "2026-10-23T04:04:56.790908+00:00",
+      "original_sha256": "2c7db18557bf038f3b44436b935628b75525517870fbae3ee4e2fcfabe039b38",
+      "preview_sha256": "ac8e6766cdfe1d2242f83ef3abc1657043d4f9e15e14eda19165aff3352ab646"
+    },
+    {
+      "node_id": "node-82168367d28b8e3a25bd8b93842b",
+      "official_title": "青玉交龙纽“乾清宫宝”",
+      "accession_number": "故00166295",
+      "museum": "故宫博物院",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233652.html",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "page_sha256": "aadf6e35d58be76a884707c9a831182040bc2ea502be2f4600c3df85b6ff76c8",
+      "fetched_at": "2026-10-23T04:04:57.922336+00:00",
+      "original_sha256": "7a586b6e670fc5a6825e677eef65b25e7f3f855a8c07c52ae129fbe5800afae8",
+      "preview_sha256": "a643163122a6b8cbfec593c41100cc1d57255e71cdfa77658f29f57281ba6983"
+    },
+    {
+      "node_id": "node-85dce9723a775423cd06eebc018e",
+      "official_title": "碧玉交龙纽“敕命之宝”",
+      "accession_number": "故00166806",
+      "museum": "故宫博物院",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233579.html",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "page_sha256": "474f003c2f971abb74817f0e0ababc43f40c4107526a257ff93659c13a5403c8",
+      "fetched_at": "2026-10-23T04:04:58.793137+00:00",
+      "original_sha256": "be0df344c4657376cbc2872fc638c0316e831599a72107ced74a435224686e4f",
+      "preview_sha256": "c6da00f071e2460b81026d0fd522b1ffbac826692466e3c1cf81cafffee03972"
+    }
+  ],
+  "browser_checks": [
+    "Default gallery has exactly three official objects",
+    "Default rendered space: 7 nodes, 6 transcript relations, 3 actual photo textures",
+    "Selecting 宝 gives 4 nodes and 3 transcript relations",
+    "Compare 乾清宫宝 and 敕命之宝: shared Chinese character 宝",
+    "Catalog switches actual photos / official impressions",
+    "Catalog accession search 故00166815 gives one object",
+    "Old /catalog/great-han shows no-collection-proof notice instead of invented history",
+    "Mobile measured 388x844: no horizontal overflow or broken images; gallery read lens 5 nodes / 4 relations / 1 photo texture"
+  ],
+  "capture_limitation": "One current desktop 3D view was displayed by the browser tool, but saving final screenshots repeatedly failed. No latest screenshot sequence or pixel-match sign-off. Earlier iteration screenshots are labeled historical.",
+  "not_claimed": [
+    "Independent artifact authentication",
+    "A reconstructed artifact mesh",
+    "Full institutional catalog import",
+    "Training authorization",
+    "HarmonyOS physical-device validation"
+  ]
+}

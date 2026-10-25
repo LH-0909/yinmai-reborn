@@ -1,0 +1,35 @@
+✔ all 125 published records pass official object/document identity checks across three institutions (8.0939ms)
+✔ every photo and each of the 106 actual impressions retains a matching local SHA256 (56.8871ms)
+✔ source-native characters and missing accessions are preserved without inferred identifiers (0.3209ms)
+✔ gallery caption aliases require documented exact complete inscription; missing impressions remain honest (0.2008ms)
+✔ five differing period classifications have both source values and no asserted dating edge (0.2394ms)
+✔ association is capped at eight displayed objects while retaining all shared-character search results (1675.485ms)
+✔ 20 official bibliographic citations are never presented as texts already read (0.2139ms)
+✔ all actual claims retain their real endpoints in the 3D scope (0.7562ms)
+✔ one-hop scope excludes unrelated records and includes explicit path context (0.2427ms)
+✔ spatial layout is finite, deterministic and preserves source data (17.3621ms)
+✔ every moving particle belongs to an existing relation and budget is bounded (1.3679ms)
+✔ real Three.js ray intersections respect depth for an overlapping line and node (3.5644ms)
+✔ physical gallery requires exact official accession, page receipt and object identity (1.058ms)
+✔ an official-looking URL or manual claim does not establish a physical collection object (0.2703ms)
+✔ physical gallery excludes all fourteen unproven draft objects from scope and frequency (7.0759ms)
+✔ three official photos and impressions preserve source captions, identities and file hashes (5.0389ms)
+✔ a preview requires matching object ID, title, page URL and bounded local path (0.1887ms)
+✔ reading order comes from recorded positions and excludes unrelated node labels (0.1405ms)
+✔ related prints and comparison use shared transcriptions, never fabricated inter-seal claims (0.8077ms)
+✔ reading and association scopes preserve actual evidence IDs and original data (0.5792ms)
+✔ spatial reading layout has only visible IDs, a real anchor and finite deterministic positions (0.6321ms)
+✔ character counts measure distinct actual seal records even if an edge is duplicated (0.7926ms)
+✔ all fourteen packaged previews match original record identity and verified file hashes (3.8963ms)
+✔ candidate/rejected claims cannot become reading text, related prints or statistics (0.9675ms)
+✔ parallel documentary evidence stays available without double-counting letters or claims (0.3158ms)
+✔ registry cross-object IDs, cross-object filenames and invalid dimensions are rejected (0.1976ms)
+✔ image source document wins over first-edge order and candidate documents (0.2074ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2015.0426

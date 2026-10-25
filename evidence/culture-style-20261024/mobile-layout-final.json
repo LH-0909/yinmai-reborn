@@ -1,0 +1,97 @@
+{
+  "body": [
+    388,
+    877
+  ],
+  "hero": [
+    300.6329040527344,
+    0
+  ],
+  "panels": [
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-period-panel",
+      "scroll": [
+        283,
+        648
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-source-panel",
+      "scroll": [
+        283,
+        264
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-object-panel",
+      "scroll": [
+        283,
+        522
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-book-panel",
+      "scroll": [
+        283,
+        309
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-path-panel",
+      "scroll": [
+        283,
+        266
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-scroll-panel",
+      "scroll": [
+        283,
+        130
+      ]
+    },
+    {
+      "client": [
+        283,
+        0
+      ],
+      "cls": "im-rect im-panel hc-panel hc-review-panel",
+      "scroll": [
+        283,
+        149
+      ]
+    }
+  ],
+  "truthLabel": [
+    75.98892211914062,
+    376.621826171875
+  ],
+  "viewport": [
+    388,
+    844
+  ]
+}

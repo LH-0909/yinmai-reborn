@@ -1,0 +1,16 @@
+/node_modules
+/oh_modules
+/entry/oh_modules
+/.hvigor
+/.idea
+/build
+/entry/build
+/local.properties
+*.hap
+*.hsp
+*.app
+*.p7b
+*.p12
+*.cer
+*.csr
+signing-configs.json

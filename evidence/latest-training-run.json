@@ -1,0 +1,21 @@
+{
+  "run_id": "20261020T060018Z-470fa8",
+  "out": "evidence\\gpu-runs\\20261020T060018Z-470fa8",
+  "model": "models\\experimental\\runs\\20261020T060018Z-470fa8.torchscript.pt",
+  "task": "Synthetic Gaussian denoising only; original worn scans are targets",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "train_images": 11144,
+  "train_unique_images_seen": 11144,
+  "steps": 697,
+  "test": {
+    "noisy_mse": 0.005014862071050286,
+    "model_mse": 0.0006523568887023763,
+    "noisy_psnr_db": 22.997410073306057,
+    "model_psnr_db": 31.855147472291115,
+    "psnr_gain_db": 8.857737398985059
+  },
+  "peak_allocated_mb": 2345.4794921875,
+  "model_sha256": "28c104376c5d99688137b5c53c6f18737b1561571859ec2e4e08eb059081b93e",
+  "web_model_auto_replaced": false
+}

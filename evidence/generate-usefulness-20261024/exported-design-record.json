@@ -1,0 +1,62 @@
+{
+  "seal_id": "ea0a58b4-fb02-418c-b1d9-3c24207ad2fc",
+  "title": "印脉重生",
+  "source_kind": "native_typeset",
+  "source_artifact_id": "d8b89db5-8fa9-427e-81ff-b602d27635d3",
+  "source_sha256": "fd85dd8b83c84b9cd56b69ae739fab777b9c80864c10fec4e8799bd573c2afd0",
+  "image": {
+    "ink": "#b82e25",
+    "task": "native_typesetting",
+    "text": "印脉重生",
+    "width": 512,
+    "border": true,
+    "engine": "Pillow standard Chinese glyph layout",
+    "height": 512,
+    "layout": "square",
+    "sha256": "fd85dd8b83c84b9cd56b69ae739fab777b9c80864c10fec4e8799bd573c2afd0",
+    "purpose": "canonical stroke source for typesetting and geometry",
+    "stroke_px": 3,
+    "limitation": "规范字体排版；没有学习秦篆或汉印印风，不生成狮钮模型。",
+    "source_kind": "native_typeset",
+    "ai_inference": false,
+    "requested_style": "秦篆",
+    "material_preview": "玉石",
+    "polarity_applied": "zhu",
+    "polarity_requested": "bai",
+    "content_font_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
+    "style_model_applied": false,
+    "historical_authenticity_verified": false
+  },
+  "model": {
+    "faces": 36860,
+    "style": "bai",
+    "units": "mm",
+    "engine": "heightfield-to-STL",
+    "mirror": true,
+    "sha256": "9db7f79c7d53b979814702bf2c0e3a97105269697fc29f18326aa21e2357de39",
+    "base_mm": 3,
+    "vertices": 18432,
+    "width_mm": 30,
+    "bounds_mm": [
+      [
+        -15,
+        -15,
+        0
+      ],
+      [
+        15,
+        15,
+        4.2
+      ]
+    ],
+    "relief_mm": 1.2,
+    "limitation": "由二维印文构建的印面浮雕，不是文物真实形制复原；STL本身不携带单位",
+    "resolution": 96,
+    "volume_mm3": 3493.635,
+    "watertight": true,
+    "ai_inference": false,
+    "source_artifact_id": "d8b89db5-8fa9-427e-81ff-b602d27635d3",
+    "winding_consistent": true
+  },
+  "ai_style_model_applied": false
+}

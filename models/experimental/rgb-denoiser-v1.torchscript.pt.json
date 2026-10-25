@@ -1,0 +1,153 @@
+{
+  "experiment": "synthetic-gaussian-denoising-v1",
+  "experimental_only": true,
+  "task": "Remove newly added Gaussian noise; target is the original worn scan, NOT undamaged ground truth",
+  "does_not_establish": [
+    "ancient seal OCR accuracy",
+    "missing-stroke restoration",
+    "historical authenticity",
+    "production readiness"
+  ],
+  "source_read_only": true,
+  "raw_images_uploaded": false,
+  "seed": 19,
+  "torch": "1.13.1+cu116",
+  "cuda_runtime": "11.6",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "device": "cuda:0",
+  "size": 96,
+  "batch": 16,
+  "steps": 400,
+  "noise_sigma": 0.08,
+  "train_images": 2048,
+  "validation_images": 128,
+  "test_images": 128,
+  "selection": "seeded subset of audited source-page grouped split; all source SHA256 verified",
+  "page_group_overlap": false,
+  "exact_pixel_overlap": false,
+  "metric": "global content-only RGB MSE / PSNR, excluding letterbox padding",
+  "best_selected_on": "validation MSE only; test read for final evaluation after selection",
+  "parameters": 11739,
+  "training_seconds": 6.0300953,
+  "peak_allocated_mb": 398.8984375,
+  "peak_reserved_mb": 416.0,
+  "validation": {
+    "noisy_mse": 0.004966065518752622,
+    "model_mse": 0.0006985861716086906,
+    "noisy_psnr_db": 23.039875549697307,
+    "model_psnr_db": 31.557800153967385,
+    "psnr_gain_db": 8.517924604270076
+  },
+  "test": {
+    "noisy_mse": 0.005030061364713397,
+    "model_mse": 0.0007072514440364385,
+    "noisy_psnr_db": 22.984267166947983,
+    "model_psnr_db": 31.504261571457448,
+    "psnr_gain_db": 8.519994404509465
+  },
+  "history": [
+    {
+      "step": 1,
+      "train_mse": 0.0048986561596393585,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.004778387197705143,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 23.207186618248258,
+        "psnr_gain_db": 0.16731106855095199
+      }
+    },
+    {
+      "step": 50,
+      "train_mse": 0.0036774140316993,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.0036255329764957873,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 24.406281403380696,
+        "psnr_gain_db": 1.3664058536833854
+      }
+    },
+    {
+      "step": 100,
+      "train_mse": 0.002337930491194129,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.002221604395629128,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 26.533332739691843,
+        "psnr_gain_db": 3.493457189994535
+      }
+    },
+    {
+      "step": 150,
+      "train_mse": 0.0013948515988886356,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.0013663340761658795,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 28.644431002909467,
+        "psnr_gain_db": 5.604555453212162
+      }
+    },
+    {
+      "step": 200,
+      "train_mse": 0.0009252221789211035,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.000917845555456097,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 30.372303907553132,
+        "psnr_gain_db": 7.332428357855823
+      }
+    },
+    {
+      "step": 250,
+      "train_mse": 0.0007803106564097106,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.0007934247525457724,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 31.004942549251936,
+        "psnr_gain_db": 7.965066999554631
+      }
+    },
+    {
+      "step": 300,
+      "train_mse": 0.0007792896358296275,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.0007598363488603805,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 31.192799346140244,
+        "psnr_gain_db": 8.152923796442938
+      }
+    },
+    {
+      "step": 350,
+      "train_mse": 0.0007476144819520414,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.000707565874000851,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 31.502331213396424,
+        "psnr_gain_db": 8.462455663699114
+      }
+    },
+    {
+      "step": 400,
+      "train_mse": 0.0007408150704577565,
+      "validation": {
+        "noisy_mse": 0.004966065518752622,
+        "model_mse": 0.0006985861716086906,
+        "noisy_psnr_db": 23.039875549697307,
+        "model_psnr_db": 31.557800153967385,
+        "psnr_gain_db": 8.517924604270076
+      }
+    }
+  ],
+  "model_file": "rgb-denoiser-v1.torchscript.pt",
+  "model_sha256": "b30a7fa8595e4f84fc67905aba78d28d482257530a17727b13fb235aaf3b8db3",
+  "api_model_enabled": false,
+  "limitation": "Single synthetic noise level, small subset, one seed; different pages may share a book. No real damage or OCR quality measured."
+}

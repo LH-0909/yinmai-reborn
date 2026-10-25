@@ -1,0 +1,18 @@
+{
+  "brokenImages": [],
+  "clientWidth": 389,
+  "readSelected": "true",
+  "scene": {
+    "displayMode": "seal-exhibit",
+    "flowParticles": "24",
+    "loadedPreviews": "1",
+    "ready": "true",
+    "renderedEdges": "4",
+    "renderedNodes": "5"
+  },
+  "scrollWidth": 389,
+  "viewport": [
+    389,
+    844
+  ]
+}

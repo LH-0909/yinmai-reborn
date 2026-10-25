@@ -1,0 +1,24 @@
+{
+  "method": "Raw browser captures retained; crop removes right/bottom screenshot API padding only. No webpage retouching. Pixel motion measured in central scene crop, excluding FPS and toolbars.",
+  "paused": {
+    "mean_absolute_channel_difference": 0.0,
+    "changed_pixels_above_12": 0,
+    "region": [
+      250,
+      300,
+      1250,
+      770
+    ]
+  },
+  "playing": {
+    "mean_absolute_channel_difference": 1.168104255319149,
+    "changed_pixels_above_12": 10844,
+    "region": [
+      250,
+      300,
+      1250,
+      770
+    ]
+  },
+  "comparison": "reference-vs-actual.jpg; both images uniformly scaled to fit equal panels; different data and aspect ratio, not a pixel equality test."
+}

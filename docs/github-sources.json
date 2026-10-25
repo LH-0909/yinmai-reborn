@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-19T08:19:47Z",
+  "workspace": "C:/Users/pc/Documents/Codex/2026-10-19/referenced-chatgpt-conversation-this-is-an/outputs/yinmai-reborn",
+  "scope": "Ancient Chinese seal crops, OCR, document enhancement, trainable restoration; 7 selected sources plus 1 explicitly rejected source.",
+  "method": {
+    "read_only": true,
+    "cloned_repositories": false,
+    "installed_packages": false,
+    "ran_repository_code": false,
+    "downloaded_weights": false,
+    "read_training_images": false,
+    "image_source": "D:/LH/raw_crops was not read, listed, moved, renamed, or transmitted.",
+    "evidence": "Public README, LICENSE, code files, file trees, and commit refs at pinned SHA, read through GitHub raw/API and public read-only proxies.",
+    "commit_pinning": "Each commit SHA was resolved from the public repository ref/tree and checked by fetching a file at that SHA.",
+    "scope_note": "Not an exhaustive GitHub search. Conclusions are limited to the 8 inspected repositories. Harness did not read images; controller Codex independently audited and trained locally afterwards.",
+    "popularity_basis": "None. Stars, forks, and leaderboards were not used for selection."
+  },
+  "environment_observations": {
+    "default_python": "C:/ProgramData/Anaconda3/python.exe",
+    "python_version": "3.8.5",
+    "torch_version": "1.13.1+cu116",
+    "cuda_available": true,
+    "cuda_version": "11.6",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "gpu_memory_gib": 8.0,
+    "gpu_capability": [
+      8,
+      9
+    ],
+    "cuda_smoke_test": "A 64x64 matmul on the cuda device succeeded. This only proves basic kernels work; no model or memory benchmark was run.",
+    "backend_ai_requirements": "backend/requirements-ai.txt requires torch>=2.6,<3 with --extra-index-url https://download.pytorch.org/whl/cpu",
+    "discrepancy": "Resolved: the backend venv uses torch2.14.1+cpu; default Anaconda and isolated gpu-training use torch1.13.1+cu116. Separate roles, not conflicting measurements.",
+    "verified_weights_in_project": true,
+    "project_models_directory": "models/experimental contains our trained synthetic-noise denoiser only; no pretrained ancient-seal OCR or missing-stroke model.",
+    "existing_plugin_contract": "backend/app/ai.py: restoration input [1,3,256,256] RGB 0-1, output same shape; recognition is single-character logits [1,C]."
+  },
+  "repos": [
+    {
+      "id": "docdiff",
+      "name": "Royalvice/DocDiff",
+      "url": "https://github.com/Royalvice/DocDiff",
+      "commit": "f422a3af10657eeabeca90f2e862d88c72725845",
+      "commit_date": "2024-08-22",
+      "selected": true,
+      "role": "Residual diffusion document enhancement; 1597 red-seal images with binary masks.",
+      "code_license": {
+        "spdx": "MIT",
+        "status": "verified",
+        "evidence_path": "LICENSE",
+        "evidence_url": "https://github.com/Royalvice/DocDiff/blob/f422a3af10657eeabeca90f2e862d88c72725845/LICENSE",
+        "notes": "MIT License, Copyright (c) 2023 Zongyuan Yang."
+      },
+      "weights": {
+        "available": true,
+        "in_repo": true,
+        "files": [
+          "checksave/denoiser.pth",
+          "checksave/init.pth",
+          "checksave/seal_denoiser.pth",
+          "checksave/seal_init.pth"
+        ],
+        "sizes_mb_approx": [
+          16.8,
+          16.2,
+          16.8,
+          16.2
+        ],
+        "license_status": "unknown",
+        "license_notes": "The .pth files are in the MIT repository, but no separate weight license is stated. Do not assume the code license automatically covers model artifacts."
+      },
+      "data": {
+        "available": true,
+        "in_repo": false,
+        "items": "1597 Chinese red seals and corresponding binary masks",
+        "location": "Google Drive link in README",
+        "url": "https://drive.google.com/file/d/125SgEmHFUIzDexsrj2d3yMJdYMVhovti/view?usp=sharing",
+        "license_status": "unknown",
+        "license_notes": "README says most seal images come from the ICDAR 2023 Seal Title competition and a few are internal; no data license is provided."
+      },
+      "fit_8gb": {
+        "inference": "likely_fit",
+        "training": "unverified",
+        "notes": "conf.yml uses 128x128, batch 32, T=100, 32 base channels. README claims 12GB for 128x128 at batch 64 (author claim, not measured). Inference is small; 8GiB training at batch 32 is plausible but unmeasured."
+      },
+      "verified_facts": [
+        "README and tree confirm the four .pth files exist in the repository.",
+        "README says the model is used for document deblurring, denoising, binarization, watermark and seal removal.",
+        "README says the seal dataset is for seal synthesis and seal removal.",
+        "conf.yml fixes 128x128 input and requires dimensions divisible by 8."
+      ],
+      "limitations": [
+        "The released seal weights are removal-oriented, the opposite of preserving and restoring seal strokes.",
+        "The seal dataset license is unknown; MIT code license does not cover it.",
+        "Training at 128x128 may be insufficient for fine seal strokes.",
+        "Diffusion inference at T=100 is slower than a single-pass CNN."
+      ],
+      "reuse_for_project": [
+        "Architecture reference: residual diffusion plus coarse predictor.",
+        "Data organization reference: red-seal image paired with a binary mask.",
+        "Possible use of the 1597 masks only after explicit permission, and only as an external segmentation/evaluation resource."
+      ],
+      "do_not_use_for_project": [
+        "Do not use seal_denoiser.pth or seal_init.pth to 'repair' seals; they remove seals.",
+        "Do not train on or redistribute the seal dataset without a license.",
+        "Do not cite its removal results as restoration results."
+      ]
+    },
+    {
+      "id": "docentr",
+      "name": "dali92002/DocEnTR",
+      "url": "https://github.com/dali92002/DocEnTR",
+      "commit": "004159e10f69f2b33f5800eeba4175d6f93cb17a",
+      "commit_date": "2025-01-17",
+      "selected": true,
+      "role": "Vision-transformer document binarization/enhancement.",
+      "code_license": {
+        "spdx": "CC-BY-NC-4.0",
+        "status": "verified",
+        "evidence_path": "LICENSE",
+        "evidence_url": "https://github.com/dali92002/DocEnTR/blob/004159e10f69f2b33f5800eeba4175d6f93cb17a/LICENSE",
+        "notes": "The commit message for 004159e says the license was changed to disallow commercial use."
+      },
+      "weights": {
+        "available": true,
+        "in_repo": false,
+        "items": "Base/Large weights for DIBCO 2011/2017 and H-DIBCO 2012/2018; DIBCO 2011 entries are marked Unavailable.",
+        "location": "Google Drive links in README Model Zoo",
+        "license_status": "unknown",
+        "license_notes": "No separate weight terms. The repository license is non-commercial, but weight-specific permission is not stated."
+      },
+      "data": {
+        "available": true,
+        "in_repo": false,
+        "items": "DIBCOSETS bundle (DIBCO/H-DIBCO/PALM)",
+        "location": "Google Drive link in README",
+        "license_status": "separate_unknown",
+        "license_notes": "README explicitly states: 'these datasets have their own Licences, they are not included under the Licence of this repository'."
+      },
+      "fit_8gb": {
+        "inference": "likely_fit",
+        "training": "likely_not_fit_at_documented_batch",
+        "notes": "predict.py uses 256x256 patches; Base is ViT-Base with 8x8 patches. README training example uses batch 32; 8GiB likely needs batch 2-4 plus accumulation (estimate, unmeasured)."
+      },
+      "verified_facts": [
+        "predict.py splits input into 256x256 patches and applies per-patch normalization.",
+        "predict.py ends with (clean_image > 0.5) * 255, producing a binary black/white image.",
+        "requirements.txt pins torch 1.10.0, torchvision 0.11.1, vit_pytorch 0.24.3, and Python 3.8.12 is recommended.",
+        "The model is a ViT encoder plus transformer decoder with MSE loss (models/binae.py)."
+      ],
+      "limitations": [
+        "Binarization destroys the red color and grayscale layers of a seal; unsuitable for color-preserving seal restoration.",
+        "Non-commercial license blocks commercial deployment.",
+        "Old dependency pins conflict with a modern PyTorch backend.",
+        "Not seal-specific; trained on document binarization benchmarks."
+      ],
+      "reuse_for_project": [
+        "Patch splitting/merging and ViT encoder-decoder design.",
+        "DIBCO-style evaluation and binarization comparison as a baseline, not as the restoration model."
+      ],
+      "do_not_use_for_project": [
+        "Do not use its output as the restoration target for red seals.",
+        "Do not use it commercially.",
+        "Do not compare its published PSNR directly with our data."
+      ]
+    },
+    {
+      "id": "nafnet",
+      "name": "megvii-research/NAFNet",
+      "url": "https://github.com/megvii-research/NAFNet",
+      "commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+      "commit_date": "2024-03-28",
+      "selected": true,
+      "role": "General paired image restoration baseline; most realistic trainable restoration backbone.",
+      "code_license": {
+        "spdx": "MIT AND Apache-2.0",
+        "status": "verified",
+        "evidence_path": "LICENSE",
+        "evidence_url": "https://github.com/megvii-research/NAFNet/blob/2b4af71ebe098a92a75910c233a3965a3e93ede4/LICENSE",
+        "notes": "NAFNet is MIT (Copyright 2022 megvii-model); the bundled BasicSR is Apache-2.0."
+      },
+      "weights": {
+        "available": true,
+        "in_repo": false,
+        "items": "NAFNet-GoPro-width32/64, NAFNet-SIDD-width32/64, NAFNet-REDS-width64, NAFSSR-L_2x/4x, Baseline variants",
+        "location": "Google Drive and Baidu links in readme.md",
+        "license_status": "unknown",
+        "license_notes": "No separate weight terms. Training datasets are external and have their own terms."
+      },
+      "data": {
+        "available": false,
+        "in_repo": false,
+        "items": "GoPro, SIDD, REDS, Flickr1024; not bundled",
+        "license_status": "external",
+        "license_notes": "Must be obtained from the original dataset owners; not part of this repository."
+      },
+      "fit_8gb": {
+        "inference": "likely_fit",
+        "training": "unverified",
+        "notes": "NAFNet-width32 GoPro config: 256 crops, batch_size_per_gpu=4, num_gpu=8. Single 8GiB card needs reduced batch/width or accumulation. Width64 is heavier. No measurement was made."
+      },
+      "verified_facts": [
+        "The repository provides train/test configs and a single-image demo command.",
+        "The GoPro width32 training config uses 256x256 crops and 8 GPUs.",
+        "The model is a general restoration network with no document or seal prior."
+      ],
+      "limitations": [
+        "No document/seal-specific training; GoPro/SIDD weights are not suitable for seal ink.",
+        "Requires paired degraded/clean data, which the project does not currently have.",
+        "Memory and quality on 8GiB are unmeasured."
+      ],
+      "reuse_for_project": [
+        "Primary candidate for paired seal restoration after paired data exists.",
+        "Export a fixed 256x256 wrapper to TorchScript and integrate behind RESTORE_MODEL_PATH.",
+        "Use its PSNR/SSIM pipeline for held-out evaluation."
+      ],
+      "do_not_use_for_project": [
+        "Do not claim its GoPro/SIDD numbers for our seal data.",
+        "Do not deploy without paired-data validation.",
+        "Do not assume weights are licensed exactly like the code."
+      ]
+    },
+    {
+      "id": "paddleocr",
+      "name": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "commit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "commit_date": null,
+      "selected": true,
+      "role": "Modern seal text detection/recognition pipeline and layout seal class.",
+      "code_license": {
+        "spdx": "Apache-2.0",
+        "status": "verified",
+        "evidence_path": "LICENSE",
+        "evidence_url": "https://github.com/PaddlePaddle/PaddleOCR/blob/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf/LICENSE",
+        "notes": "Apache License 2.0, Copyright (c) 2016 PaddlePaddle Authors."
+      },
+      "weights": {
+        "available": true,
+        "in_repo": false,
+        "items": [
+          "PP-OCRv4_server_seal_det (109 MB)",
+          "PP-OCRv4_mobile_seal_det (4.6-4.7 MB; docs differ slightly)",
+          "PP-OCRv5_server_rec (81 MB)",
+          "PP-OCRv5_mobile_rec (16 MB)",
+          "PP-OCRv4_server_rec_doc (182 MB)",
+          "PP-OCRv4_mobile_rec (10.5 MB)",
+          "PP-OCRv4_server_rec (173 MB)"
+        ],
+        "location": "paddle-model-ecology.bj.bcebos.com download links in docs",
+        "license_status": "unknown",
+        "license_notes": "The repository LICENSE covers code. No separate weight license is stated in the checked docs. HuggingFace model cards could not be reached, so weight terms remain unverified."
+      },
+      "data": {
+        "available": false,
+        "in_repo": false,
+        "items": "Training data is not bundled.",
+        "license_status": "unknown"
+      },
+      "fit_8gb": {
+        "inference": "likely_fit",
+        "training": "not_assessed",
+        "notes": "Mobile seal detection plus mobile recognition is small enough for 8GiB; CPU inference is also supported. GPU requires a PaddlePaddle GPU build, not the existing PyTorch/TorchScript runtime."
+      },
+      "verified_facts": [
+        "docs/version3.x/pipeline_usage/seal_recognition.en.md documents a seal text recognition pipeline with seal text detection and a text recognition module.",
+        "The pipeline supports curved seal text and optional layout/orientation/unwarping modules.",
+        "Layout models include a 'seal' category.",
+        "The seal text detection doc states its performance test set is a self-built internal dataset of 500 circular stamps and outputs polygon text boxes, not pixel masks.",
+        "The documented use cases are contracts, invoices, warehouse documents and similar modern seals.",
+        "Model list and sizes are stated in the seal recognition doc."
+      ],
+      "limitations": [
+        "Modern company seals only; no evidence of ancient seal-script (篆书) training or accuracy.",
+        "Requires a separate Paddle runtime/service; not a TorchScript drop-in.",
+        "Weight license is not separately stated.",
+        "A seal layout box is not a pixel-level red mask."
+      ],
+      "reuse_for_project": [
+        "Reference design for detection, orientation correction, unwarping, and recognition.",
+        "Possible modern-seal-only sidecar service, with human review.",
+        "Possible seal region proposal, but only after testing on our crops."
+      ],
+      "do_not_use_for_project": [
+        "Do not present it as ancient seal-script OCR.",
+        "Do not treat its benchmark Hmean as our accuracy.",
+        "Do not package weights before the weight license is confirmed."
+      ]
+    },
+    {
+      "id": "trocr-seal-recognition",
+      "name": "Gmgge/TrOCR-Seal-Recognition",
+      "url": "https://github.com/Gmgge/TrOCR-Seal-Recognition",
+      "commit": "315cbbe749c4151d740daeb96412ac4decabfea3",
+      "commit_date": null,
+      "selected": true,
+      "role": "Modern circular company-seal end-to-end OCR training and ONNX inference.",
+      "code_license": {
+        "spdx": "NONE",
+        "status": "missing",
+        "evidence_path": "repository root",
+        "evidence_url": "https://github.com/Gmgge/TrOCR-Seal-Recognition/tree/315cbbe749c4151d740daeb96412ac4decabfea3",
+        "notes": "No LICENSE file exists at the pinned commit; raw LICENSE returned 404. Default copyright applies; reuse is not permitted without explicit permission."
+      },
+      "weights": {
+        "available": true,
+        "in_repo": false,
+        "items": "TrOCR pretrained/Chinese weights and an exported seal ONNX model",
+        "location": "Baidu Netdisk and Google Drive links in README",
+        "license_status": "unknown",
+        "license_notes": "No weight license is provided; the repository has no license at all."
+      },
+      "data": {
+        "available": true,
+        "in_repo": false,
+        "items": "Real circular seal data scraped from the internet, ICDAR 2023 Seal Title, PaddlePaddle community generated data",
+        "location": "Baidu links and ICDAR competition website",
+        "license_status": "unknown",
+        "license_notes": "README states the seal-ocr labels were produced by a paid API plus manual verification. Provenance and redistribution rights are unclear."
+      },
+      "fit_8gb": {
+        "inference": "likely_fit",
+        "training": "unverified",
+        "notes": "TrOCR is roughly 334M parameters; fp32 weights about 1.3GB. README trains with per_device_train_batch_size=8 on a 3090; 8GiB needs batch 1-2 plus accumulation or LoRA (estimate, unmeasured)."
+      },
+      "verified_facts": [
+        "The repository provides train.py, eval.py, onnx_test.py, and dictionary/initialization tools.",
+        "README describes modern circular seals and horizontal company names.",
+        "README warns that real data is insufficient and recommends training on custom data.",
+        "requirements.txt pins transformers==4.29.2."
+      ],
+      "limitations": [
+        "No license: cannot legally reuse or redistribute as-is.",
+        "Modern company seals only; not ancient seal-script glyphs.",
+        "Training data is web-scraped with paid-API labels, creating provenance and quality risks.",
+        "Old transformers pin conflicts with a modern stack."
+      ],
+      "reuse_for_project": [
+        "Technical reference for TrOCR fine-tuning, custom vocabulary, confidence filtering, and ONNX export.",
+        "Only usable after explicit permission and after replacing the data with licensed ancient-seal data."
+      ],
+      "do_not_use_for_project": [
+        "Do not copy code or weights without a license.",
+        "Do not treat modern seal accuracy as ancient seal accuracy.",
+        "Do not reuse scraped/paid-API labels for our training."
+      ]
+    },
+    {
+      "id": "evobc",
+      "name": "RomanticGodVAN/character-Evolution-Dataset",
+      "url": "https://github.com/RomanticGodVAN/character-Evolution-Dataset",
+      "commit": "1a3951bd41988e19aef88bdbb601ca5b1068deac",
+      "commit_date": null,
+      "selected": true,
+      "role": "EVOBC oracle-bone character evolution dataset; includes seal-script (SS) glyph samples.",
+      "code_license": {
+        "spdx": "NONE",
+        "status": "no_code",
+        "evidence_path": "README.md",
+        "evidence_url": "https://github.com/RomanticGodVAN/character-Evolution-Dataset/blob/1a3951bd41988e19aef88bdbb601ca5b1068deac/README.md",
+        "notes": "The repository contains metadata, labels, and documentation only. The To-Do explicitly says data processing code has not been released."
+      },
+      "weights": {
+        "available": false,
+        "in_repo": false,
+        "items": "No model weights.",
+        "license_status": "not_applicable"
+      },
+      "data": {
+        "available": true,
+        "in_repo": false,
+        "in_repo_contents": "Key&Value.json labels, List_of_EVOBC.json paths, Statistics.xlsx, CITATION.cff; images are hosted on HuggingFace",
+        "items": "Key&Value.json labels, List_of_EVOBC.json paths, Statistics.xlsx; images hosted on HuggingFace",
+        "location": "Repository metadata plus https://huggingface.co/datasets/HaisuGuan/EVOBC",
+        "license_status": "CC-BY-NC-SA-4.0",
+        "license_notes": "LICENSE explicitly declares SPDX CC-BY-NC-SA-4.0: non-commercial and share-alike."
+      },
+      "fit_8gb": {
+        "inference": "not_applicable",
+        "training": "not_applicable",
+        "notes": "Dataset-only source; no model to fit."
+      },
+      "verified_facts": [
+        "The repository tree contains only metadata, JSON lists, statistics, citation, README and LICENSE; no images and no code.",
+        "README lists OBC, BI, SS, SAC, WSC, CS scripts; SS is Seal Script.",
+        "LICENSE is CC-BY-NC-SA-4.0.",
+        "Images are hosted on HuggingFace, not in the repository."
+      ],
+      "limitations": [
+        "Oracle-bone evolution dataset, not seal impressions and not red-mask/paired-restoration data.",
+        "Non-commercial plus share-alike restricts product use.",
+        "No processing code and no OCR/restoration model.",
+        "Domain mismatch: single glyph images vs. whole seal crops."
+      ],
+      "reuse_for_project": [
+        "Possible auxiliary glyph dictionary/classification resource for seal-script characters, if the project's non-commercial status and share-alike obligations are acceptable.",
+        "Label taxonomy reference for ancient scripts."
+      ],
+      "do_not_use_for_project": [
+        "Do not treat it as a seal OCR dataset.",
+        "Do not use it commercially or without share-alike compliance.",
+        "Do not expect detection/restoration training data."
+      ]
+    },
+    {
+      "id": "chronicles-ocr",
+      "name": "VirtualLUOUCAS/Chronicles-OCR",
+      "url": "https://github.com/VirtualLUOUCAS/Chronicles-OCR",
+      "commit": "9373f7a53b8d6ccbddbf73a07f60ac2b23bbefea",
+      "commit_date": null,
+      "selected": true,
+      "role": "Cross-temporal VLM benchmark for seven Chinese scripts, including seal script.",
+      "code_license": {
+        "spdx": "Apache-2.0",
+        "status": "verified",
+        "evidence_path": "LICENSE",
+        "evidence_url": "https://github.com/VirtualLUOUCAS/Chronicles-OCR/blob/9373f7a53b8d6ccbddbf73a07f60ac2b23bbefea/LICENSE",
+        "notes": "Apache License 2.0 for the evaluation code."
+      },
+      "weights": {
+        "available": false,
+        "in_repo": false,
+        "items": "No model weights; inference calls external OpenAI-compatible or local vLLM models.",
+        "license_status": "not_applicable"
+      },
+      "data": {
+        "available": true,
+        "in_repo": false,
+        "items": "2,800 images across seven scripts, 400 per script",
+        "location": "HuggingFace VirtualLUO/Chronicles-OCR and ModelScope",
+        "license_status": "research_only",
+        "license_notes": "README says 'This benchmark is released for research purposes only.' This is not a standard open-source data license."
+      },
+      "fit_8gb": {
+        "inference": "likely_not_fit_at_documented_config",
+        "training": "not_applicable",
+        "notes": "README examples use a 7B VLM with vLLM; fp16 7B weights alone are about 14GB, exceeding 8GiB. Even a 2B substitute would be evaluation-only."
+      },
+      "verified_facts": [
+        "The repository contains infer.py, judge.py, summarize.py, prompts and judges; no model weights.",
+        "README documents seven scripts and 2,800 images.",
+        "The documented inference path is OpenAI-compatible API or local vLLM.",
+        "The benchmark license statement is research-only."
+      ],
+      "limitations": [
+        "Benchmark/evaluation harness, not a trainable restoration or OCR implementation.",
+        "Research-only data terms and no weights.",
+        "Documented 7B VLLM configuration does not fit 8GiB.",
+        "Leaderboard numbers are third-party claims, not measurements on our data."
+      ],
+      "reuse_for_project": [
+        "Evaluation protocol and metrics reference for seal-script recognition (spotting, exact match, NED, classification).",
+        "Prompt/judge design reference for a later VLM evaluation, not for the core pipeline."
+      ],
+      "do_not_use_for_project": [
+        "Do not use as a training source or claim its leaderboard.",
+        "Do not deploy the 7B configuration on an 8GiB card.",
+        "Do not ignore the research-only data restriction."
+      ]
+    },
+    {
+      "id": "art-of-chinese-seal-engraving",
+      "name": "jingrong-zhang/Art-of-Chinese-Seal-Engraving",
+      "url": "https://github.com/jingrong-zhang/Art-of-Chinese-Seal-Engraving",
+      "commit": "41b283b6cc9aa478026e8dfcd9b9dc9059bed31a",
+      "commit_date": "2023-01-16",
+      "selected": false,
+      "role": "Dash/Plotly storytelling dashboard about Chinese seal engraving.",
+      "code_license": {
+        "spdx": "Apache-2.0",
+        "status": "verified",
+        "evidence_path": "LICENSE.md",
+        "evidence_url": "https://github.com/jingrong-zhang/Art-of-Chinese-Seal-Engraving/blob/41b283b6cc9aa478026e8dfcd9b9dc9059bed31a/LICENSE.md",
+        "notes": "Apache License 2.0, Copyright [2022] [Jingrong Zhang]."
+      },
+      "weights": {
+        "available": false,
+        "in_repo": false,
+        "items": "No model weights.",
+        "license_status": "not_applicable"
+      },
+      "data": {
+        "available": false,
+        "in_repo": false,
+        "items": "Shanghai Library open data referenced by README; terms not stated in the repository.",
+        "license_status": "unknown"
+      },
+      "fit_8gb": {
+        "inference": "not_applicable",
+        "training": "not_applicable",
+        "notes": "No model."
+      },
+      "rejection_reason": "Dashboard/demo only. README describes Python Plotly, Dash, JS/CSS and Esri StoryMaps; it has no OCR, detection, restoration, training, or weights. Not an implementation source.",
+      "verified_facts": [
+        "README describes an online dashboard and a local app.py run via pip install -r requirements.txt.",
+        "README credits Shanghai Library open data and lists screenshots.",
+        "LICENSE.md is Apache-2.0."
+      ]
+    }
+  ],
+  "integration_order": [
+    {
+      "phase": "P0",
+      "title": "Record separate runtimes and check export compatibility",
+      "actions": [
+        "Record GPU training Python3.8.5/torch1.13.1+cu116 separately from backend Python3.12/torch2.14.1+cpu.",
+        "Our own denoiser export passed a cross-runtime numeric probe; no need to force identical versions.",
+        "Validate each external model separately before integration."
+      ],
+      "gate": "Reproducible environment record and a smoke test on the target 8GiB GPU."
+    },
+    {
+      "phase": "P1",
+      "title": "Audit crops and build a manual test set",
+      "actions": [
+        "Ignore ._ AppleDouble sidecars; group tzsf_yt_pNNNN crops by source page.",
+        "Split train/val/test by page to avoid crop leakage.",
+        "Manually annotate 50-100 seals: red mask, visible characters, ancient-script/damage flags; two-person review.",
+        "Harness research did not read images. Codex audit/training may read D:/LH/raw_crops locally; never move, rename or modify originals."
+      ],
+      "gate": "A held-out, human-reviewed test set with provenance. No synthetic labels."
+    },
+    {
+      "phase": "P2",
+      "title": "Measure the red-mask baseline",
+      "actions": [
+        "Evaluate the existing HSV red mask and Otsu fallback in backend/app/processing.py.",
+        "Report IoU, recall, and broken-stroke rate on the manual test set.",
+        "Keep seal region detection separate from pixel-level red-mask segmentation.",
+        "Use DocDiff masks only after permission, and only as an external evaluation resource."
+      ],
+      "gate": "Baseline numbers on our data, not paper numbers."
+    },
+    {
+      "phase": "P3",
+      "title": "Train paired restoration only after pairs exist",
+      "actions": [
+        "Use NAFNet-width32 at 256x256 as the first trainable candidate.",
+        "Export a fixed 256x256 TorchScript wrapper for RESTORE_MODEL_PATH.",
+        "Run in shadow mode and keep the original image unchanged.",
+        "Do not use DocDiff seal_* removal weights for restoration."
+      ],
+      "gate": "Held-out PSNR/SSIM and visual review; otherwise keep the 503 path."
+    },
+    {
+      "phase": "P4",
+      "title": "Separate modern-seal OCR from ancient-seal OCR",
+      "actions": [
+        "For modern seals, trial PaddleOCR seal_recognition as a separate Paddle service with human review.",
+        "For ancient seal script, build a licensed character/sequence dataset and train a sequence model; the current single-character plugin is insufficient.",
+        "Do not train on EVOBC (NC-SA) or TrOCR-Seal data without permission."
+      ],
+      "gate": "License review plus CER/exact-match on a held-out ancient-seal test set."
+    },
+    {
+      "phase": "P5",
+      "title": "Evaluate and record provenance",
+      "actions": [
+        "Metrics: mask IoU, CER, whole-seal exact match, restoration PSNR/SSIM only when paired ground truth exists.",
+        "Record model SHA256, training-data version, dictionary version, and human-review status.",
+        "Reuse the existing ai_inference and human_review_required provenance fields."
+      ],
+      "gate": "Reproducible evaluation report; no paper-number substitution."
+    },
+    {
+      "phase": "P6",
+      "title": "Product gate",
+      "actions": [
+        "Enable AI only after P2-P5 thresholds set by the project owner are met.",
+        "Label results as AI-assisted and require human review.",
+        "Exclude unclear-license weights/data from Docker images and releases."
+      ],
+      "gate": "Signed license review and acceptance metrics."
+    }
+  ],
+  "blockers": [
+    "No human OCR labels or undamaged restoration targets found. Synthetic degradation training is possible with explicitly defined targets; it cannot establish OCR or missing-stroke accuracy.",
+    "Our experimental synthetic-noise denoiser is present in models/experimental; production ancient-seal OCR and missing-stroke restoration weights remain unavailable.",
+    "Weight licenses for DocDiff, DocEnTR, NAFNet, PaddleOCR and TrOCR-Seal are missing or unverified as separate model-artifact terms.",
+    "DocEnTR is CC BY-NC 4.0; EVOBC is CC BY-NC-SA 4.0; Chronicles data is research-only; TrOCR-Seal has no LICENSE. These block commercial use.",
+    "PaddleOCR and TrOCR-Seal target modern company seals, not ancient seal-script glyphs.",
+    "DocDiff seal weights remove seals, the opposite of the intended preservation/restoration.",
+    "HuggingFace was unreachable, so PaddleOCR weight cards and dataset cards could not be checked.",
+    "Google Drive and Baidu links were not accessed; weight/data availability is based on README/file-tree evidence only.",
+    "Separate GPU training and CPU backend runtimes documented; our exported denoiser passes a cross-runtime numeric probe. External model compatibility remains untested.",
+    "Our small CNN GPU peak memory was measured. All external repository 8GiB fit statements remain estimates, not measurements."
+  ],
+  "changed_files": [
+    "docs/GITHUB_RESEARCH.md",
+    "docs/github-sources.json"
+  ],
+  "not_changed": [
+    "D:/LH/raw_crops",
+    "backend/",
+    "frontend/",
+    "models/",
+    "compose.yaml",
+    "schema.sql"
+  ],
+  "controller_followup": {
+    "gpu_training_evidence": "evidence/gpu-denoiser-v1/metrics.json",
+    "cpu_export_check": "evidence/gpu-denoiser-v1/backend-runtime.json",
+    "external_repository_models_run": false
+  }
+}

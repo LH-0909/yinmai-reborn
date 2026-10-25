@@ -1,0 +1,5 @@
+export interface GraphNode {id:string;label:string;kind:string;kind_label:string;attributes:Record<string,any>;matched:boolean;statuses:string[]}
+export interface GraphEdge {id:string;source:string;target:string;predicate:string;label:string;document_id:string;status:string;assertion_source:string;review_state:string;attributes:Record<string,any>;reviewer?:string;review_note?:string;reviewed_at?:string}
+export interface GraphDocument {id:string;source_id:string;title:string;url:string;summary:string;sha256:string|null;fetched_at:string|null;method:string}
+export interface GraphSource {id:string;title:string;url:string;priority:number;access_state:string;note:string}
+export interface GraphData {nodes:GraphNode[];edges:GraphEdge[];documents:GraphDocument[];receipts:GraphDocument[];sources:GraphSource[];counts:{nodes:number;edges:number;documents:number;receipts:number;matched:number;context:number;by_kind:Record<string,number>};limited:boolean;kinds:Record<string,string>;predicates:Record<string,string>;statuses:Record<string,string>;notice:string}

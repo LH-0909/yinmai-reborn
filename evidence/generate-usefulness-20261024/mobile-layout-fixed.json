@@ -1,0 +1,76 @@
+{
+  "body": [
+    388,
+    2624
+  ],
+  "panels": [
+    {
+      "client": [
+        283,
+        919
+      ],
+      "cls": "im-rect im-panel gw-panel gw-design",
+      "scroll": [
+        283,
+        919
+      ]
+    },
+    {
+      "client": [
+        283,
+        507
+      ],
+      "cls": "im-rect im-panel gw-panel gw-preview",
+      "scroll": [
+        283,
+        507
+      ]
+    },
+    {
+      "client": [
+        283,
+        737
+      ],
+      "cls": "im-rect im-panel gw-panel gw-output",
+      "scroll": [
+        283,
+        737
+      ]
+    },
+    {
+      "client": [
+        283,
+        162
+      ],
+      "cls": "im-rect im-panel gw-panel gw-history",
+      "scroll": [
+        283,
+        162
+      ]
+    }
+  ],
+  "viewer": [
+    {
+      "cls": "gw-model",
+      "h": 425,
+      "tag": "DIV",
+      "w": 282.911376953125
+    },
+    {
+      "cls": "model-view",
+      "h": 425,
+      "tag": "DIV",
+      "w": 282.911376953125
+    },
+    {
+      "cls": "",
+      "h": 425,
+      "tag": "CANVAS",
+      "w": 282.911376953125
+    }
+  ],
+  "viewport": [
+    388,
+    844
+  ]
+}

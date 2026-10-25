@@ -1,0 +1,13 @@
+✔ all actual claims retain their real endpoints in the 3D scope (0.6747ms)
+✔ one-hop scope excludes unrelated records and includes explicit path context (0.2425ms)
+✔ spatial layout is finite, deterministic and preserves source data (15.6406ms)
+✔ every moving particle belongs to an existing relation and budget is bounded (1.2295ms)
+✔ real Three.js ray intersections respect depth for an overlapping line and node (2.4755ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 622.2754

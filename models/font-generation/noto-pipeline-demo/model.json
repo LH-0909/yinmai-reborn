@@ -1,0 +1,104 @@
+{
+  "task": "paired_glyph_style_generation",
+  "provenance": "local_font_rasterization_demo",
+  "style": "本机宋体风格流程验证（非印谱）",
+  "experimental_only": true,
+  "is_few_shot_model": false,
+  "font_file_export_available": false,
+  "train_characters": 816,
+  "validation_characters": 97,
+  "test_characters": 114,
+  "training_samples": 816,
+  "unique_training_samples_seen": 816,
+  "epochs": 30,
+  "steps": 1530,
+  "history": [
+    {
+      "epoch": 1,
+      "step": 51,
+      "train_loss": 0.5626737475395203,
+      "validation": {
+        "pixel_l1": 0.24754326214495392,
+        "foreground_iou": 0.4783683317751516
+      }
+    },
+    {
+      "epoch": 5,
+      "step": 255,
+      "train_loss": 0.44690555334091187,
+      "validation": {
+        "pixel_l1": 0.14283909256925287,
+        "foreground_iou": 0.5142849565970687
+      }
+    },
+    {
+      "epoch": 10,
+      "step": 510,
+      "train_loss": 0.4187864065170288,
+      "validation": {
+        "pixel_l1": 0.12089929184348312,
+        "foreground_iou": 0.5300593641760379
+      }
+    },
+    {
+      "epoch": 15,
+      "step": 765,
+      "train_loss": 0.3523555099964142,
+      "validation": {
+        "pixel_l1": 0.1101008595265064,
+        "foreground_iou": 0.5417485129764068
+      }
+    },
+    {
+      "epoch": 20,
+      "step": 1020,
+      "train_loss": 0.3518645763397217,
+      "validation": {
+        "pixel_l1": 0.10994324149544706,
+        "foreground_iou": 0.5475910546717853
+      }
+    },
+    {
+      "epoch": 25,
+      "step": 1275,
+      "train_loss": 0.3524447977542877,
+      "validation": {
+        "pixel_l1": 0.09971470685349297,
+        "foreground_iou": 0.5535825686881027
+      }
+    },
+    {
+      "epoch": 30,
+      "step": 1530,
+      "train_loss": 0.29500478506088257,
+      "validation": {
+        "pixel_l1": 0.09203216648593392,
+        "foreground_iou": 0.5543281642986825
+      }
+    }
+  ],
+  "test": {
+    "pixel_l1": 0.09089986718537514,
+    "foreground_iou": 0.5589306403856331
+  },
+  "identity_content_baseline": {
+    "pixel_l1": 0.09111719957569189,
+    "foreground_iou": 0.40422328020615617
+  },
+  "test_character_overlap": false,
+  "selection": "validation pixel L1; test accessed only after checkpoint selection",
+  "model_sha256": "0048cbd1a398694cd26a36b4e282dcd9d75aea55d3b622357aa1f443427280d0",
+  "content_font_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "torch": "1.13.1+cu116",
+  "seed": 20,
+  "parameters": 386849,
+  "seconds": 45.0501874,
+  "peak_allocated_mb": 575.99365234375,
+  "limitations": [
+    "No historical authenticity check",
+    "Unseen seal character structure not validated",
+    "Raster glyph output; no vector font exported",
+    "One style per trained model; no reference-image few-shot inference"
+  ]
+}

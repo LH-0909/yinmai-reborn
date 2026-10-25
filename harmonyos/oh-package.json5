@@ -1,0 +1,11 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "yinmai-reborn-harmonyos",
+  "version": "0.1.0",
+  "description": "印脉重生 HarmonyOS NEXT ArkTS Stage starter",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {},
+  "devDependencies": {}
+}

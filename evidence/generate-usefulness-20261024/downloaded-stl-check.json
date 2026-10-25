@@ -1,0 +1,27 @@
+{
+  "bytes": 1843084,
+  "sha256": "9db7f79c7d53b979814702bf2c0e3a97105269697fc29f18326aa21e2357de39",
+  "watertight": true,
+  "winding_consistent": true,
+  "volume_mm3": 3493.635309903315,
+  "bounds_mm": [
+    [
+      -15.0,
+      -15.0,
+      0.0
+    ],
+    [
+      15.0,
+      15.0,
+      4.199999809265137
+    ]
+  ],
+  "extents_mm": [
+    30.0,
+    30.0,
+    4.199999809265137
+  ],
+  "faces": 36860,
+  "ai_inference": false,
+  "physical_print_tested": false
+}

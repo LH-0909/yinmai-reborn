@@ -1,0 +1,2063 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-10-22T01:13:37.984123+00:00",
+  "sources": [
+    {
+      "id": "fudan",
+      "title": "复旦大学 · 印藏",
+      "url": "https://yin.fudan.edu.cn/",
+      "priority": 1,
+      "access_state": "homepage_only",
+      "note": "首页HTTP可达；动态目录在当前浏览器读取超时。尚未导入馆藏条目，保留优先接入位置。"
+    },
+    {
+      "id": "yingaoku",
+      "title": "篆刻印稿数据库",
+      "url": "https://yingaoku.cn/",
+      "priority": 2,
+      "access_state": "selected_metadata_verified",
+      "note": "已读取14条选定详情的文字字段。14张对应印稿预览另行登记用于本机研读，见前端预览凭证；页面记载不等于专家鉴定，未获得训练使用授权。"
+    },
+    {
+      "id": "fuiframe",
+      "title": "中国篆刻",
+      "url": "https://fuiframe.art/stamp/home",
+      "priority": 3,
+      "access_state": "resource_index_only",
+      "note": "已核对公开资源首页。条目目录、作者和印谱记录尚未导入，不计入本地图谱馆藏。"
+    },
+    {
+      "id": "nlc",
+      "title": "国家图书馆 · 古籍智慧化服务",
+      "url": "https://guji.nlc.cn/",
+      "priority": 4,
+      "access_state": "official_service_notice",
+      "note": "首页为动态应用；已读取国图官方上线介绍，仅建立平台与官方文献关系，未导入古籍全文。"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-6b6b3b4a29f46ecb06b8d3e02176",
+      "source_id": "fudan",
+      "title": "复旦印谱文献虚拟图书馆 · 首页",
+      "url": "https://yin.fudan.edu.cn/",
+      "summary": "仅核对网页标题和资源入口；尚无对象级数据。",
+      "sha256": "0e9dc2f576e50b4328d8400cea9a4395e0e3f0bff4d7593b31b0bed21ef1c79a",
+      "fetched_at": "2026-10-22T01:13:22.882459Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-58b259decd8c3d2fbaea2e2c15cc",
+      "source_id": "fuiframe",
+      "title": "中国篆刻 · 资源首页",
+      "url": "https://fuiframe.art/stamp/home",
+      "summary": "仅登记公开首页；不将网站自报数量作为本地统计。",
+      "sha256": "3e4bc81a0dc2d782b7cb692572b27c8571a4fdc895b7c9d4af63cad0f14b6a66",
+      "fetched_at": "2026-10-22T01:13:26.294958Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-33bdea3e5dd01ceaaf70f14e3cdc",
+      "source_id": "nlc",
+      "title": "中华古籍智慧化服务平台 · 首页",
+      "url": "https://guji.nlc.cn/",
+      "summary": "动态首页的标题与入口已读取；目录条目尚未采集。",
+      "sha256": "fd21a45558471fb0a73b641b189b8c6fed9c5cc5bde2ef7f3f0c1c976f8af62c",
+      "fetched_at": "2026-10-22T01:13:26.442772Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "source_id": "yingaoku",
+      "title": "人生一梦",
+      "url": "https://yingaoku.cn/seal/1",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "b212d6058b42f330beeb3d3f700307e5af0dc562a6a48e42f314ce82d3f3d9bb",
+      "fetched_at": "2026-10-22T01:13:23.938469Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "source_id": "yingaoku",
+      "title": "人生如梦",
+      "url": "https://yingaoku.cn/seal/2",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "d5864f357c13a03cc6526fd1bb6b41c3e03032f7f106ffd1e5b924a80764a0bd",
+      "fetched_at": "2026-10-22T01:13:24.958547Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-0c9af345ec48839d3e1d55959afb",
+      "source_id": "yingaoku",
+      "title": "浮生一梦",
+      "url": "https://yingaoku.cn/seal/3",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "d3f50a1911b3b9df16494c607212e5615526e68aa478e0fb99e57e78ee070b77",
+      "fetched_at": "2026-10-22T01:13:25.967731Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-235442bab59c62b0410c4636c2b4",
+      "source_id": "yingaoku",
+      "title": "人间安好",
+      "url": "https://yingaoku.cn/seal/49",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "2f57ba8d26a4be9799ff395c4627a649072bc0734c242b871763ba6f15e8748b",
+      "fetched_at": "2026-10-22T01:13:27.702177Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "source_id": "yingaoku",
+      "title": "做个闲人",
+      "url": "https://yingaoku.cn/seal/86",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "ab8e73090e124355059de6da7c0581b6e8525a07581ea5d597514141df300a50",
+      "fetched_at": "2026-10-22T01:13:28.768214Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "source_id": "yingaoku",
+      "title": "有竹人家",
+      "url": "https://yingaoku.cn/seal/91",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "d5b1d9ed872194699ad4b4289e210ea4a1e6403ce78d258c1378905ee79cd901",
+      "fetched_at": "2026-10-22T01:13:29.787365Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "source_id": "yingaoku",
+      "title": "最是人间留不住",
+      "url": "https://yingaoku.cn/seal/161",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "7c89581be3c0acc6acc5f6e78ee1c631e7cba45e569d0a5b309468a324727556",
+      "fetched_at": "2026-10-22T01:13:30.836272Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-092bc50e74fe8206f99095da7d17",
+      "source_id": "yingaoku",
+      "title": "忽逢幽人如见道心",
+      "url": "https://yingaoku.cn/seal/176",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "d77746bb6f430e19c1fc9897a3be73873b3850365ecdd75cfccd8018f81545af",
+      "fetched_at": "2026-10-22T01:13:31.852438Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "source_id": "yingaoku",
+      "title": "浮生记趣",
+      "url": "https://yingaoku.cn/seal/105",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "b5f0a325fdc4633e95b533a6f1dd0dec4e49fe275b51f049a4584f4a73bb1c59",
+      "fetched_at": "2026-10-22T01:13:32.878245Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-5c730986d325f80c1501133b54ae",
+      "source_id": "yingaoku",
+      "title": "浮生若梦",
+      "url": "https://yingaoku.cn/seal/140",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "28f628735f980859d96bff3a13e1521a94a5ee743b3ccd13935350ba5372e5a9",
+      "fetched_at": "2026-10-22T01:13:33.896817Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "source_id": "yingaoku",
+      "title": "偷得浮生半日闲",
+      "url": "https://yingaoku.cn/seal/160",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "9f28267392673355d3cd040f0b338545d77d202c4c38bf24b041672fc3fa4daf",
+      "fetched_at": "2026-10-22T01:13:34.899375Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-a3353c37d1ace2f305747673d14c",
+      "source_id": "yingaoku",
+      "title": "如浮云",
+      "url": "https://yingaoku.cn/seal/216",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "59f16d9decfa151308c542befbbbfb225d941bc3a1630f9795aabb8329bcc073",
+      "fetched_at": "2026-10-22T01:13:35.915076Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "source_id": "yingaoku",
+      "title": "富贵于我如浮云",
+      "url": "https://yingaoku.cn/seal/293",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "7520f0abc3b1135ce5c3144da829d830d4035531b90af6ed3378913edbf98312",
+      "fetched_at": "2026-10-22T01:13:36.969069Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "source_id": "yingaoku",
+      "title": "心与浮云闲",
+      "url": "https://yingaoku.cn/seal/319",
+      "summary": "字段来自该详情页的印文、书体、类型和来源栏；创作者、年代及馆藏未作推断。",
+      "sha256": "f736c2db3a3692b786d63c8edba1243ffe54e8714355d39e61df61b5fd220452",
+      "fetched_at": "2026-10-22T01:13:37.983043Z",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-5497bc3b0f48c6e86ea1a86f3299",
+      "source_id": "nlc",
+      "title": "“中华古籍智慧化服务平台”上线试运行",
+      "url": "https://www.nlc.cn/web/dsb_zx/gtxw/20250520_2645084.shtml",
+      "summary": "国图2025年5月20日公开介绍平台试运行及检索、古籍知识组织等服务；仅登记服务文献。",
+      "sha256": "026ca4c24abf102a5830e0750a679a42e809864212b3b13a4dabcb8dc733d539",
+      "fetched_at": "2026-10-22T01:13:26.680124Z",
+      "method": "public_html_metadata_extraction"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-89e60569c1c2dbb268ab14be1b19",
+      "label": "复旦大学 · 印藏",
+      "kind": "resource",
+      "attributes": {
+        "url": "https://yin.fudan.edu.cn/",
+        "source_id": "fudan"
+      }
+    },
+    {
+      "id": "node-0bc6d6283c2f781da335d1fa26f5",
+      "label": "篆刻印稿数据库",
+      "kind": "resource",
+      "attributes": {
+        "url": "https://yingaoku.cn/",
+        "source_id": "yingaoku"
+      }
+    },
+    {
+      "id": "node-dc8a728bd259ebd1de14d7f8b378",
+      "label": "中国篆刻",
+      "kind": "resource",
+      "attributes": {
+        "url": "https://fuiframe.art/stamp/home",
+        "source_id": "fuiframe"
+      }
+    },
+    {
+      "id": "node-8e500d9d706a2346134faf60d113",
+      "label": "国家图书馆 · 古籍智慧化服务",
+      "kind": "resource",
+      "attributes": {
+        "url": "https://guji.nlc.cn/",
+        "source_id": "nlc"
+      }
+    },
+    {
+      "id": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "label": "人生一梦",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/1",
+        "transcription": "人生一梦"
+      }
+    },
+    {
+      "id": "node-dc4e3853c961106e4b775d75d06b",
+      "label": "人",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-aab5949c127c7cb4402e333ebac3",
+      "label": "生",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-ec1abe1ac80417cd1a25cfcc3741",
+      "label": "一",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-8dd7b72242827f3fd560252b93b8",
+      "label": "梦",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-6c096a4b45535281d8ce7d1e8231",
+      "label": "小篆",
+      "kind": "script",
+      "attributes": {}
+    },
+    {
+      "id": "node-d5c5af434a967b91171d77c5dc40",
+      "label": "闲章",
+      "kind": "seal_type",
+      "attributes": {}
+    },
+    {
+      "id": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "label": "米店",
+      "kind": "collection",
+      "attributes": {}
+    },
+    {
+      "id": "node-447a288a1bdde90f2549e8cc4436",
+      "label": "人生如梦",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/2",
+        "transcription": "人生如梦"
+      }
+    },
+    {
+      "id": "node-db7ec195d548246ba38a3ed8281a",
+      "label": "如",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-d96177839ae741af6e7b269c27ee",
+      "label": "浮生一梦",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/3",
+        "transcription": "浮生一梦"
+      }
+    },
+    {
+      "id": "node-793b11b4cde7644b29861720d4f9",
+      "label": "浮",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-5376f974405a7c47d5e963ed780e",
+      "label": "人间安好",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/49",
+        "transcription": "人间安好"
+      }
+    },
+    {
+      "id": "node-4b388edad83713bd7d44cf74cbe9",
+      "label": "间",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-6cd04ab601c49d5d70206c70cffd",
+      "label": "安",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-38b8f500684704885f822c263049",
+      "label": "好",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-da2a8af23dda4febf750e72dfe68",
+      "label": "做个闲人",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/86",
+        "transcription": "做个闲人"
+      }
+    },
+    {
+      "id": "node-c6e70a4373a97f8dc21244e43a0a",
+      "label": "做",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-214a040d191048e643089d619c54",
+      "label": "个",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-3e4bf74dcd67ef7ace4f6ad4dfb4",
+      "label": "闲",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "label": "有竹人家",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/91",
+        "transcription": "有竹人家"
+      }
+    },
+    {
+      "id": "node-ae6f657b1cd9c7688f9738692e56",
+      "label": "有",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-14562193db743c114436cb61a4ee",
+      "label": "竹",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-78557a8c35eaaa3d8cfa2bbe10f4",
+      "label": "家",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-7c411efa87b1b4b2de74a183e170",
+      "label": "最是人间留不住",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/161",
+        "transcription": "最是人间留不住"
+      }
+    },
+    {
+      "id": "node-0f3d0b0d8159e9cacfb7cf92c916",
+      "label": "最",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-92e627de9f9880017ec5363aeee2",
+      "label": "是",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-ed457322c6d8f419ed27edaf0bdf",
+      "label": "留",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-ecbfdcb85c5c1ae970e70edac1ed",
+      "label": "不",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-04964552155bd64b4aa15b81c2e6",
+      "label": "住",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "label": "忽逢幽人如见道心",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/176",
+        "transcription": "忽逢幽人如见道心"
+      }
+    },
+    {
+      "id": "node-c90cf18f78aa50cb2887dac5bf3a",
+      "label": "忽",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-074d6bea000caaca7c2e25ffa147",
+      "label": "逢",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-2e14fe87ad19a712dca2b8ee248c",
+      "label": "幽",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-f0a2b3e15c84a10d9f302ca06dc5",
+      "label": "见",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-f7af672456d124c2a6c0686e98d7",
+      "label": "道",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-149b632b8602bba6f50cd14bfd83",
+      "label": "心",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-caff399b6e784728b30e9c8ac42e",
+      "label": "浮生记趣",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/105",
+        "transcription": "浮生记趣"
+      }
+    },
+    {
+      "id": "node-da2d1dc9ed7390085c6055fa926e",
+      "label": "记",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-9eb6f505cf6281892a9195ea3408",
+      "label": "趣",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-993944e4dc50dcd9a7744fefa8f6",
+      "label": "浮生若梦",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/140",
+        "transcription": "浮生若梦"
+      }
+    },
+    {
+      "id": "node-71b1f5db74b7b673487be50b1987",
+      "label": "若",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-348042d1c0ccac54b34db8987e24",
+      "label": "偷得浮生半日闲",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/160",
+        "transcription": "偷得浮生半日闲"
+      }
+    },
+    {
+      "id": "node-8530027b40b839b27751fbd0d077",
+      "label": "偷",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-863d956f341ee71a7638b8cfac31",
+      "label": "得",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-b19151df571157d898ccb7109918",
+      "label": "半",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-de9ca64236cfc297fd3df8a19af5",
+      "label": "日",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-3bb215b757f8827b077fb8bb8bce",
+      "label": "如浮云",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/216",
+        "transcription": "如浮云"
+      }
+    },
+    {
+      "id": "node-ffec92751caeabc3877db9b4e4a1",
+      "label": "云",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-a2eef88c194b3add7f6bf70732f7",
+      "label": "富贵于我如浮云",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/293",
+        "transcription": "富贵于我如浮云"
+      }
+    },
+    {
+      "id": "node-2110e8653bba14b06f09a51592ce",
+      "label": "富",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-f03f9180abdce79ada40d471c11d",
+      "label": "贵",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-21a6999b12f2db1d20402f50c55f",
+      "label": "于",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-771ecee9a47c9d93a936c6e53684",
+      "label": "我",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-4b8497e4cec0a990db7305a3648c",
+      "label": "心与浮云闲",
+      "kind": "seal_draft",
+      "attributes": {
+        "url": "https://yingaoku.cn/seal/319",
+        "transcription": "心与浮云闲"
+      }
+    },
+    {
+      "id": "node-ed6042e82342fb9a7329702e766c",
+      "label": "与",
+      "kind": "character",
+      "attributes": {}
+    },
+    {
+      "id": "node-603df857c19325696217ee60f9d5",
+      "label": "古籍智慧化服务平台上线介绍",
+      "kind": "document",
+      "attributes": {
+        "url": "https://www.nlc.cn/web/dsb_zx/gtxw/20250520_2645084.shtml",
+        "publication_date": "2025-05-20"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-5cc3dffe155534a5a9c496c015fb",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-2ff2f4b05cef3b6ce22886ab24c9",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-c13123e49417102f409322ffb271",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "contains_character",
+      "object": "node-ec1abe1ac80417cd1a25cfcc3741",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-c4de829f7ba0d5881644af4780e4",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "contains_character",
+      "object": "node-8dd7b72242827f3fd560252b93b8",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-aacb0efac7ae4971d80f54c33bcd",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-43166206751bba7ee1b275bee6cc",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b22a334d6f7d4d67bca91431cf98",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-a2afc9dde1d715d5a4e41dc95508",
+      "subject": "node-cbdeb5c210c8aa9c74ad75ad761a",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-b100b3c9f4aa68540b867a68ba45",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-93ab7e4f9595778adf8b4713cb51",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-85438a75fb6f0eaded959e2ff37b",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-4b9c6335fccd215ed8c794766691",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "contains_character",
+      "object": "node-db7ec195d548246ba38a3ed8281a",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-673b7facd4e100051b150e3eeb27",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "contains_character",
+      "object": "node-8dd7b72242827f3fd560252b93b8",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-99ac09d96476f0521134ea069f83",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-65432e635bcb58a1acaf50c9f21b",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-fe89162d857fedd430f18287cbd3",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-3bf4930ec02df3079ec82590afd3",
+      "subject": "node-447a288a1bdde90f2549e8cc4436",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-f5ed0ad6a44c70a7abdfedf73898",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-2b4ecbbbc48a21bd54b8a1fb3e55",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-04e58fc25b1f7732f0ca08f40964",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-7890040b87a237c017be71afc8a7",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "contains_character",
+      "object": "node-ec1abe1ac80417cd1a25cfcc3741",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-9f339ef9abb0def3b86cad5d7fd6",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "contains_character",
+      "object": "node-8dd7b72242827f3fd560252b93b8",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-04fae5d72002055d7dc2d1d2c28c",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-6cf33fb6eaa56293ebcc192faa73",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b02fbe831eb9ca76420a736c609e",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-9dc0c8ccd2ba21241836a7465fb1",
+      "subject": "node-d96177839ae741af6e7b269c27ee",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-0c9af345ec48839d3e1d55959afb",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-391c74213dd70ece8709dc623c62",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-d3f89289619493327f0136aea6f0",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "contains_character",
+      "object": "node-4b388edad83713bd7d44cf74cbe9",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-e94a90f158ca1dba4bffd4bbe015",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "contains_character",
+      "object": "node-6cd04ab601c49d5d70206c70cffd",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-011df36cb7b21ba5f506347e82c0",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "contains_character",
+      "object": "node-38b8f500684704885f822c263049",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-d3b91656069555242428929e83cc",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-24c50c253a96494d5e3b7463af7d",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-d1686f8e4c2aeb699612179cc309",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-eb82943627df038831f3c00b7a7f",
+      "subject": "node-5376f974405a7c47d5e963ed780e",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-235442bab59c62b0410c4636c2b4",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-4b8f03ab04e49ebdddfef42e8f5d",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "contains_character",
+      "object": "node-c6e70a4373a97f8dc21244e43a0a",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-6a270d7856bc27b4823f16088f32",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "contains_character",
+      "object": "node-214a040d191048e643089d619c54",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-cd571f7ce3e88de386e90968b3be",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "contains_character",
+      "object": "node-3e4bf74dcd67ef7ace4f6ad4dfb4",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-ba295a6786136bdb59657c64c609",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-cacee38c374254e432f910c459b4",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-83025028d176f98f990ce3975656",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-e70bc6198ad6dc4c3b415f121818",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b4c128385cdfcfedbb352a9e37aa",
+      "subject": "node-da2a8af23dda4febf750e72dfe68",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-ca571c37c5b7805410645ca9e7fc",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-024c36f74f7a3ec7a45313319d28",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "contains_character",
+      "object": "node-ae6f657b1cd9c7688f9738692e56",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-80eb05e01754e189518b4889e8b5",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "contains_character",
+      "object": "node-14562193db743c114436cb61a4ee",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-b32b12e7f0a7edcce6a4e6b51c8c",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-b887ae0c5cb8b04bcfde563e54cf",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "contains_character",
+      "object": "node-78557a8c35eaaa3d8cfa2bbe10f4",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-03b5c2c3ee7710b153322c243ad1",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-e0cc5559003482a02fc77459f9b7",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-e9990d6686c6eddb10682127ae05",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-f4d544e865aaf8e88a6ebd507fdc",
+      "subject": "node-e56a7fa8e080ee499a6a3b3b6f37",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-be3fe935996ed4818b7b760e1cfa",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-cc5941a632275ccc37c4d7ced362",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-0f3d0b0d8159e9cacfb7cf92c916",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-8e6ad285411bc8d89d1587fb9292",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-92e627de9f9880017ec5363aeee2",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-4378eefad1ac350313b86712198b",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-8c607efe8d243a4d5a373acee780",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-4b388edad83713bd7d44cf74cbe9",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-fe9722c115c97d024e7ee931391f",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-ed457322c6d8f419ed27edaf0bdf",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "edge-87d9309c6d1aee807918baa04229",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-ecbfdcb85c5c1ae970e70edac1ed",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "edge-ddf4b2751c6094920702ddc6c75c",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "contains_character",
+      "object": "node-04964552155bd64b4aa15b81c2e6",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "edge-59c99057ca433bcde8629d16d838",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-77be9f5c7403559b981f8adc107f",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-29657824f9cc00fd8127e3081fa3",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-30162046f069eb1cd253c66979bf",
+      "subject": "node-7c411efa87b1b4b2de74a183e170",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-8da94a13a76b25640a58fb05c6bd",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-9d07b094654eb52576572de7d9e0",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-c90cf18f78aa50cb2887dac5bf3a",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-8e6c0c6c0f944ff7d08716846cf0",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-074d6bea000caaca7c2e25ffa147",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-67231c025c2ed27bc79767935752",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-2e14fe87ad19a712dca2b8ee248c",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-d374d5bdcce4f0d337621c6c7033",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-dc4e3853c961106e4b775d75d06b",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-d338ea570289389a99bc0ddffb92",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-db7ec195d548246ba38a3ed8281a",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "edge-352015143945144c15859f01fb0c",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-f0a2b3e15c84a10d9f302ca06dc5",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "edge-9edd2f2bb92de535fc03312507ad",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-f7af672456d124c2a6c0686e98d7",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "edge-7870b49eb0b94a74e567691d56f3",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "contains_character",
+      "object": "node-149b632b8602bba6f50cd14bfd83",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "edge-35ea5ae0bc7eb0189e8d23ad7740",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-3db39a9f8f53967b0e753918ff4f",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-4c63dfc62a6a3ebf6845fcb55623",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b7e5060b239bd5f14004f098e563",
+      "subject": "node-7bbb40404f6b925f4acbd07b0cc9",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-092bc50e74fe8206f99095da7d17",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-1b6ac62a31beb01438d0ad6f8bfb",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-f684079414249ce2700a155f2621",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-e1ee351481b8d6ff257ae0ecfc90",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "contains_character",
+      "object": "node-da2d1dc9ed7390085c6055fa926e",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-42cc7ebb775d4628608a824da421",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "contains_character",
+      "object": "node-9eb6f505cf6281892a9195ea3408",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-4d8a1201d7f84e59eb34ac45b6cf",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-05daa0fce6f460036a7612e5c65c",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-0448ba411a3b3c8dcd0575dd35f1",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-7e62cb59186add9ff2797f54eff1",
+      "subject": "node-caff399b6e784728b30e9c8ac42e",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-0b3c47d44d5df3a9b8147e030728",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-7c1e59e7dfdb1677e496b1f4d539",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-5730c34f34506c3007397d62bceb",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-c234ff21f8b316dae7a2cba18f8f",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "contains_character",
+      "object": "node-71b1f5db74b7b673487be50b1987",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-a7641c103d739ffc3c4cc3b9de55",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "contains_character",
+      "object": "node-8dd7b72242827f3fd560252b93b8",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-55cfc956610e77d0284e1b4488e0",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-32c247137285b77431ab71c38f56",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-2926ee4a09c7b1468c65b5e0fd29",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-5c8fa101b9bf282fc6a6c1d373de",
+      "subject": "node-993944e4dc50dcd9a7744fefa8f6",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-5c730986d325f80c1501133b54ae",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-cd7d385cc9c9c57347b05b92b92e",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-8530027b40b839b27751fbd0d077",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-f6cd41e20b95d41cf479990bf8ed",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-863d956f341ee71a7638b8cfac31",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-172b3679f2b0f8302e202ea27307",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-7d9fa3af65bd991526b730a424a2",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-aab5949c127c7cb4402e333ebac3",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-cbb8ce331f4f3e4155848e2fdb5a",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-b19151df571157d898ccb7109918",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "edge-8bee07347f322edbba59ba83bd15",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-de9ca64236cfc297fd3df8a19af5",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "edge-80b29a9cafccb3438794372d227f",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "contains_character",
+      "object": "node-3e4bf74dcd67ef7ace4f6ad4dfb4",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "edge-ccef206f7d513497fc01072d343e",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-5bbff54aae91a13e20b3e8d130fb",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-96903a3376e5d23694f0d0052a54",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-fa2b7f8c82205a499e08b7df2f24",
+      "subject": "node-348042d1c0ccac54b34db8987e24",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-dd5fd8d78c2399a94174a0cfe88c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-4a301a8290f41300f237eb6724e2",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "contains_character",
+      "object": "node-db7ec195d548246ba38a3ed8281a",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-c51e96929a0e7e02fe95d8065b75",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-c5e173a5d151671354344d8c66d6",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "contains_character",
+      "object": "node-ffec92751caeabc3877db9b4e4a1",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-1337930bbe14090bb9effb28a4d6",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-414db2f6ae2b50faf28c47ea1832",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b2cb6a2265d361230ef00803d261",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-7ff68fba6e6e8c88d3089f7a8d95",
+      "subject": "node-3bb215b757f8827b077fb8bb8bce",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-a3353c37d1ace2f305747673d14c",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-3c31c4b698d88fc79afbcd38febf",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-2110e8653bba14b06f09a51592ce",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-4a9e122126b995c200e7b7c9c29d",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-f03f9180abdce79ada40d471c11d",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-c85531ab675596fd8b4b75176d1a",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-21a6999b12f2db1d20402f50c55f",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-c2246a36c1120cc1b942d600cbdd",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-771ecee9a47c9d93a936c6e53684",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-08fe1f9a3b3eff7a94e89507b4dc",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-db7ec195d548246ba38a3ed8281a",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "edge-c6df74fb374d4f5cfd61e4cd4a9f",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          6
+        ]
+      }
+    },
+    {
+      "id": "edge-2c2ecc2c63e0cd325f3a7422d81f",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "contains_character",
+      "object": "node-ffec92751caeabc3877db9b4e4a1",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          7
+        ]
+      }
+    },
+    {
+      "id": "edge-1d76eeccd0d0b80e168955d85098",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b13888d53f5d8da57f2dd80505de",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-b084c5ab9901fe00ef1d452c2f27",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-d7bc8312d2c38013e55c54793e8f",
+      "subject": "node-a2eef88c194b3add7f6bf70732f7",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-0d3aa722bbdef678a93cbfe07448",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-a037ad1caee4dbce2c2cdce719d3",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "contains_character",
+      "object": "node-149b632b8602bba6f50cd14bfd83",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "edge-a4df05f372a803458ded60642834",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "contains_character",
+      "object": "node-ed6042e82342fb9a7329702e766c",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "edge-489c3f83bd9595ed357b363d029d",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "contains_character",
+      "object": "node-793b11b4cde7644b29861720d4f9",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "edge-bd4a1eb3c887cde0d5a20eacd78c",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "contains_character",
+      "object": "node-ffec92751caeabc3877db9b4e4a1",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ]
+      }
+    },
+    {
+      "id": "edge-f5b55d392a918ce9c674bb8372e6",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "contains_character",
+      "object": "node-3e4bf74dcd67ef7ace4f6ad4dfb4",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "edge-a9f64e315a3d27c4d96b753f19bb",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "has_script",
+      "object": "node-6c096a4b45535281d8ce7d1e8231",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-340bfbecbeb3eb8307e116ee438c",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "has_type",
+      "object": "node-d5c5af434a967b91171d77c5dc40",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-760c43a6d43b529f74c18775649a",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "cites_collection",
+      "object": "node-a9ffd2e02bbfa0b3d59c833c3fd9",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-532cd389ab2a7242333cc2ee33c7",
+      "subject": "node-4b8497e4cec0a990db7305a3648c",
+      "predicate": "recorded_in",
+      "object": "node-0bc6d6283c2f781da335d1fa26f5",
+      "document_id": "doc-2bb5a634caa8d4ac3db85a1393b7",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-42cf43a35ac732192da456f6e7b0",
+      "subject": "node-603df857c19325696217ee60f9d5",
+      "predicate": "describes",
+      "object": "node-8e500d9d706a2346134faf60d113",
+      "document_id": "doc-5497bc3b0f48c6e86ea1a86f3299",
+      "status": "page_asserted",
+      "attributes": {}
+    }
+  ],
+  "boundaries": [
+    "Only fourteen selected seal-draft pages, not a complete corpus",
+    "No images or training permission imported",
+    "No inferred people, periods or museum holdings",
+    "Page assertions are not expert historical verification"
+  ]
+}

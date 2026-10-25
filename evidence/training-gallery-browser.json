@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:5180/",
+  "train_filter_count_verified": 11144,
+  "baseline_train_filter_count_verified": 2048,
+  "first_batch_pairs_verified": 16,
+  "first_batch_images_loaded": 32,
+  "first_batch_broken_images": 0,
+  "png_originals_in_full_archive": 13646
+}

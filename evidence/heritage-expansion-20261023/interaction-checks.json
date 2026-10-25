@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-23T11:20:10.726604+00:00",
+  "web_proxy_connected": true,
+  "overview": {
+    "catalogue_records": 125,
+    "local_photos": 125,
+    "local_impressions": 106,
+    "institutions": 3,
+    "period_labels": 33,
+    "period_groups": 18,
+    "named_seal_makers": 8,
+    "bibliography_citations": 20,
+    "bibliography_full_texts_read": 0,
+    "source_receipts": 170,
+    "period_disagreements": 5
+  },
+  "graph": {
+    "nodes": 555,
+    "edges": 1013,
+    "receipts": 151,
+    "limited": false
+  },
+  "browser_observations": {
+    "desktop_css": [
+      1620,
+      911
+    ],
+    "mobile_css": [
+      388,
+      844
+    ],
+    "mobile_scroll_width": 388,
+    "catalogue_second_page": {
+      "page": 2,
+      "pages": 21,
+      "loaded_images": 6
+    },
+    "institution_filter_nanyue": 2,
+    "period_disagreement_filter": 5,
+    "query_rare_character": "鉩",
+    "rare_character_matches": 2,
+    "mirror_transform": "scaleX(-1)",
+    "modal_focus_inside": true,
+    "bibliography_list_count": 20,
+    "console_warnings_errors": []
+  },
+  "scope": "Browser interactions recorded during this run; not an automated multi-device/VR or exact-pixel certification."
+}

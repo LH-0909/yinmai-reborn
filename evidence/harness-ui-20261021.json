@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "entry": "E:/LH1/.dsh-codex/hands.ps1",
+  "challenge_verified": true,
+  "session_id": "session-2eaa0001-7e72-434d-b43f-60e459abba8f",
+  "exit_code": 0,
+  "requested_mode": "read-only",
+  "observed_permission_mode": "undetermined",
+  "observed_tools": [
+    "read",
+    "read",
+    "read",
+    "read",
+    "read",
+    "read"
+  ],
+  "completed_read_calls": 6,
+  "control_plane_changed": [],
+  "credentials": "Existing local credential service; no credentials inspected or copied",
+  "review_scope": "Six named UI/backend code files only; no images, training data, commands, writes or browsing",
+  "verified_fixes": [
+    "Dedicated validated imprint input apart from creative prompt",
+    "Actual bai preview separate from canonical geometry source",
+    "Saved modifications always parameter_draft",
+    "Custom controls nested under customization; layout enum retained",
+    "Actual image provenance distinct from supplied reference",
+    "Export counts independent of search filter"
+  ]
+}

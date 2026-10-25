@@ -1,0 +1,22 @@
+{
+  "hvigorVersion": "5.0.2",
+  "dependencies": {
+    "@ohos/hvigor-ohos-plugin": "5.0.2"
+  },
+  "execution": {
+    "analyze": "normal",
+    "daemon": true,
+    "incremental": true,
+    "parallel": true,
+    "typeCheck": false
+  },
+  "logging": {
+    "level": "info"
+  },
+  "debugging": {
+    "stacktrace": false
+  },
+  "nodeOptions": {
+    "maxOldSpaceSize": 8192
+  }
+}

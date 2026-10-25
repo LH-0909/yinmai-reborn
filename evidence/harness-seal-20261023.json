@@ -1,0 +1,39 @@
+{
+  "session_id": "session-2eaa0001-7e72-434d-b43f-60e459abba8f",
+  "exit_code": 0,
+  "elapsed_sec": 386.7,
+  "mode": "Advice",
+  "requested_permission_mode": "read-only",
+  "observed_permission_mode": "undetermined",
+  "tool_calls": [
+    "read",
+    "read",
+    "read",
+    "read"
+  ],
+  "failed_tool_calls": 0,
+  "control_plane_changed": [],
+  "date": "2026-10-23",
+  "scope": "Four named frontend files; static review only",
+  "reviewed_files": [
+    "SealUniverse.vue",
+    "SealStudyChart.vue",
+    "seal-domain.ts",
+    "NeuralGraphCanvas.vue"
+  ],
+  "fixes": [
+    "Exclude candidate/rejected relations from reading, frequency and flow",
+    "Deduplicate parallel evidence while retaining original proof IDs",
+    "Verify preview identity, page, filename, dimensions; handle unavailable previews",
+    "Prioritize exact original page and preserve other evidence",
+    "Reset stale character/comparison state after selection and filter changes",
+    "Trap dialog focus, handle Escape and restore focus"
+  ],
+  "independent_validation": {
+    "frontend_checks": 16,
+    "production_build": true,
+    "browser_interactions": "See seal-universe-20261023/interaction-checks.json",
+    "final_visual_qa": "blocked: latest screenshot capture unavailable"
+  },
+  "raw_logs_packaged": false
+}

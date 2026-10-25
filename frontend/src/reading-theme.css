@@ -1,0 +1,55 @@
+/* Brighter black-and-gold reading surfaces. Keep collection photographs unfiltered. */
+:root{--reading-bg:#25221d;--reading-panel:#302c25;--reading-raised:#3b352c;--reading-line:#8d7856;--reading-ink:#f1e6d1;--reading-muted:#d0c1a4}
+body{background-color:var(--reading-bg)}
+:root .im-host{background:var(--reading-bg);color:var(--reading-ink)}
+:root .im-host.light{--reading-bg:#373128;--reading-panel:#433b30;--reading-raised:#4c4235;filter:none}
+:root .im-host .im-stage{background-color:var(--reading-bg);background-blend-mode:screen}
+:root .im-host .im-sidebar{background:var(--reading-panel);border-right-color:var(--reading-line)}
+:root .im-host .im-sidebar nav a{color:var(--reading-ink)}
+:root .im-host .im-top-tools .im-round .im-art{mix-blend-mode:screen}
+:root .im-host .im-panel::before{background:var(--reading-panel);opacity:1}
+:root .im-host .im-sidebar-quote,:root .im-host .im-global-search,:root .im-host .im-truth-label{background:var(--reading-panel);border-color:var(--reading-line);color:var(--reading-ink)}
+:root .im-host :is(.im-reference-toggle,.im-workspace-link){background:var(--reading-raised);color:#f3d7a0;border-color:var(--reading-line)}
+:root .im-host :is(.im-home-stats,.im-section-heading,.im-featured small,.im-home-tile p,.im-quote time,.im-sidebar-quote small){color:var(--reading-muted)}
+:root .im-host :is(input:not([type=range]):not([type=color]):not([type=checkbox]),select,textarea){background-color:var(--reading-raised);border-color:var(--reading-line);color:var(--reading-ink)}
+:root .im-host :is(input,textarea)::placeholder{color:#c4b596;opacity:1}
+:root .im-host .im-outline{background:var(--reading-raised)!important;border-color:var(--reading-line)!important;color:var(--reading-ink)}
+:root .im-host .im-home-research label{background:var(--reading-raised);border-color:var(--reading-line)}
+:root .im-host .im-home-research input{background:transparent}
+:root .im-host .im-home-research :is(p,div>span){color:var(--reading-muted)}
+:root .im-dialog{background:var(--reading-panel);color:var(--reading-ink)}
+:root .im-host .im-live-catalog{background:var(--reading-panel);border-color:var(--reading-line);color:var(--reading-ink)}
+:root .im-host .live-catalog-grid article{background:var(--reading-raised);border-color:var(--reading-line)}
+:root .im-host .im-live-catalog :is(p,small,dt,dl,.live-catalog-footnote,.live-bibliography li>span,.live-bibliography li>small){color:var(--reading-muted)}
+:root .im-host .im-live-catalog :is(header,footer,.live-bibliography){border-color:var(--reading-line)}
+:root .im-host :is(.hc-caption,.hc-heading>span,.hc-panel p,.hc-panel small,.hc-metrics small,.hc-object-meta,.hc-object dl){color:var(--reading-muted)}
+:root .im-host :is(.hc-metrics,.hc-era-image,.hc-object,.hc-object-image,.hc-period-options>a){background-color:var(--reading-raised);background-blend-mode:screen}
+:root .im-host .hc-period-dialog{background-color:var(--reading-panel);background-blend-mode:screen;color:var(--reading-ink)}
+
+/* The exhibition page shares the same warm surfaces; its paper evidence desk stays paper-colored. */
+:root .seal-universe{--su-ink:var(--reading-ink);--su-muted:var(--reading-muted);--su-line:var(--reading-line);--su-dark:var(--reading-bg);background:var(--reading-bg)}
+:root .seal-universe :is(.seal-stage,.seal-learning){background:var(--reading-panel);border-color:var(--reading-line)}
+:root .seal-universe :is(.seal-topbar,.seal-stage>header,.seal-lens,.seal-stage-caption,.seal-understory,.seal-page-footer,.seal-search,.seal-catalog>button){border-color:#78674d}
+:root .seal-universe :is(.seal-back,.seal-topbar nav button,.seal-wordmark span,.seal-intro p,.seal-corpus small,.seal-corpus>span,.seal-learning p,.seal-stage h2 small,.seal-rail>footer,.seal-stage-caption,.seal-space-note,.seal-understory p,.seal-understory>a,.seal-page-footer,.seal-catalog small,.seal-catalog-empty,.seal-search input::placeholder,.seal-section-title small){color:var(--reading-muted)!important}
+:root .seal-universe :is(.seal-catalog b,.seal-search input){color:var(--reading-ink)}
+:root .seal-universe .seal-search input::placeholder{color:var(--reading-muted);opacity:1}
+:root .seal-universe :is(.seal-catalog>button:hover,.seal-catalog>button.chosen,.seal-view-tabs,.seal-lens>button,.seal-search){background:var(--reading-raised)}
+:root .seal-universe .seal-catalog>button.chosen{border-left-color:#e7bd72}
+:root .seal-universe .seal-view-tabs button{color:#e0cfad}
+:root .seal-universe .seal-view-tabs button[aria-pressed=true]{background:#625239;color:#fff0ce}
+:root .seal-universe .seal-space .neural-wrap{background:#37322b}
+:root .seal-universe .seal-space .neural-tools>button{background:#3d3429f2!important;border-color:#a88c59!important;color:#f3e0b8!important}
+:root .seal-universe .seal-space .neural-label-layer .neural-node-label{background:#332d24ed!important;border-color:#b2955f99!important;color:#f3e5c7!important}
+:root .seal-universe .seal-space .neural-label-layer .neural-node-label.active{background:#59432e!important;border-color:#efc580!important;color:#fff0cd!important}
+:root .seal-universe .seal-space .neural-guide{color:#d4c3a1}
+:root .seal-universe .seal-space .neural-tooltip{background:#342e24f5;border-color:#b2955f;color:#f3e5c7}
+:root .seal-universe .seal-open-landscape{color:#edd1a0;border-color:var(--reading-line)}
+
+/* Supporting research and processing screens. */
+:root .kg-page{background:var(--reading-bg);color:var(--reading-ink)}
+:root .kg-page :is(.kg-panel,.kg-sources article){background:var(--reading-panel);border-color:var(--reading-line)}
+:root .kg-page :is(input,select,textarea){background:var(--reading-raised);border-color:var(--reading-line);color:var(--reading-ink)}
+:root .kg-page :is(label,.kg-summary p,.kg-node-list small,.kg-details-scroll>p,.kg-evidence p){color:var(--reading-muted)}
+:root :is(.sidebar,.topbar,.panel){background-color:var(--reading-panel);background-blend-mode:screen}
+:root :is(.sidebar nav a,.topbar,.panel-body){color:var(--reading-ink)}
+@media(max-width:999px){:root .im-host .im-stage{background:var(--reading-bg)!important}}

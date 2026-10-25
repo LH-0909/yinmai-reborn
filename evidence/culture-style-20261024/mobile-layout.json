@@ -1,0 +1,89 @@
+{
+  "body": [
+    1620,
+    911
+  ],
+  "panels": [
+    {
+      "client": [
+        1010,
+        242
+      ],
+      "cls": "im-rect im-panel hc-panel hc-period-panel",
+      "scroll": [
+        1010,
+        242
+      ]
+    },
+    {
+      "client": [
+        398,
+        247
+      ],
+      "cls": "im-rect im-panel hc-panel hc-source-panel",
+      "scroll": [
+        398,
+        247
+      ]
+    },
+    {
+      "client": [
+        1010,
+        261
+      ],
+      "cls": "im-rect im-panel hc-panel hc-object-panel",
+      "scroll": [
+        1010,
+        261
+      ]
+    },
+    {
+      "client": [
+        398,
+        220
+      ],
+      "cls": "im-rect im-panel hc-panel hc-book-panel",
+      "scroll": [
+        398,
+        220
+      ]
+    },
+    {
+      "client": [
+        582,
+        117
+      ],
+      "cls": "im-rect im-panel hc-panel hc-path-panel",
+      "scroll": [
+        582,
+        117
+      ]
+    },
+    {
+      "client": [
+        390,
+        117
+      ],
+      "cls": "im-rect im-panel hc-panel hc-scroll-panel",
+      "scroll": [
+        390,
+        117
+      ]
+    },
+    {
+      "client": [
+        398,
+        155
+      ],
+      "cls": "im-rect im-panel hc-panel hc-review-panel",
+      "scroll": [
+        398,
+        155
+      ]
+    }
+  ],
+  "viewport": [
+    1620,
+    911
+  ]
+}

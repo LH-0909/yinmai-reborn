@@ -1,0 +1,64 @@
+{
+  "savedHref": "/api/files/4716fe18-027d-4740-a761-1d9ae0758e96",
+  "outdatedHidden": true,
+  "changedTextBlocksModel": true,
+  "flipped": "matrix(-1, 0, 0, 1, 0, 0)",
+  "currentLayout": {
+    "body": [
+      1620,
+      911
+    ],
+    "brokenImages": 0,
+    "panels": [
+      {
+        "client": [
+          416,
+          822
+        ],
+        "cls": "im-rect im-panel gw-panel gw-design",
+        "scroll": [
+          416,
+          836
+        ]
+      },
+      {
+        "client": [
+          551,
+          650
+        ],
+        "cls": "im-rect im-panel gw-panel gw-preview",
+        "scroll": [
+          551,
+          650
+        ]
+      },
+      {
+        "client": [
+          405,
+          650
+        ],
+        "cls": "im-rect im-panel gw-panel gw-output",
+        "scroll": [
+          405,
+          650
+        ]
+      },
+      {
+        "client": [
+          984,
+          142
+        ],
+        "cls": "im-rect im-panel gw-panel gw-history",
+        "scroll": [
+          984,
+          142
+        ]
+      }
+    ],
+    "viewport": [
+      1620,
+      911
+    ]
+  },
+  "currentLogs": []
+}

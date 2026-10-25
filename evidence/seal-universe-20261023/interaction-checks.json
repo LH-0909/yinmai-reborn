@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-23",
+  "method": "Actual IAB browser interactions, rendered DOM observations and earlier successful screenshots. No mocked API responses.",
+  "full_graph": {
+    "nodes": 61,
+    "edges": 126,
+    "receipts": 18,
+    "readable_seals": 14,
+    "characters": 39
+  },
+  "checks": [
+    {
+      "action": "Open exhibition",
+      "observed": {
+        "rendered_nodes": 15,
+        "rendered_edges": 19,
+        "loaded_print_previews": 11,
+        "broken_dom_images": 0
+      }
+    },
+    {
+      "action": "Select 梦 from 人生一梦",
+      "observed": {
+        "nodes": 5,
+        "edges": 4,
+        "other_drafts": 3
+      }
+    },
+    {
+      "action": "ECharts click 人生如梦 label",
+      "observed": "Main print changes to 人生如梦 and reading becomes 人生如梦, backed by that record"
+    },
+    {
+      "action": "Compare 人生如梦 and 人生一梦",
+      "observed": {
+        "shared_characters": [
+          "人",
+          "生",
+          "梦"
+        ],
+        "source_images_visible": 2
+      }
+    },
+    {
+      "action": "Open magnifier and mirror",
+      "observed": "Original preview remains same file, CSS mirror changes only viewing direction; Escape closes and focus returns to magnifier button"
+    },
+    {
+      "action": "Set viewer to 3x",
+      "observed": {
+        "image_width": 900,
+        "image_height": 900,
+        "container_scroll_width": 900
+      }
+    },
+    {
+      "action": "Click picture then Tab; Shift+Tab from close button",
+      "observed": "Focus remains in dialog, wraps to original source link, Escape restores previous focus"
+    },
+    {
+      "action": "Search catalog for 不存在xyz",
+      "observed": {
+        "catalog_cards": 0,
+        "empty_notice_visible": true
+      }
+    },
+    {
+      "action": "Click 浮 in actual ECharts frequency axis",
+      "observed": {
+        "selected_character": "浮",
+        "context_nodes": 8,
+        "context_edges": 7
+      }
+    },
+    {
+      "action": "Open workbench and return",
+      "observed": "Same main print remains selected; all original workbench tools available"
+    },
+    {
+      "action": "Filter pending relations, then return to exhibition",
+      "observed": {
+        "nodes": 0,
+        "edges": 0,
+        "readable_prints": 0,
+        "explicit_empty_state": true
+      }
+    },
+    {
+      "action": "Click 查看全部有据印稿",
+      "observed": "Actual API reload restores fourteen readable prints"
+    },
+    {
+      "action": "Drag ECharts primary image",
+      "observed": {
+        "before": {
+          "x": 707.242,
+          "y": 614.658
+        },
+        "after": {
+          "x": 765.242,
+          "y": 653.658
+        },
+        "context_nodes_unchanged": 5,
+        "context_edges_unchanged": 4
+      }
+    },
+    {
+      "action": "Mobile fresh load at 389x844",
+      "observed": {
+        "document_scroll_width": 389,
+        "document_client_width": 389,
+        "read_lens_selected": true,
+        "nodes": 5,
+        "edges": 4,
+        "loaded_print_previews": 1,
+        "broken_images": 0
+      }
+    },
+    {
+      "action": "Mobile click 梦",
+      "observed": "Heading shows 含「梦」的其他印稿; four existing transcript relations retained"
+    }
+  ],
+  "console_error_or_warn_entries_in_final_desktop_check": [],
+  "capture_limit": "Earlier desktop iteration screenshots and source contact sheet are valid. After environment/service restart, screenshot API repeatedly returned Unable to capture screenshot. Latest mobile and 3D screenshots could not be captured; final visual QA remains incomplete.",
+  "not_tested": [
+    "HarmonyOS physical device",
+    "forced GPU context loss/restoration",
+    "multiple mobile GPU implementations",
+    "latest visual screenshot comparison"
+  ],
+  "scope": "Earlier 14 documentary-draft iteration. Current physical collection checks are in museum-records-20261023.json."
+}

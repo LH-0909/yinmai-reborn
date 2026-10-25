@@ -1,0 +1,3305 @@
+{
+  "reference_size": [
+    1672,
+    941
+  ],
+  "assets": [
+    {
+      "name": "brand",
+      "source": "home",
+      "box": [
+        0,
+        0,
+        170,
+        138
+      ],
+      "size": [
+        170,
+        138
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "93675fb948e73c8796e7d4fa7e4bfa6d6cfeb39445e106fc5487b86a19deb53e"
+    },
+    {
+      "name": "sidebar-scenery",
+      "source": "home",
+      "box": [
+        0,
+        508,
+        170,
+        709
+      ],
+      "size": [
+        170,
+        201
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0cda78d8287ec8b43e327c3d134011b9ec22fd618a4a0260a86d46ca34104511"
+    },
+    {
+      "name": "sidebar-bottom",
+      "source": "home",
+      "box": [
+        0,
+        838,
+        170,
+        941
+      ],
+      "size": [
+        170,
+        103
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8f6fe4cc5aaaa9632e8390765a1a3a67f11356fb30da54f7f980cc34ff15c2cc"
+    },
+    {
+      "name": "sidebar-texture",
+      "source": "home",
+      "box": [
+        9,
+        400,
+        21,
+        480
+      ],
+      "size": [
+        12,
+        80
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5c6d002e8f500a7b8222a8bb5effcd6b57aa2cdea28ddc031f59c0517cf9b276"
+    },
+    {
+      "name": "avatar",
+      "source": "home",
+      "box": [
+        1608,
+        18,
+        1648,
+        57
+      ],
+      "size": [
+        40,
+        39
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8afcd2885a695b308b2f984d6ef15808acdd50658c390631ece5057e2c82caf4"
+    },
+    {
+      "name": "nav-active",
+      "source": "home",
+      "box": [
+        8,
+        145,
+        164,
+        192
+      ],
+      "size": [
+        156,
+        47
+      ],
+      "purpose": "border-only nine-slice, centre transparent"
+    },
+    {
+      "name": "panel-frame",
+      "source": "home",
+      "box": [
+        196,
+        397,
+        1243,
+        557
+      ],
+      "size": [
+        1047,
+        160
+      ],
+      "purpose": "border-only nine-slice, centre transparent"
+    },
+    {
+      "name": "button-frame",
+      "source": "home",
+      "box": [
+        974,
+        483,
+        1216,
+        541
+      ],
+      "size": [
+        242,
+        58
+      ],
+      "purpose": "border-only nine-slice, centre transparent"
+    },
+    {
+      "name": "small-button",
+      "source": "catalog",
+      "box": [
+        467,
+        638,
+        613,
+        673
+      ],
+      "size": [
+        146,
+        35
+      ],
+      "purpose": "border-only nine-slice, centre transparent"
+    },
+    {
+      "name": "field-texture",
+      "source": "home",
+      "box": [
+        850,
+        429,
+        1150,
+        452
+      ],
+      "size": [
+        300,
+        23
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "3a260dcb4cdef4994e755e28b3deea80f1068e629ed23a7e3f47ce061db65c2a"
+    },
+    {
+      "name": "surface-texture",
+      "source": "generate",
+      "box": [
+        843,
+        111,
+        934,
+        135
+      ],
+      "size": [
+        91,
+        24
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d236fa0ffd6eb0c59ac0e2b4d20477560ba0883bcc696ebab238a0ef94fe60ec"
+    },
+    {
+      "name": "backdrop-texture",
+      "source": "home",
+      "box": [
+        1260,
+        560,
+        1642,
+        569
+      ],
+      "size": [
+        382,
+        9
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "6d6f1223bbe20d71dd3aceb53106b3a6365b7c0273190304a70464b1508db8d8"
+    },
+    {
+      "name": "home-hero",
+      "source": "home",
+      "box": [
+        170,
+        0,
+        1255,
+        394
+      ],
+      "size": [
+        1085,
+        394
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c0a37e72d1a30c374d964bf6bf73f5efea85162f17f30a0a85363540e40d2cac"
+    },
+    {
+      "name": "home-quote-art",
+      "source": "home",
+      "box": [
+        1269,
+        200,
+        1648,
+        313
+      ],
+      "size": [
+        379,
+        113
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ed4e0b7e6e5715db827458a8ffbd6bd7786ba7f87fdcb5777bf968f2b23bff02"
+    },
+    {
+      "name": "home-database-art",
+      "source": "home",
+      "box": [
+        201,
+        632,
+        535,
+        742
+      ],
+      "size": [
+        334,
+        110
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "054f8d2a516b5bf8c3e5b6516ab553da096d6cd438f3eeb4b24a6d6a8255953c"
+    },
+    {
+      "name": "home-culture-art",
+      "source": "home",
+      "box": [
+        922,
+        634,
+        1278,
+        744
+      ],
+      "size": [
+        356,
+        110
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "750bc07f7b4d960af5311de46920dc4921d6914299b9c7e08701463db9b6bf6d"
+    },
+    {
+      "name": "home-experience-art",
+      "source": "home",
+      "box": [
+        1300,
+        634,
+        1647,
+        718
+      ],
+      "size": [
+        347,
+        84
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d391eaa7785bd890f034ef4e3cbe7986b2c3e8b8e85e67be63df4a814a01adbb"
+    },
+    {
+      "name": "home-style-0",
+      "source": "home",
+      "box": [
+        587,
+        644,
+        646,
+        707
+      ],
+      "size": [
+        59,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "dd9eb24a2d79102d9cdc27f026544976c72d02ff800cd29409f21094d4cae544"
+    },
+    {
+      "name": "home-style-1",
+      "source": "home",
+      "box": [
+        655,
+        644,
+        715,
+        707
+      ],
+      "size": [
+        60,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d2c2616276cddb95fa86e7462cb0b8869f802aad44dfc75c30a7a2aa02002ffc"
+    },
+    {
+      "name": "home-style-2",
+      "source": "home",
+      "box": [
+        725,
+        644,
+        784,
+        707
+      ],
+      "size": [
+        59,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "03c6be4a7aba5fe59b6b23104435aff620db5da94b9db9f4e93c56ffabe572ff"
+    },
+    {
+      "name": "home-style-3",
+      "source": "home",
+      "box": [
+        798,
+        644,
+        861,
+        707
+      ],
+      "size": [
+        63,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "449152f034b7a3ed5831e57acf5fe007710769f9e5d4ee5c9414752493982ec9"
+    },
+    {
+      "name": "featured-0",
+      "source": "home",
+      "box": [
+        245,
+        797,
+        384,
+        883
+      ],
+      "size": [
+        139,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "3fda05b7393fb7c6621d8cd35160ec83ec6ee6b2d54898108d06beeb638b223f"
+    },
+    {
+      "name": "featured-1",
+      "source": "home",
+      "box": [
+        405,
+        797,
+        544,
+        883
+      ],
+      "size": [
+        139,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f2fb5b71c3f88b9f5278cd108bc21f1c6bb59fff0ef1ec334173e09339a47fd1"
+    },
+    {
+      "name": "featured-2",
+      "source": "home",
+      "box": [
+        563,
+        797,
+        702,
+        883
+      ],
+      "size": [
+        139,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "2303e0bb0923abe5127141d5f914c543e9076fc23788488107e5fe9465717bf9"
+    },
+    {
+      "name": "featured-3",
+      "source": "home",
+      "box": [
+        719,
+        797,
+        858,
+        883
+      ],
+      "size": [
+        139,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "becf2e3c82cbb282efed83f3c93380d8c91817b2c9ce633d3b4f9423669c852d"
+    },
+    {
+      "name": "featured-4",
+      "source": "home",
+      "box": [
+        877,
+        797,
+        1014,
+        883
+      ],
+      "size": [
+        137,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5af2644bc6270f4615b1615f57e5109aa96def313c1d59a90857aaf3030da301"
+    },
+    {
+      "name": "featured-5",
+      "source": "home",
+      "box": [
+        1032,
+        797,
+        1174,
+        883
+      ],
+      "size": [
+        142,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "3bdff50ffe51204a52ea508303e217ba5d119c47442ab86979eb241d7959b85b"
+    },
+    {
+      "name": "featured-6",
+      "source": "home",
+      "box": [
+        1189,
+        797,
+        1330,
+        883
+      ],
+      "size": [
+        141,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "dc9f0299b2dbe5151f978c8bb2fbde62d6e4d177faeac795b95055f8453b8e0b"
+    },
+    {
+      "name": "featured-7",
+      "source": "home",
+      "box": [
+        1349,
+        797,
+        1497,
+        883
+      ],
+      "size": [
+        148,
+        86
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e48ba7261c8ffc7966d57264d3c73447366ca52125c9e32e7cfa7368d80b651d"
+    },
+    {
+      "name": "generate-mountains",
+      "source": "generate",
+      "box": [
+        170,
+        0,
+        1672,
+        69
+      ],
+      "size": [
+        1502,
+        69
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "71eac4708fa1cfbeb8c69aed686154c2294da0e55570f21cb41d6bc729b037cd"
+    },
+    {
+      "name": "generate-view",
+      "source": "generate",
+      "box": [
+        646,
+        136,
+        1217,
+        741
+      ],
+      "size": [
+        571,
+        605
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "3ea583873971d7f63823135b2f09ad4420c17f8583f493fc9da32a84475470bf"
+    },
+    {
+      "name": "scheme-0",
+      "source": "generate",
+      "box": [
+        1239,
+        139,
+        1431,
+        354
+      ],
+      "size": [
+        192,
+        215
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "27f47285479785dbc0a3ff2fba37848046ac0982fe7c1826bcc37152fe928ab5"
+    },
+    {
+      "name": "scheme-1",
+      "source": "generate",
+      "box": [
+        1446,
+        139,
+        1639,
+        354
+      ],
+      "size": [
+        193,
+        215
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "87c1eaa62f6623fff6f85978e3848c4caa80864bb4a6da243400cafb47cd59b5"
+    },
+    {
+      "name": "scheme-2",
+      "source": "generate",
+      "box": [
+        1239,
+        428,
+        1431,
+        646
+      ],
+      "size": [
+        192,
+        218
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "21fbb67f748bce22a4e8d0dd59d656a6e8da2e78a27902b7d5fabc5c8dd7cd12"
+    },
+    {
+      "name": "scheme-3",
+      "source": "generate",
+      "box": [
+        1446,
+        428,
+        1639,
+        646
+      ],
+      "size": [
+        193,
+        218
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0ed0b2b1ce5b4c88e2fca57377c587e457b4a5e55445cf55feebfcd7af6de186"
+    },
+    {
+      "name": "style-0",
+      "source": "generate",
+      "box": [
+        240,
+        391,
+        289,
+        438
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f87e3fdd0a82614184a518859540fb2564e42236874e98c2ba2663721261e1f0"
+    },
+    {
+      "name": "style-1",
+      "source": "generate",
+      "box": [
+        316,
+        391,
+        364,
+        438
+      ],
+      "size": [
+        48,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b2697b3cb074f0736f3b0065ac8cbdcc9ed9b91e153723ce1cc7f8342eaf7bfa"
+    },
+    {
+      "name": "style-2",
+      "source": "generate",
+      "box": [
+        397,
+        391,
+        447,
+        438
+      ],
+      "size": [
+        50,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "9a4720735dfa3039811d2a088845a69d43efcfc7890c520451d61c6086a86260"
+    },
+    {
+      "name": "style-3",
+      "source": "generate",
+      "box": [
+        476,
+        391,
+        525,
+        438
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d98bc37faf64134f44e941fb6b7c954cab7de24af76394500d057c28eb8add87"
+    },
+    {
+      "name": "style-4",
+      "source": "generate",
+      "box": [
+        551,
+        391,
+        600,
+        438
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "cd0bbc5866af15c5b6f48d62ed0849ad3623db4d2c6015354b57c21a836b3e8b"
+    },
+    {
+      "name": "shape-0",
+      "source": "generate",
+      "box": [
+        240,
+        579,
+        284,
+        622
+      ],
+      "size": [
+        44,
+        43
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "57e189ed975be7f1d54dde42772b7eac0474a0e2513b7e1f4e8ff3aebd176ab0"
+    },
+    {
+      "name": "shape-1",
+      "source": "generate",
+      "box": [
+        321,
+        579,
+        365,
+        622
+      ],
+      "size": [
+        44,
+        43
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f8bc07aaf078e783bde412065e369729a8aa8709572c12d00ab29d64b34657ac"
+    },
+    {
+      "name": "shape-2",
+      "source": "generate",
+      "box": [
+        404,
+        579,
+        447,
+        622
+      ],
+      "size": [
+        43,
+        43
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "58e5bf0ea4a86186f722b4db012449df7bd41c334ad000bf1150b51fdf2646aa"
+    },
+    {
+      "name": "shape-3",
+      "source": "generate",
+      "box": [
+        479,
+        579,
+        524,
+        622
+      ],
+      "size": [
+        45,
+        43
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "04a7385a7bee860d4511a5a3fe3850e274d497f163719c73dc47d319e0845a21"
+    },
+    {
+      "name": "shape-4",
+      "source": "generate",
+      "box": [
+        558,
+        579,
+        601,
+        622
+      ],
+      "size": [
+        43,
+        43
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8fad85d5a17147abee96d92d131c3a126980b82d833349a38c589790705224a5"
+    },
+    {
+      "name": "material-0",
+      "source": "generate",
+      "box": [
+        233,
+        689,
+        291,
+        726
+      ],
+      "size": [
+        58,
+        37
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "7bb76455d6aa59dab658f3c64c1c9b55518dd9a70d598216ddea71dbf815cb18"
+    },
+    {
+      "name": "material-1",
+      "source": "generate",
+      "box": [
+        315,
+        689,
+        372,
+        726
+      ],
+      "size": [
+        57,
+        37
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "aa7b678cdb77b7870ec9902aca70b16cf9c3026e096f81665173d45bc12db222"
+    },
+    {
+      "name": "material-2",
+      "source": "generate",
+      "box": [
+        394,
+        689,
+        451,
+        726
+      ],
+      "size": [
+        57,
+        37
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "9f377516f40e808d41273df48577270ae4ef2c7649e91ace8b5fed05d49ae5a9"
+    },
+    {
+      "name": "material-3",
+      "source": "generate",
+      "box": [
+        473,
+        689,
+        531,
+        726
+      ],
+      "size": [
+        58,
+        37
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "2379fd41c24ba62a5df41b675b136f495c082a1d0d501801ba238b8caa9e9ff6"
+    },
+    {
+      "name": "material-4",
+      "source": "generate",
+      "box": [
+        554,
+        689,
+        612,
+        726
+      ],
+      "size": [
+        58,
+        37
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "dd5c5f0754b194e7d765340bd3d30373ab46f537c5c989952d4b9788ea65cd6f"
+    },
+    {
+      "name": "knob-0",
+      "source": "generate",
+      "box": [
+        245,
+        786,
+        274,
+        817
+      ],
+      "size": [
+        29,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8b314b74bdfa150db26770c736644323b42578b89b0ad971fa6be92ec4dff925"
+    },
+    {
+      "name": "knob-1",
+      "source": "generate",
+      "box": [
+        301,
+        786,
+        332,
+        817
+      ],
+      "size": [
+        31,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ec06695ee73fee9b09aebd851a04ec462e2ec4b339d335cc455e57fe23b36479"
+    },
+    {
+      "name": "knob-2",
+      "source": "generate",
+      "box": [
+        355,
+        786,
+        385,
+        817
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "35cb22f0897864f4ac5cbce368a4846c7f2ad740de5f41a677c00ac6b2a0d2a3"
+    },
+    {
+      "name": "knob-3",
+      "source": "generate",
+      "box": [
+        410,
+        786,
+        441,
+        817
+      ],
+      "size": [
+        31,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8eb5d61ea9fea032b95d242831292affd25fc2baab4e0498f80302c3b0b0e1c4"
+    },
+    {
+      "name": "knob-4",
+      "source": "generate",
+      "box": [
+        463,
+        786,
+        493,
+        817
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ab10027ef308e307782bb9baa9b60921173d860ad586bbd76ff847d8fb00c7ea"
+    },
+    {
+      "name": "knob-5",
+      "source": "generate",
+      "box": [
+        515,
+        786,
+        546,
+        817
+      ],
+      "size": [
+        31,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "27c478b8c7222c9d32748c32f208e6579eef4280f2ab5ac549c78db55fd5cb7a"
+    },
+    {
+      "name": "knob-6",
+      "source": "generate",
+      "box": [
+        571,
+        786,
+        601,
+        817
+      ],
+      "size": [
+        30,
+        31
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f0b5b3fdcc8b0ec6f961f3637dd341d7e2df72135b8dc54b2877dd403240da36"
+    },
+    {
+      "name": "history-0",
+      "source": "generate",
+      "box": [
+        679,
+        797,
+        750,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d920fa66651d909794e2f3c5767f95b1eb8182fb67eddf0922f1de0c8ec17f0e"
+    },
+    {
+      "name": "history-1",
+      "source": "generate",
+      "box": [
+        781,
+        797,
+        852,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1b89fdfc2e8009f22054a440d80feddee6223a0da822f9c3f06c80d81a3fb864"
+    },
+    {
+      "name": "history-2",
+      "source": "generate",
+      "box": [
+        883,
+        797,
+        954,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "45e96a978b3ad464fdaf7708178b89f2eed3d7b9423083b5f7ecf9151edb1dc6"
+    },
+    {
+      "name": "history-3",
+      "source": "generate",
+      "box": [
+        985,
+        797,
+        1056,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5ec18738a4149312353a750753cdfe648e6a98a5a2b8537a5e92ea65abaace2a"
+    },
+    {
+      "name": "history-4",
+      "source": "generate",
+      "box": [
+        1087,
+        797,
+        1158,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4126839ec825db9eb095605ef47387603ba654b6ffec66c3252e59de93bf9b8e"
+    },
+    {
+      "name": "history-5",
+      "source": "generate",
+      "box": [
+        1189,
+        797,
+        1260,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c53d15762a1b25e6fd6ebd2fc602f24b72f9bec788a86144ee624b79498c1f6d"
+    },
+    {
+      "name": "history-6",
+      "source": "generate",
+      "box": [
+        1291,
+        797,
+        1362,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "6c7087f33e4f9e4c6509c3145c027b327a9e79dbcf90ae36089b95939bb1c18f"
+    },
+    {
+      "name": "history-7",
+      "source": "generate",
+      "box": [
+        1393,
+        797,
+        1464,
+        864
+      ],
+      "size": [
+        71,
+        67
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b2aa0f10fbe54c771b4a3c74a89a1ffbc65162b2127324d3d7145229c05bf60d"
+    },
+    {
+      "name": "catalog-hero",
+      "source": "catalog",
+      "box": [
+        170,
+        0,
+        1672,
+        245
+      ],
+      "size": [
+        1502,
+        245
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e10207da24fe4a28c12de4091bba57eeec0c97b357ed870ae314971d728342d1"
+    },
+    {
+      "name": "catalog-0",
+      "source": "catalog",
+      "box": [
+        463,
+        403,
+        620,
+        561
+      ],
+      "size": [
+        157,
+        158
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "defcfd826e36e7bffe115c68fb05afd92eab705834361adcc12e46f5bc17c20b"
+    },
+    {
+      "name": "catalog-1",
+      "source": "catalog",
+      "box": [
+        636,
+        403,
+        790,
+        561
+      ],
+      "size": [
+        154,
+        158
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "dadc28e72684cbb5d57311c3f4b4b22e005746fc2cef96febe20ccc2beabc49d"
+    },
+    {
+      "name": "catalog-2",
+      "source": "catalog",
+      "box": [
+        810,
+        403,
+        964,
+        561
+      ],
+      "size": [
+        154,
+        158
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "9dc6da416cbd402037f1cda026f96b9f1e8c88bbe95ad5c3c2edc4b574b210aa"
+    },
+    {
+      "name": "catalog-3",
+      "source": "catalog",
+      "box": [
+        981,
+        403,
+        1136,
+        561
+      ],
+      "size": [
+        155,
+        158
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "abd629917ca8e908299f834d058d2613c8f8b18b986a1648a91937f51fd61d82"
+    },
+    {
+      "name": "catalog-4",
+      "source": "catalog",
+      "box": [
+        1157,
+        403,
+        1311,
+        561
+      ],
+      "size": [
+        154,
+        158
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "21222b26c6258fa29583ab11352dbd4de68c4578f2aeb035bfe4c87d724f0163"
+    },
+    {
+      "name": "catalog-5",
+      "source": "catalog",
+      "box": [
+        463,
+        695,
+        620,
+        850
+      ],
+      "size": [
+        157,
+        155
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "3244656e7571a7e66932bcfa38f30e92aa0919a0d49b79e240f014dcff56ad3c"
+    },
+    {
+      "name": "catalog-6",
+      "source": "catalog",
+      "box": [
+        636,
+        695,
+        790,
+        850
+      ],
+      "size": [
+        154,
+        155
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "51b462a4fd1f7660ef1691077c5630d7acfc97dfb0a05a92708268f99f935e96"
+    },
+    {
+      "name": "catalog-7",
+      "source": "catalog",
+      "box": [
+        810,
+        695,
+        964,
+        850
+      ],
+      "size": [
+        154,
+        155
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "63054760272742cd80a4f2d70394e85ae4ea281d36fbcbb50e5ae9bb114e3aaf"
+    },
+    {
+      "name": "catalog-8",
+      "source": "catalog",
+      "box": [
+        981,
+        695,
+        1136,
+        850
+      ],
+      "size": [
+        155,
+        155
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "00ee94e32522bc5133792150bcaf1ff5a47a55e2f29a04ef336ba241df806600"
+    },
+    {
+      "name": "catalog-9",
+      "source": "catalog",
+      "box": [
+        1157,
+        695,
+        1311,
+        850
+      ],
+      "size": [
+        154,
+        155
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5b2593400bfef56b2f7bfa1fbb6f4f11a71aaad94dae0595443d038cad6bfc65"
+    },
+    {
+      "name": "catalog-feature",
+      "source": "catalog",
+      "box": [
+        1335,
+        292,
+        1639,
+        458
+      ],
+      "size": [
+        304,
+        166
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8c87fac2fab55dc9709eec573406c501ea7d719ed5cc077a31999f926b66e268"
+    },
+    {
+      "name": "detail-scene",
+      "source": "detail",
+      "box": [
+        170,
+        0,
+        1113,
+        701
+      ],
+      "size": [
+        943,
+        701
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b22699240b26141142599705041c379d5a065de33704855dc6c346df761e96fb"
+    },
+    {
+      "name": "detail-main-art",
+      "source": "detail",
+      "box": [
+        461,
+        67,
+        1112,
+        656
+      ],
+      "size": [
+        651,
+        589
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0aaae2bb7d1f275bad4e81dcc9b60be5171bbd6b5bd1850c490050e947deb3a7"
+    },
+    {
+      "name": "detail-side-0",
+      "source": "detail",
+      "box": [
+        244,
+        278,
+        393,
+        359
+      ],
+      "size": [
+        149,
+        81
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0c7ecd4831928b1af22390b042e4b718d02ffc3b57f3a27c47ef1b1c59955147"
+    },
+    {
+      "name": "detail-side-1",
+      "source": "detail",
+      "box": [
+        244,
+        379,
+        393,
+        460
+      ],
+      "size": [
+        149,
+        81
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "432fba64f406adfb9fc361ab06947ae79a740c2d7d9af4ad94ff76f050542ee2"
+    },
+    {
+      "name": "detail-side-2",
+      "source": "detail",
+      "box": [
+        244,
+        480,
+        393,
+        561
+      ],
+      "size": [
+        149,
+        81
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5280e195927c9a4b040fbe44b70aa02040e8974eb86d30a084213f25f215c449"
+    },
+    {
+      "name": "detail-side-3",
+      "source": "detail",
+      "box": [
+        244,
+        582,
+        393,
+        664
+      ],
+      "size": [
+        149,
+        82
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "44f74886deaa97c0c4523cda025fab0ca84e10034b0f340184d499a3cf276c32"
+    },
+    {
+      "name": "detail-close-0",
+      "source": "detail",
+      "box": [
+        264,
+        758,
+        449,
+        877
+      ],
+      "size": [
+        185,
+        119
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "25020566f774d5d1f58b82953a3fc82d1c63e6a510236031fa3112482317d227"
+    },
+    {
+      "name": "detail-close-1",
+      "source": "detail",
+      "box": [
+        469,
+        758,
+        652,
+        877
+      ],
+      "size": [
+        183,
+        119
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "139b986d1fbbb1c4327d6daaf48c3fff2919728180ad0bc9dd65bb5c44a342d4"
+    },
+    {
+      "name": "detail-close-2",
+      "source": "detail",
+      "box": [
+        674,
+        758,
+        856,
+        877
+      ],
+      "size": [
+        182,
+        119
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "36c2fca75eae3c8244ae47d8500a8a91e401562c0f48268d72d7139bd2a56090"
+    },
+    {
+      "name": "detail-close-3",
+      "source": "detail",
+      "box": [
+        877,
+        758,
+        1061,
+        877
+      ],
+      "size": [
+        184,
+        119
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0e0b53c7d1257c2ad45e2517bf94b48036d500cd71e386cc0bb2e956740346bf"
+    },
+    {
+      "name": "detail-rubbing",
+      "source": "detail",
+      "box": [
+        1143,
+        474,
+        1272,
+        606
+      ],
+      "size": [
+        129,
+        132
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "86db727e68e66c8584c55bfac9b62b97f83a74d2ea613d30abe06d2b09b70a8f"
+    },
+    {
+      "name": "detail-stone",
+      "source": "detail",
+      "box": [
+        1138,
+        695,
+        1303,
+        773
+      ],
+      "size": [
+        165,
+        78
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c3652bc89477982eea0f227d1a25f8980601960dc9082da76f196f127465b515"
+    },
+    {
+      "name": "detail-3d-0",
+      "source": "detail",
+      "box": [
+        1146,
+        832,
+        1237,
+        900
+      ],
+      "size": [
+        91,
+        68
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "905ebc300664f28b999c35169304e457861eb9505298888dfb7cd4a07b4546ae"
+    },
+    {
+      "name": "detail-3d-1",
+      "source": "detail",
+      "box": [
+        1250,
+        832,
+        1344,
+        900
+      ],
+      "size": [
+        94,
+        68
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1092cebfad68bf8325c148d927dd7cd27edeb966040fc616a7c1f9c6dae661ad"
+    },
+    {
+      "name": "detail-3d-2",
+      "source": "detail",
+      "box": [
+        1358,
+        832,
+        1450,
+        900
+      ],
+      "size": [
+        92,
+        68
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "91c2ac1c42f44d25867be9b7c5af75844544513635b5b615d4c1edb55f00d102"
+    },
+    {
+      "name": "detail-3d-3",
+      "source": "detail",
+      "box": [
+        1466,
+        832,
+        1559,
+        900
+      ],
+      "size": [
+        93,
+        68
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b0b1320434ff26684313ceb5c766687fe462e2219e391cfdbdeecac94b7147a1"
+    },
+    {
+      "name": "culture-hero",
+      "source": "culture",
+      "box": [
+        170,
+        0,
+        1672,
+        199
+      ],
+      "size": [
+        1502,
+        199
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "22fce4b85e8aca79d033730b94308779b9ae617c83dc6ae0b79d829aef93b721"
+    },
+    {
+      "name": "era-0",
+      "source": "culture",
+      "box": [
+        191,
+        252,
+        295,
+        351
+      ],
+      "size": [
+        104,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "100402bfa36c5278d6158c787ef9c00593274e28f079b97d4495fb49352fe4d3"
+    },
+    {
+      "name": "era-1",
+      "source": "culture",
+      "box": [
+        300,
+        252,
+        404,
+        351
+      ],
+      "size": [
+        104,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d31e2661fb06253c919ca42e86374ab2fc9a5ec28742d851e0771e217d97ab6b"
+    },
+    {
+      "name": "era-2",
+      "source": "culture",
+      "box": [
+        410,
+        252,
+        515,
+        351
+      ],
+      "size": [
+        105,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1fe5e87a73dd3bcb9de59dca092e7ae24ca09a1cfa338bba1936a5bfffcb4c53"
+    },
+    {
+      "name": "era-3",
+      "source": "culture",
+      "box": [
+        520,
+        252,
+        625,
+        351
+      ],
+      "size": [
+        105,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d0a49f6c4f8129285926ff64738245939508a7dca4370c153338b38afdb2ab1d"
+    },
+    {
+      "name": "era-4",
+      "source": "culture",
+      "box": [
+        632,
+        252,
+        738,
+        351
+      ],
+      "size": [
+        106,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "106c375677547811e4c54b866d5c29dfa0f74d3c1a7845ab94b20c02ce33df0e"
+    },
+    {
+      "name": "era-5",
+      "source": "culture",
+      "box": [
+        744,
+        252,
+        851,
+        351
+      ],
+      "size": [
+        107,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "9b64102df5c0de9784aabd7b10bef65ed71c130d3619064a0d55bc195bec0348"
+    },
+    {
+      "name": "era-6",
+      "source": "culture",
+      "box": [
+        858,
+        252,
+        964,
+        351
+      ],
+      "size": [
+        106,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "91260a2b36f376f39600afdf50d988e3846588a31c0c794381747c7d66a12ae1"
+    },
+    {
+      "name": "era-7",
+      "source": "culture",
+      "box": [
+        970,
+        252,
+        1075,
+        351
+      ],
+      "size": [
+        105,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1fe616bd03ac3cd2aed1a0f1e832b5f5a24f9de0404eaf7b59a6439f30d25caf"
+    },
+    {
+      "name": "era-8",
+      "source": "culture",
+      "box": [
+        1082,
+        252,
+        1186,
+        351
+      ],
+      "size": [
+        104,
+        99
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1130a50ed8f8b4243059411c55a45b655bfeb3674becb4fe70d3da5f28153260"
+    },
+    {
+      "name": "culture-map",
+      "source": "culture",
+      "box": [
+        1236,
+        250,
+        1537,
+        477
+      ],
+      "size": [
+        301,
+        227
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "85f3ce138315b1c3a1a53ab09a2536123da5b1f0a25c8359746608416e8d13ec"
+    },
+    {
+      "name": "culture-graph",
+      "source": "culture",
+      "box": [
+        190,
+        521,
+        1220,
+        774
+      ],
+      "size": [
+        1030,
+        253
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e3e09820626eb12f0150dd3f0088e5934be8369fe592d5c4104e1b563c4ee15c"
+    },
+    {
+      "name": "culture-tree",
+      "source": "culture",
+      "box": [
+        1243,
+        525,
+        1644,
+        731
+      ],
+      "size": [
+        401,
+        206
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "6bd6666cf3d3e55783802514387d8b432c27ca42c0984ff379060b068aebf072"
+    },
+    {
+      "name": "evolution-0",
+      "source": "culture",
+      "box": [
+        201,
+        829,
+        245,
+        880
+      ],
+      "size": [
+        44,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "2a0ef768410ca3281ce8ea705cf07ffaba123efac7d26a32e02a39ca0ed85008"
+    },
+    {
+      "name": "evolution-1",
+      "source": "culture",
+      "box": [
+        261,
+        829,
+        307,
+        880
+      ],
+      "size": [
+        46,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4a1f7f38fc120665cbf65209f8b03ca32337cb4789c53b0efd6f8f1f4dd7050d"
+    },
+    {
+      "name": "evolution-2",
+      "source": "culture",
+      "box": [
+        321,
+        829,
+        366,
+        880
+      ],
+      "size": [
+        45,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b927221f4079b116e5723a39cabd06b18517ccfbae87f8ec2e7a77d12ea99791"
+    },
+    {
+      "name": "evolution-3",
+      "source": "culture",
+      "box": [
+        382,
+        829,
+        427,
+        880
+      ],
+      "size": [
+        45,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "9610a8e2b1061700b5b148776d0b22737b79a84df04432c61d9c70d73278062f"
+    },
+    {
+      "name": "evolution-4",
+      "source": "culture",
+      "box": [
+        442,
+        829,
+        487,
+        880
+      ],
+      "size": [
+        45,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f0407e6f5fcdb84656587433525da89a7b8883d26456e39f85b535bcced84dc7"
+    },
+    {
+      "name": "evolution-5",
+      "source": "culture",
+      "box": [
+        502,
+        829,
+        549,
+        880
+      ],
+      "size": [
+        47,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "38d5a9434f4c656db93108657b7d148de73e5f9cf4bdacc5073945e3ded90fdc"
+    },
+    {
+      "name": "evolution-6",
+      "source": "culture",
+      "box": [
+        563,
+        829,
+        609,
+        880
+      ],
+      "size": [
+        46,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "672f341599ed949c199bc09f78b465718672b57dba08297124da5e545f2b3640"
+    },
+    {
+      "name": "evolution-7",
+      "source": "culture",
+      "box": [
+        624,
+        829,
+        669,
+        880
+      ],
+      "size": [
+        45,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e799265c1cba64821a9623e87b83a00a636d6345a798305c123c28fe6637c528"
+    },
+    {
+      "name": "evolution-8",
+      "source": "culture",
+      "box": [
+        684,
+        829,
+        730,
+        880
+      ],
+      "size": [
+        46,
+        51
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d432d5f4b10c12b3c4dd74d8a7115d8a91660df5a50c9f2244ace17924dd814d"
+    },
+    {
+      "name": "book-0",
+      "source": "culture",
+      "box": [
+        818,
+        819,
+        888,
+        883
+      ],
+      "size": [
+        70,
+        64
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ce7aae89ab7a5c4268ca028ee04a182fbbd044b079fa0c16e2352a1a21b110c9"
+    },
+    {
+      "name": "book-1",
+      "source": "culture",
+      "box": [
+        894,
+        819,
+        965,
+        883
+      ],
+      "size": [
+        71,
+        64
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f94e531611396de8db21657c796b557542a342ba1dc9c90baaaf8320f4cd8f2b"
+    },
+    {
+      "name": "book-2",
+      "source": "culture",
+      "box": [
+        970,
+        819,
+        1044,
+        883
+      ],
+      "size": [
+        74,
+        64
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c089655472bd0ca82c61afea919b81bac6bf90eff5282d7081617ba1c9b11af7"
+    },
+    {
+      "name": "book-3",
+      "source": "culture",
+      "box": [
+        1049,
+        819,
+        1123,
+        883
+      ],
+      "size": [
+        74,
+        64
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "838002c4d367f9208dc680994e8dfd46ea99e6fed2b091cf519bfe8429186db6"
+    },
+    {
+      "name": "book-4",
+      "source": "culture",
+      "box": [
+        1128,
+        819,
+        1203,
+        883
+      ],
+      "size": [
+        75,
+        64
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "fac63e3debd7493160b4ace7dbee0cc5bb4249a141c04d8681ee66702a54253c"
+    },
+    {
+      "name": "event-0",
+      "source": "culture",
+      "box": [
+        1324,
+        783,
+        1459,
+        840
+      ],
+      "size": [
+        135,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8ef1bec1e5a42ce643eabe749bc2fa3ed65a9ca7e1dd2568f719ba8f9de00696"
+    },
+    {
+      "name": "event-1",
+      "source": "culture",
+      "box": [
+        1324,
+        844,
+        1459,
+        892
+      ],
+      "size": [
+        135,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "10244843332a528e91972228511e6d912ab50daf2e72c4828bedebdd6591c7bb"
+    },
+    {
+      "name": "event-2",
+      "source": "culture",
+      "box": [
+        1324,
+        895,
+        1459,
+        937
+      ],
+      "size": [
+        135,
+        42
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "82ac577411dd2599645ac37be1e0993a9188ee51a5420a0edb5ecd713bb29082"
+    },
+    {
+      "name": "customize-scene",
+      "source": "customize",
+      "box": [
+        170,
+        0,
+        1672,
+        592
+      ],
+      "size": [
+        1502,
+        592
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "fe0abd286275823682a0d4247ec6429c9164710e4c056ad8c1444350bf515d63"
+    },
+    {
+      "name": "customize-before",
+      "source": "customize",
+      "box": [
+        277,
+        227,
+        472,
+        481
+      ],
+      "size": [
+        195,
+        254
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f9da1d52223fe001e91722cc61d4a028da1a5a6cefb654b694f0c478e93a85fa"
+    },
+    {
+      "name": "customize-main-art",
+      "source": "customize",
+      "box": [
+        476,
+        123,
+        1133,
+        553
+      ],
+      "size": [
+        657,
+        430
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4223071ed8820ad80eb344b80e990a168916e21d655d34d07d4335b187b805f4"
+    },
+    {
+      "name": "customize-impression",
+      "source": "customize",
+      "box": [
+        1181,
+        184,
+        1399,
+        419
+      ],
+      "size": [
+        218,
+        235
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "461587121af68423b3d2bf0dc84eea4a8576e14f6bc2e1f024316dfc265ca24d"
+    },
+    {
+      "name": "ink-0",
+      "source": "customize",
+      "box": [
+        1432,
+        218,
+        1487,
+        275
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1e919071195001b4b3f2568ccb637a4bd80ef385ec8c1755a32aceccdfd32d87"
+    },
+    {
+      "name": "ink-3",
+      "source": "customize",
+      "box": [
+        1432,
+        311,
+        1487,
+        368
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ea1448264978ade9c692822a143fc340e29c507fab4a5520055eb273ed3e185e"
+    },
+    {
+      "name": "ink-1",
+      "source": "customize",
+      "box": [
+        1511,
+        218,
+        1566,
+        275
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8bfa7d043e060b181d4691bb0348d0fcfdfc7df13f007d08bcec1e017f3243c6"
+    },
+    {
+      "name": "ink-4",
+      "source": "customize",
+      "box": [
+        1511,
+        311,
+        1566,
+        368
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0c61782c068816a2edbbbed4492d5f38b755520b78587c53ae89bf4d590ebab1"
+    },
+    {
+      "name": "ink-2",
+      "source": "customize",
+      "box": [
+        1591,
+        218,
+        1646,
+        275
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "84d1c82e20812f2fe319c55b2f433a76ac5ca570cda20a389d6308c51759013f"
+    },
+    {
+      "name": "ink-5",
+      "source": "customize",
+      "box": [
+        1591,
+        311,
+        1646,
+        368
+      ],
+      "size": [
+        55,
+        57
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d4bee248a9944b2e46083d18ab1261cc8427e47a068280c87fd9831be18878e9"
+    },
+    {
+      "name": "customize-depth",
+      "source": "customize",
+      "box": [
+        482,
+        642,
+        688,
+        784
+      ],
+      "size": [
+        206,
+        142
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "6c79b324198733b6c94851a82b95bd9192f4d17fc44030f431272f293b3bfa63"
+    },
+    {
+      "name": "edge-0",
+      "source": "customize",
+      "box": [
+        750,
+        683,
+        801,
+        730
+      ],
+      "size": [
+        51,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "757946304356a51489e16c26baa4932c8a596f322250b31629608f78a53df784"
+    },
+    {
+      "name": "edge-5",
+      "source": "customize",
+      "box": [
+        750,
+        742,
+        801,
+        789
+      ],
+      "size": [
+        51,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "a5df040271271450e3699daf504c40e9fcc09e42c3b3cbd8fc5b2c872bc8f518"
+    },
+    {
+      "name": "edge-1",
+      "source": "customize",
+      "box": [
+        809,
+        683,
+        858,
+        730
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "afbccb2ec525e9c68124aa162cdbdb62a83fc3bba891a3bca8286103c679c7bb"
+    },
+    {
+      "name": "edge-6",
+      "source": "customize",
+      "box": [
+        809,
+        742,
+        858,
+        789
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "30b400555a18a9c989456f5df8b93f319b9e696d4abf9c8a53bbf6b34e91badc"
+    },
+    {
+      "name": "edge-2",
+      "source": "customize",
+      "box": [
+        869,
+        683,
+        918,
+        730
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e1ef12cc068b43c923db1f5822c658a0aa200ef9f1e815c92dc7dbbcdfc64b32"
+    },
+    {
+      "name": "edge-7",
+      "source": "customize",
+      "box": [
+        869,
+        742,
+        918,
+        789
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "a1de7141c3b3abb2789670f0f4997ec8fbcf026f4686602bcef0ea53ef98f676"
+    },
+    {
+      "name": "edge-3",
+      "source": "customize",
+      "box": [
+        929,
+        683,
+        978,
+        730
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ceb4c4917b5770773a66aad1e8aafa9dbbc68eb6a45678e53905877a5d2dde31"
+    },
+    {
+      "name": "edge-8",
+      "source": "customize",
+      "box": [
+        929,
+        742,
+        978,
+        789
+      ],
+      "size": [
+        49,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4b665744991911f7b059102581d6cc1ecf237313424fd54bbbeb622d54871ff6"
+    },
+    {
+      "name": "edge-4",
+      "source": "customize",
+      "box": [
+        989,
+        683,
+        1035,
+        730
+      ],
+      "size": [
+        46,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "f9cb8db21faaa57d16b935df9b2fa0c42294673ac706433a8ce2038f16e0fee6"
+    },
+    {
+      "name": "edge-9",
+      "source": "customize",
+      "box": [
+        989,
+        742,
+        1035,
+        789
+      ],
+      "size": [
+        46,
+        47
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "57c6e10c49efddabc7c02c73a4608b85f0d75070d63e467d25a2b542da2260c1"
+    },
+    {
+      "name": "stone-0",
+      "source": "customize",
+      "box": [
+        1060,
+        684,
+        1124,
+        747
+      ],
+      "size": [
+        64,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "8674e6c2a83862ccd4ef914aeb77ca3e7290a90493e28b5ea8635d468c4bced9"
+    },
+    {
+      "name": "stone-4",
+      "source": "customize",
+      "box": [
+        1060,
+        782,
+        1124,
+        845
+      ],
+      "size": [
+        64,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c05a6380a894adeb85b983aed01d518b751d08b23c22edd9eaa508fc7790c9b7"
+    },
+    {
+      "name": "stone-1",
+      "source": "customize",
+      "box": [
+        1133,
+        684,
+        1198,
+        747
+      ],
+      "size": [
+        65,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b87cec2866bd9ca2fd658a82e4b57c24b8c1f5e574e586157a035dd2203e3730"
+    },
+    {
+      "name": "stone-5",
+      "source": "customize",
+      "box": [
+        1133,
+        782,
+        1198,
+        845
+      ],
+      "size": [
+        65,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e490780a9179f0aa9c38c6c05f6fdae5900272d69de289af443e644ab9c3bbaf"
+    },
+    {
+      "name": "stone-2",
+      "source": "customize",
+      "box": [
+        1209,
+        684,
+        1271,
+        747
+      ],
+      "size": [
+        62,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "42afc942651991f1334672c2d2210117ab51167410890e291905165741507b88"
+    },
+    {
+      "name": "stone-6",
+      "source": "customize",
+      "box": [
+        1209,
+        782,
+        1271,
+        845
+      ],
+      "size": [
+        62,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "2fc0ccbbd4317951c52dcbacdbce2b23dc4be176c8a43ac7c14810cc736f0c1b"
+    },
+    {
+      "name": "stone-3",
+      "source": "customize",
+      "box": [
+        1285,
+        684,
+        1346,
+        747
+      ],
+      "size": [
+        61,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "a19187b54c279e23091020adfb3a41be72dcd45a3b5adb4f05f10cc39d2242e9"
+    },
+    {
+      "name": "stone-7",
+      "source": "customize",
+      "box": [
+        1285,
+        782,
+        1346,
+        845
+      ],
+      "size": [
+        61,
+        63
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "dd4a9a7d0686183a50dd5b3e0a828cacdb491d75642321d16f0064dfba886e5a"
+    },
+    {
+      "name": "gold-0",
+      "source": "customize",
+      "box": [
+        1387,
+        649,
+        1440,
+        702
+      ],
+      "size": [
+        53,
+        53
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d4dad9be8c5f0587ffa0c3c3b5897a3864ce0306574d04bf103db6d85878513d"
+    },
+    {
+      "name": "gold-1",
+      "source": "customize",
+      "box": [
+        1467,
+        649,
+        1522,
+        702
+      ],
+      "size": [
+        55,
+        53
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5cc450e30d4b7b17edbc91647bbedbee8fbe2a21ff65d3e3f0a13a427e057443"
+    },
+    {
+      "name": "gold-2",
+      "source": "customize",
+      "box": [
+        1543,
+        649,
+        1598,
+        702
+      ],
+      "size": [
+        55,
+        53
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "26484ac5841be7dd3fff6815e1cca8ab9ac088529e89748cc63505da9228f921"
+    },
+    {
+      "name": "base-0",
+      "source": "customize",
+      "box": [
+        1387,
+        831,
+        1432,
+        879
+      ],
+      "size": [
+        45,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0042eafe0d4e7a0e3a7eddf7f0094e313947295b89e668a4f94f04cca1551f23"
+    },
+    {
+      "name": "base-1",
+      "source": "customize",
+      "box": [
+        1438,
+        831,
+        1483,
+        879
+      ],
+      "size": [
+        45,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "09bb913d05c64e4996005750eae403294760884154b3e3e2acf0f0cf7664ca82"
+    },
+    {
+      "name": "base-2",
+      "source": "customize",
+      "box": [
+        1489,
+        831,
+        1534,
+        879
+      ],
+      "size": [
+        45,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4c654547606eafab1ddfeddcde60a24f8aacd6306106984a41c1b0ac95443779"
+    },
+    {
+      "name": "base-3",
+      "source": "customize",
+      "box": [
+        1540,
+        831,
+        1585,
+        879
+      ],
+      "size": [
+        45,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d3737e4d02fde59c6274417d0afdb33a72a80e0321fd0f0ae4c7147f1b5ff435"
+    },
+    {
+      "name": "base-4",
+      "source": "customize",
+      "box": [
+        1591,
+        831,
+        1636,
+        879
+      ],
+      "size": [
+        45,
+        48
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "a87c05c71f9d81aaab5a32fcc507c95d1f9bda1f058a80b6966e9fa2d3f4e308"
+    },
+    {
+      "name": "experience-hero",
+      "source": "experience",
+      "box": [
+        170,
+        0,
+        1672,
+        515
+      ],
+      "size": [
+        1502,
+        515
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "c4b796152420720d86fb62b685127b8eebff7ca97dc32f0a5519d7933b960dad"
+    },
+    {
+      "name": "experience-0",
+      "source": "experience",
+      "box": [
+        215,
+        574,
+        777,
+        749
+      ],
+      "size": [
+        562,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4a5611ee2f3d6ecc8cb722ab522da960ad9140ec438f6bc97e9ba73980618d59"
+    },
+    {
+      "name": "experience-1",
+      "source": "experience",
+      "box": [
+        795,
+        574,
+        1064,
+        749
+      ],
+      "size": [
+        269,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "d58c657664abdd5367b7b3802eb8f396bd9ddf4e313aba8dffb9b64dc639aed7"
+    },
+    {
+      "name": "experience-2",
+      "source": "experience",
+      "box": [
+        1083,
+        574,
+        1350,
+        749
+      ],
+      "size": [
+        267,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b6dcfaf3d5fd03f07f73ca8e3fbc9ce8e15f52cb4fe177d1e41bd66ed57966d3"
+    },
+    {
+      "name": "experience-3",
+      "source": "experience",
+      "box": [
+        1371,
+        574,
+        1645,
+        749
+      ],
+      "size": [
+        274,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5d2f026d14cb8f0f93a060597bdcc839d79a470352989f17ec3c1b9b1358077a"
+    },
+    {
+      "name": "experience-ar",
+      "source": "experience",
+      "box": [
+        215,
+        574,
+        492,
+        749
+      ],
+      "size": [
+        277,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "07f09cb1e390afbe036f572f155cf36a7230fc8e4f6c892d64989c1538576ba9"
+    },
+    {
+      "name": "experience-cabinet",
+      "source": "experience",
+      "box": [
+        513,
+        574,
+        777,
+        749
+      ],
+      "size": [
+        264,
+        175
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "bb9bba877284a5f3ff96543e907dbc1ddc7f043cbab14513bc482ab810bc7508"
+    },
+    {
+      "name": "account-hero",
+      "source": "account",
+      "box": [
+        170,
+        0,
+        1672,
+        247
+      ],
+      "size": [
+        1502,
+        247
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e55a87f0e29d641b0321641bff574f1775e32bca867673d2f163d0d6871b1264"
+    },
+    {
+      "name": "account-avatar",
+      "source": "account",
+      "box": [
+        222,
+        81,
+        361,
+        219
+      ],
+      "size": [
+        139,
+        138
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "571b5cf694374572554d758d1ad48ce1af7bd4f2bc6db02ec6f99e3277eb5a90"
+    },
+    {
+      "name": "account-0",
+      "source": "account",
+      "box": [
+        213,
+        501,
+        450,
+        645
+      ],
+      "size": [
+        237,
+        144
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "554913cda176a9991fa485034052edfddccebc266d32a2688cce3c683c15be44"
+    },
+    {
+      "name": "account-4",
+      "source": "account",
+      "box": [
+        213,
+        749,
+        450,
+        894
+      ],
+      "size": [
+        237,
+        145
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "1151d9382833cd6f842d181d5251df52a9118146aca2a18c0cab939ee058f271"
+    },
+    {
+      "name": "account-1",
+      "source": "account",
+      "box": [
+        464,
+        501,
+        702,
+        645
+      ],
+      "size": [
+        238,
+        144
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ea176acbacfb3e7665b0d990bd7b31a80e316a7f5f1d42c41b9f362c39cfcc0d"
+    },
+    {
+      "name": "account-5",
+      "source": "account",
+      "box": [
+        464,
+        749,
+        702,
+        894
+      ],
+      "size": [
+        238,
+        145
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "b2b1c68c21771309c98cde812af8bd6da1d15ca185f3a407e2b307f013fe95d4"
+    },
+    {
+      "name": "account-2",
+      "source": "account",
+      "box": [
+        715,
+        501,
+        952,
+        645
+      ],
+      "size": [
+        237,
+        144
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "86966000de004a7d7bb69e6cc3fd30cd6223e6973c411144e10cb0db2481c728"
+    },
+    {
+      "name": "account-6",
+      "source": "account",
+      "box": [
+        715,
+        749,
+        952,
+        894
+      ],
+      "size": [
+        237,
+        145
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "0445cc21311d45aac35498aa9761174bc843c487656bb10b4ccd07f8608f76a0"
+    },
+    {
+      "name": "account-3",
+      "source": "account",
+      "box": [
+        966,
+        501,
+        1208,
+        645
+      ],
+      "size": [
+        242,
+        144
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e130338e1460f55ae473a5bb30b14fab0a39eabe6f183dc52a975725c5161335"
+    },
+    {
+      "name": "account-7",
+      "source": "account",
+      "box": [
+        966,
+        749,
+        1208,
+        894
+      ],
+      "size": [
+        242,
+        145
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "64925b39f1f5821da907cb9b2c6928e3e44c2bce0d843ef645f3dc26c8d061dc"
+    },
+    {
+      "name": "recent-0",
+      "source": "account",
+      "box": [
+        1264,
+        420,
+        1303,
+        455
+      ],
+      "size": [
+        39,
+        35
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "e097a0a4769fe32454c4505e41cbfc6c130168424f6900703695b11a60ba3aa2"
+    },
+    {
+      "name": "recent-1",
+      "source": "account",
+      "box": [
+        1264,
+        467,
+        1303,
+        502
+      ],
+      "size": [
+        39,
+        35
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "05423e88d4b323e2d0e46ee3e12891d424b592cfd5753d75486b549717f77a39"
+    },
+    {
+      "name": "recent-2",
+      "source": "account",
+      "box": [
+        1264,
+        514,
+        1303,
+        549
+      ],
+      "size": [
+        39,
+        35
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "ab00cf18de9969db4343fed82e9f7f6488d1eb34ed3685db2417546a58084cee"
+    },
+    {
+      "name": "recent-3",
+      "source": "account",
+      "box": [
+        1264,
+        560,
+        1303,
+        595
+      ],
+      "size": [
+        39,
+        35
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "5febbc0a9684c2db1dbc0b5622445de1969ae9af4bfd3c30fb0de9f68eb0e4b7"
+    },
+    {
+      "name": "published-0",
+      "source": "account",
+      "box": [
+        1266,
+        678,
+        1380,
+        732
+      ],
+      "size": [
+        114,
+        54
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "4434fc0eb24aa00284f033b5bee58739a654db09796701bc81fd6cd641fb2185"
+    },
+    {
+      "name": "published-1",
+      "source": "account",
+      "box": [
+        1393,
+        678,
+        1508,
+        732
+      ],
+      "size": [
+        115,
+        54
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "eeb31b14dcb98073a8f9cdaa1cc5aae2fd5123a503956c7b315bfb4a80a7b26f"
+    },
+    {
+      "name": "published-2",
+      "source": "account",
+      "box": [
+        1521,
+        678,
+        1636,
+        732
+      ],
+      "size": [
+        115,
+        54
+      ],
+      "purpose": "supplied artwork / texture; live UI rendered as components",
+      "sha256": "cce7f26bf90b476d2b5da642be959b1ffa54be6e4510766f3100adebe61474d7"
+    }
+  ],
+  "method": "Exact crops of supplied artwork, brand, illustration thumbnails and transparent-centre border strips; no full-page raster is used as the interface.",
+  "final_asset_sha256": {
+    "account-0.png": "9f1b08dd07bd72e22c0a05e543cd0eb1384746b600cf9bec461820788e19c212",
+    "account-1.png": "34973a34f12aa72c61741a00413e8b453be200aba5e84494fc2c0905244ce7e7",
+    "account-2.png": "2f7f13eab1cd49384ac3c277c37d3361fb16dbc51fa6b8ecc5ac69aa794b6088",
+    "account-3.png": "2a8fba094b9a9b52d01e09e166dec76e43fec8285e642ff88968438cb3f80998",
+    "account-4.png": "c1f592d445bfef45cc9a41038630008e9f6b2092eebc01778f2b988529384320",
+    "account-5.png": "d4f9a766dc29879203d93231343812bb7b8664843d81647ad5a807d3a3395107",
+    "account-6.png": "365af83c6f5015283067597abef76a056fd7888cc3ab3b2a477bc18d91c1a5cf",
+    "account-7.png": "eb29d88385ea0bef4622436cd2d8e3991a85df713641d1148d3477914b96840f",
+    "account-avatar.png": "571b5cf694374572554d758d1ad48ce1af7bd4f2bc6db02ec6f99e3277eb5a90",
+    "account-hero.png": "a80a4c67a4658d57791d09ea0b707c13579401f6378fe84bfa71587cd29d1268",
+    "avatar.png": "8afcd2885a695b308b2f984d6ef15808acdd50658c390631ece5057e2c82caf4",
+    "backdrop-texture.png": "6d6f1223bbe20d71dd3aceb53106b3a6365b7c0273190304a70464b1508db8d8",
+    "base-0.png": "0042eafe0d4e7a0e3a7eddf7f0094e313947295b89e668a4f94f04cca1551f23",
+    "base-1.png": "09bb913d05c64e4996005750eae403294760884154b3e3e2acf0f0cf7664ca82",
+    "base-2.png": "4c654547606eafab1ddfeddcde60a24f8aacd6306106984a41c1b0ac95443779",
+    "base-3.png": "d3737e4d02fde59c6274417d0afdb33a72a80e0321fd0f0ae4c7147f1b5ff435",
+    "base-4.png": "a87c05c71f9d81aaab5a32fcc507c95d1f9bda1f058a80b6966e9fa2d3f4e308",
+    "book-0.png": "ce7aae89ab7a5c4268ca028ee04a182fbbd044b079fa0c16e2352a1a21b110c9",
+    "book-1.png": "f94e531611396de8db21657c796b557542a342ba1dc9c90baaaf8320f4cd8f2b",
+    "book-2.png": "c089655472bd0ca82c61afea919b81bac6bf90eff5282d7081617ba1c9b11af7",
+    "book-3.png": "838002c4d367f9208dc680994e8dfd46ea99e6fed2b091cf519bfe8429186db6",
+    "book-4.png": "fac63e3debd7493160b4ace7dbee0cc5bb4249a141c04d8681ee66702a54253c",
+    "brand-symbol.png": "bca463f0d31c3052a2ee73f6fedcfe57294ba5686faa6cb8d4c3812fd312ae81",
+    "brand.png": "93675fb948e73c8796e7d4fa7e4bfa6d6cfeb39445e106fc5487b86a19deb53e",
+    "button-frame.png": "aaa26d4435b95ea5eb0601ee315c5e8af8d0964bfe1c58dcf2a099cfbbd82384",
+    "catalog-0.png": "450b571f952239a8414bc4c01b3ce5fe78aca782729335efaca2efcb5df3269d",
+    "catalog-1.png": "c537ba990ac558e331bb04bbb96a451c160d55ecd50a4ee74b798de03483c586",
+    "catalog-2.png": "2455d69df0f7b0eea452136d4b64d0c5b4e54f8ee0d499cd165470366ed43240",
+    "catalog-3.png": "5ae46f851f4cde67d626fd87f6aca485f8305c0fcf97ab1659ea56a40d8c6901",
+    "catalog-4.png": "4ec16a81d5b06a152772fe48b2d64beec8187a5bcb443b793d83e20d62e0f5cf",
+    "catalog-5.png": "34010fbaefed5d4741f3fe2fbc11a19f95b7f42ddc39fe91c63b3b792cff06f6",
+    "catalog-6.png": "c3673ce532d281a0db4cb81ca5fcbfb229a85be4aa4ebf13bc74e267527c034b",
+    "catalog-7.png": "100c4cd77ae41ad198936c29bf605e9033776a838c3dd0db15650304382f7d27",
+    "catalog-8.png": "00e03e5e180b69374caee714da622e5fa61243ce116e5d4ab39f401370307ea7",
+    "catalog-9.png": "cc9b74927939719c3cbcea4f0916e69b33d58477fe4b23cd1de60e7daae62707",
+    "catalog-feature.png": "8c87fac2fab55dc9709eec573406c501ea7d719ed5cc077a31999f926b66e268",
+    "catalog-hero.png": "e10207da24fe4a28c12de4091bba57eeec0c97b357ed870ae314971d728342d1",
+    "culture-graph.png": "e3e09820626eb12f0150dd3f0088e5934be8369fe592d5c4104e1b563c4ee15c",
+    "culture-hero.png": "79a223433eae60b469f131f57eba92f00bc77ef1c44a7f043f69f748bfd6072d",
+    "culture-map.png": "85f3ce138315b1c3a1a53ab09a2536123da5b1f0a25c8359746608416e8d13ec",
+    "culture-tree.png": "6bd6666cf3d3e55783802514387d8b432c27ca42c0984ff379060b068aebf072",
+    "customize-before.png": "f9da1d52223fe001e91722cc61d4a028da1a5a6cefb654b694f0c478e93a85fa",
+    "customize-depth.png": "6c79b324198733b6c94851a82b95bd9192f4d17fc44030f431272f293b3bfa63",
+    "customize-impression.png": "461587121af68423b3d2bf0dc84eea4a8576e14f6bc2e1f024316dfc265ca24d",
+    "customize-main-art.png": "40fdd18e07a9914e58cffab79b51bd0cdf0b832b62250839362ddcb1e3b986ca",
+    "customize-mobile-main.png": "d7bc34dbf5535715189d7b4344eeece62935271d8263a258ad0bed05392de8cc",
+    "customize-mobile-title.png": "3e8f6482906872c1259ce997617d960bf6bbd135e7b58c3a60daa6ec9e212639",
+    "customize-scene.png": "6f771893a828cb595c1cfb8e6058c2ba1091c106ad04fe0ec026162f9068a2e7",
+    "detail-3d-0.png": "905ebc300664f28b999c35169304e457861eb9505298888dfb7cd4a07b4546ae",
+    "detail-3d-1.png": "1092cebfad68bf8325c148d927dd7cd27edeb966040fc616a7c1f9c6dae661ad",
+    "detail-3d-2.png": "91c2ac1c42f44d25867be9b7c5af75844544513635b5b615d4c1edb55f00d102",
+    "detail-3d-3.png": "b0b1320434ff26684313ceb5c766687fe462e2219e391cfdbdeecac94b7147a1",
+    "detail-close-0.png": "25020566f774d5d1f58b82953a3fc82d1c63e6a510236031fa3112482317d227",
+    "detail-close-1.png": "139b986d1fbbb1c4327d6daaf48c3fff2919728180ad0bc9dd65bb5c44a342d4",
+    "detail-close-2.png": "36c2fca75eae3c8244ae47d8500a8a91e401562c0f48268d72d7139bd2a56090",
+    "detail-close-3.png": "0e0b53c7d1257c2ad45e2517bf94b48036d500cd71e386cc0bb2e956740346bf",
+    "detail-main-art.png": "b3a3f1b30c0c51ca04a478cf53073d1965e8c055b86952229205c3d172057e47",
+    "detail-rubbing.png": "86db727e68e66c8584c55bfac9b62b97f83a74d2ea613d30abe06d2b09b70a8f",
+    "detail-scene.png": "dd70b6809204ee0613c1359a9ae7b701cc336dda67df3672071cbec45da1741f",
+    "detail-side-0.png": "0c7ecd4831928b1af22390b042e4b718d02ffc3b57f3a27c47ef1b1c59955147",
+    "detail-side-1.png": "432fba64f406adfb9fc361ab06947ae79a740c2d7d9af4ad94ff76f050542ee2",
+    "detail-side-2.png": "5280e195927c9a4b040fbe44b70aa02040e8974eb86d30a084213f25f215c449",
+    "detail-side-3.png": "44f74886deaa97c0c4523cda025fab0ca84e10034b0f340184d499a3cf276c32",
+    "detail-stone.png": "c3652bc89477982eea0f227d1a25f8980601960dc9082da76f196f127465b515",
+    "detail-title.png": "342a778a5bebd31ec6e36e6fe8b4919a2aa3f698c9b757852f168aec39d6de40",
+    "edge-0.png": "757946304356a51489e16c26baa4932c8a596f322250b31629608f78a53df784",
+    "edge-1.png": "afbccb2ec525e9c68124aa162cdbdb62a83fc3bba891a3bca8286103c679c7bb",
+    "edge-2.png": "e1ef12cc068b43c923db1f5822c658a0aa200ef9f1e815c92dc7dbbcdfc64b32",
+    "edge-3.png": "ceb4c4917b5770773a66aad1e8aafa9dbbc68eb6a45678e53905877a5d2dde31",
+    "edge-4.png": "f9cb8db21faaa57d16b935df9b2fa0c42294673ac706433a8ce2038f16e0fee6",
+    "edge-5.png": "a5df040271271450e3699daf504c40e9fcc09e42c3b3cbd8fc5b2c872bc8f518",
+    "edge-6.png": "30b400555a18a9c989456f5df8b93f319b9e696d4abf9c8a53bbf6b34e91badc",
+    "edge-7.png": "a1de7141c3b3abb2789670f0f4997ec8fbcf026f4686602bcef0ea53ef98f676",
+    "edge-8.png": "4b665744991911f7b059102581d6cc1ecf237313424fd54bbbeb622d54871ff6",
+    "edge-9.png": "57c6e10c49efddabc7c02c73a4608b85f0d75070d63e467d25a2b542da2260c1",
+    "era-0.png": "100402bfa36c5278d6158c787ef9c00593274e28f079b97d4495fb49352fe4d3",
+    "era-1.png": "d31e2661fb06253c919ca42e86374ab2fc9a5ec28742d851e0771e217d97ab6b",
+    "era-2.png": "1fe5e87a73dd3bcb9de59dca092e7ae24ca09a1cfa338bba1936a5bfffcb4c53",
+    "era-3.png": "d0a49f6c4f8129285926ff64738245939508a7dca4370c153338b38afdb2ab1d",
+    "era-4.png": "106c375677547811e4c54b866d5c29dfa0f74d3c1a7845ab94b20c02ce33df0e",
+    "era-5.png": "9b64102df5c0de9784aabd7b10bef65ed71c130d3619064a0d55bc195bec0348",
+    "era-6.png": "91260a2b36f376f39600afdf50d988e3846588a31c0c794381747c7d66a12ae1",
+    "era-7.png": "1fe616bd03ac3cd2aed1a0f1e832b5f5a24f9de0404eaf7b59a6439f30d25caf",
+    "era-8.png": "1130a50ed8f8b4243059411c55a45b655bfeb3674becb4fe70d3da5f28153260",
+    "event-0.png": "f1116640f1fcf9ca233a0f7d4674bb179c98a644dbb68a5b002d9f040d9cbdfb",
+    "event-1.png": "d511d982655e8f3a9c5fb730d5b0f93f56c331b9cb6a6e3d2c6229a6ac4ac46c",
+    "event-2.png": "32d874c3c5af6f9c5272f28a55d91f6ef6946576fd5dd27cb663a31293bd0426",
+    "event-3.png": "dabd2f4733f4687ae4e5186ddc046185218efa4d8b2a88d650150e1966e9ef1e",
+    "evolution-0.png": "2a0ef768410ca3281ce8ea705cf07ffaba123efac7d26a32e02a39ca0ed85008",
+    "evolution-1.png": "4a1f7f38fc120665cbf65209f8b03ca32337cb4789c53b0efd6f8f1f4dd7050d",
+    "evolution-2.png": "b927221f4079b116e5723a39cabd06b18517ccfbae87f8ec2e7a77d12ea99791",
+    "evolution-3.png": "9610a8e2b1061700b5b148776d0b22737b79a84df04432c61d9c70d73278062f",
+    "evolution-4.png": "f0407e6f5fcdb84656587433525da89a7b8883d26456e39f85b535bcced84dc7",
+    "evolution-5.png": "38d5a9434f4c656db93108657b7d148de73e5f9cf4bdacc5073945e3ded90fdc",
+    "evolution-6.png": "672f341599ed949c199bc09f78b465718672b57dba08297124da5e545f2b3640",
+    "evolution-7.png": "e799265c1cba64821a9623e87b83a00a636d6345a798305c123c28fe6637c528",
+    "evolution-8.png": "d432d5f4b10c12b3c4dd74d8a7115d8a91660df5a50c9f2244ace17924dd814d",
+    "experience-0.png": "4a5611ee2f3d6ecc8cb722ab522da960ad9140ec438f6bc97e9ba73980618d59",
+    "experience-1.png": "d58c657664abdd5367b7b3802eb8f396bd9ddf4e313aba8dffb9b64dc639aed7",
+    "experience-2.png": "b6dcfaf3d5fd03f07f73ca8e3fbc9ce8e15f52cb4fe177d1e41bd66ed57966d3",
+    "experience-3.png": "5d2f026d14cb8f0f93a060597bdcc839d79a470352989f17ec3c1b9b1358077a",
+    "experience-ar.png": "07f09cb1e390afbe036f572f155cf36a7230fc8e4f6c892d64989c1538576ba9",
+    "experience-cabinet.png": "bb9bba877284a5f3ff96543e907dbc1ddc7f043cbab14513bc482ab810bc7508",
+    "experience-floor.png": "9dbed5a1d045b0811d172f7a523f4b8fa214fb8c3b932f40ead6c16a7fa02c62",
+    "experience-hero.png": "4dc25d80456c41a97a0a6b1b8acd42e8c1829140e3f1949ab644602bb28bbda5",
+    "featured-0.png": "3fda05b7393fb7c6621d8cd35160ec83ec6ee6b2d54898108d06beeb638b223f",
+    "featured-1.png": "f2fb5b71c3f88b9f5278cd108bc21f1c6bb59fff0ef1ec334173e09339a47fd1",
+    "featured-2.png": "2303e0bb0923abe5127141d5f914c543e9076fc23788488107e5fe9465717bf9",
+    "featured-3.png": "becf2e3c82cbb282efed83f3c93380d8c91817b2c9ce633d3b4f9423669c852d",
+    "featured-4.png": "5af2644bc6270f4615b1615f57e5109aa96def313c1d59a90857aaf3030da301",
+    "featured-5.png": "3bdff50ffe51204a52ea508303e217ba5d119c47442ab86979eb241d7959b85b",
+    "featured-6.png": "dc9f0299b2dbe5151f978c8bb2fbde62d6e4d177faeac795b95055f8453b8e0b",
+    "featured-7.png": "e48ba7261c8ffc7966d57264d3c73447366ca52125c9e32e7cfa7368d80b651d",
+    "field-texture.png": "3a260dcb4cdef4994e755e28b3deea80f1068e629ed23a7e3f47ce061db65c2a",
+    "frame-account-0.png": "713c6fd717ed4c2568c46a008df7e4a5ae760d0ed50c2d116a5e09ea4ed57a73",
+    "frame-account-1.png": "89d9e13164c41aee06ad7dd56f30026b173ea19759fc5adef4a4817298c77808",
+    "frame-account-2.png": "c5276628cec279dcfd5852c03722afa7d77f989faaf081a87107fb4329753ffc",
+    "frame-account-3.png": "b9371b00d4e3df29cd0b3d04b3e9f714105bbdb04751a8590a07abca0d84709a",
+    "frame-account-4.png": "d64591a2c273e33293ce69daab27be27432f15fa17bcd010687268c00897d236",
+    "frame-catalog-0.png": "bdd59178258892b697f0752cde44f852f946e43da10d5a44b28bad2898153fe8",
+    "frame-catalog-1.png": "324260d4cd5213e02fcb2fa627ffd3b0655774be46ae8d73dcf7bc054dd1cb55",
+    "frame-catalog-2.png": "1480e04cdc26e395b66611bdae8cfee2c9e6ae8a00940b4f507e420935045185",
+    "frame-culture-0.png": "9da19f8aeee5611a5734d605f96429cf5655ad5ac90e4f91600f8640c1c816f2",
+    "frame-culture-1.png": "5df4deb5bb66009fe1a889dd49a3acef47a0e4bad49f1a1d11baf49c99d580ed",
+    "frame-culture-2.png": "576443c5987404cdabdead7dc5fdc339ed8736b57aa9b0c353c51eff465aee09",
+    "frame-culture-3.png": "0e6d166840926b8225c5bb91f3949d90a3cd209c4d828c64fb1da9657b7adcf0",
+    "frame-culture-4.png": "80e14157859128d9f9992aa7b83f4a44c55c62b549d60f213a8cd9f3938f16db",
+    "frame-culture-5.png": "cd9e26ce7007793cc1255dc524d911308750e21f7894b8ac0c3bdbca298ce1d4",
+    "frame-culture-6.png": "3585826fb9cc23416dda4d9ef55e5221388c4fdbe178f5376bcdc449b1639a27",
+    "frame-customize-0.png": "5507346faa96abfb83c88ed3c9dcd9ee07ba86772ed2872f15bf7291bd3555a0",
+    "frame-customize-1.png": "5a0ac73ad992a9cdbc81f70c1b5c9b5d21a97d09d7423eb0e4158b39dcfc14ed",
+    "frame-customize-2.png": "204801401bfa5eae52d9b915e731224019bbb2d986032bec0580832751b6306f",
+    "frame-customize-3.png": "5349da0f7514e22ebe55118a10084415081ed28c1eb7ad8afaa97f0a2f5afc8c",
+    "frame-customize-4.png": "244c1d0f65d57578f67b1d4ebe888f587c9e269ebe635532a011807d9a1bf09e",
+    "frame-customize-5.png": "065ab5420b7f5e48552f765baefc6918c5a8583976cdc69aba9b9f95a8c7c338",
+    "frame-customize-6.png": "a44dc577558134d6535eec0e41d3a96dfac508c798c9e61d5472b49e67504e02",
+    "frame-customize-7.png": "675e951dfa229e7c389de69ba88632782352a6c207c6c00247a2dadb7ee2e6cb",
+    "frame-customize-8.png": "dc04f6e808b56c600bd2bf2162f53a2168f6049859486ecf388b39fead9778d2",
+    "frame-customize-9.png": "60c35064433618ff396db7d8824585d654c1491becefa78b98d642ea465de841",
+    "frame-detail-0.png": "39c9ac2d4ccfeafbef81a337f79ae4f886bd4ee34faff896ccaecba755cc05e2",
+    "frame-detail-1.png": "98541a5ccda563f7b3b1d15159a90965d9af9f49ad30fe46e7c3e37b0d327336",
+    "frame-detail-2.png": "166f8569321d72974ed2293ee82bad741cd5bfae64b89eafa8e79babb8dc0b3f",
+    "frame-detail-3.png": "ca918f60e1103734008143a617be3c213e6bd03463559ac0b965f55966802873",
+    "frame-detail-4.png": "9a022d143842c6aa69749b37d34bde688e2e131cc733bd224caad01e642caf3e",
+    "frame-experience-0.png": "212ea7c68b52d23c6b75fd0485a4d2ad5f01883a6431bba8b00d1f4e625b36fe",
+    "frame-experience-1.png": "2d110069a6ca46bbca00c16be32a50dce6e2d1cc6283bd21f03a83c2ecd6174c",
+    "frame-experience-2.png": "93ca77c1399dc3a739bb5711edb638f3a18b5adbd0f48523d773aefe8ef0e8b7",
+    "frame-experience-3.png": "59957673a80810d791cd10f6f9d0c8923ed99961b0a0af3ed0265b6d69b8fd8a",
+    "frame-experience-4.png": "562f5ff4c90616d9d86618437838aa1b263b72836c7e683b79e74330f31f2547",
+    "frame-generate-0.png": "844c3e2da4e411cf2ded740b68ef95e37687989d06e21271578e5257a5da42d3",
+    "frame-generate-1.png": "6ab3f969bd9527799de60574e6241e3f016d3fd7d51641ba2648bd037f043a02",
+    "frame-generate-2.png": "df2b81baff891e235eba18763a23ebea811dd9e1868bdbbbe76ef61dc3676b97",
+    "frame-generate-3.png": "608a921644b2e3ff6a6309199d933a307423f31588cc80ae7d82decf0ea0a94d",
+    "frame-home-0.png": "ea50cd5ccc2780b6caaafcd4fc1608b776b59926894b882bcd716af865ce967e",
+    "frame-home-1.png": "e1cf767ecddeb91fcf53842f5385cb8e80ac5db286b63d82719920b7184971db",
+    "frame-home-2.png": "252caaa2ddcd6039673d1a55edb26080be3f683046f375c0bd2a5850d881212d",
+    "frame-home-3.png": "070a94f2db30cb83d945255e44b0eef4373ef9d6de59d59b90a4c99e502525ee",
+    "frame-home-4.png": "44052d9ddab375ea2a85bd22ec8afcd261ed96301894b0181fe690b2ebdd3190",
+    "frame-home-5.png": "940e22c1bbb0f224ad4c64db4093de0701182c8a87bbf0e845d3e35cc29564ef",
+    "frame-home-6.png": "3c9d77a4fd10e4035106b8ed7196bc9fbfcfc47bf6837e7cc3e636a33d700255",
+    "frame-home-7.png": "3ad6ab1df7b7d050852a98a87f9941c0819cf2198acfa744530f4af0636c1c75",
+    "generate-mountains.png": "71eac4708fa1cfbeb8c69aed686154c2294da0e55570f21cb41d6bc729b037cd",
+    "generate-view.png": "3ea583873971d7f63823135b2f09ad4420c17f8583f493fc9da32a84475470bf",
+    "gold-0.png": "d4dad9be8c5f0587ffa0c3c3b5897a3864ce0306574d04bf103db6d85878513d",
+    "gold-1.png": "5cc450e30d4b7b17edbc91647bbedbee8fbe2a21ff65d3e3f0a13a427e057443",
+    "gold-2.png": "26484ac5841be7dd3fff6815e1cca8ab9ac088529e89748cc63505da9228f921",
+    "history-0.png": "2cca1b9aa58fb2784d786742bfc8c9e6bdc93c9767ae81232c088c1072a37562",
+    "history-1.png": "c03483e91a5ec931f4d5a882fca443ffcdf174bbb1cba1bb5f682c4034a42444",
+    "history-2.png": "cd5cbc7e23a87915be0fe07f8470b8ec66f6349344b41a6e11cf574045dadf90",
+    "history-3.png": "4b6eded2d0218f8df019c14e1b349d76831190a795c3d3d2ad73a2e3dbdbf0c2",
+    "history-4.png": "05d8bfa6ea2947e9cd85225bbe3e4fcb6cc5df914fd962ba8a6abe2c550818f1",
+    "history-5.png": "100d89c51336310e61daf4e93db163d58c55066427341cbaec877148738524d8",
+    "history-6.png": "2a860c59b5dc7bc7bf8873f96992e6eea4fbe507ad92a61ed14be9d96f16701c",
+    "history-7.png": "8a54d8e6999daaddf6a5441a06aeea0059a942e8063fce12e788693756d81fcf",
+    "home-culture-art.png": "750bc07f7b4d960af5311de46920dc4921d6914299b9c7e08701463db9b6bf6d",
+    "home-database-art.png": "054f8d2a516b5bf8c3e5b6516ab553da096d6cd438f3eeb4b24a6d6a8255953c",
+    "home-experience-art.png": "d391eaa7785bd890f034ef4e3cbe7986b2c3e8b8e85e67be63df4a814a01adbb",
+    "home-hero.png": "c0a37e72d1a30c374d964bf6bf73f5efea85162f17f30a0a85363540e40d2cac",
+    "home-quote-art.png": "5b6cd726aed17126fb3a68398821bf854c083f9ab88987eda40518f9e83ea384",
+    "home-style-0.png": "dd9eb24a2d79102d9cdc27f026544976c72d02ff800cd29409f21094d4cae544",
+    "home-style-1.png": "d2c2616276cddb95fa86e7462cb0b8869f802aad44dfc75c30a7a2aa02002ffc",
+    "home-style-2.png": "03c6be4a7aba5fe59b6b23104435aff620db5da94b9db9f4e93c56ffabe572ff",
+    "home-style-3.png": "449152f034b7a3ed5831e57acf5fe007710769f9e5d4ee5c9414752493982ec9",
+    "ink-0.png": "1e919071195001b4b3f2568ccb637a4bd80ef385ec8c1755a32aceccdfd32d87",
+    "ink-1.png": "8bfa7d043e060b181d4691bb0348d0fcfdfc7df13f007d08bcec1e017f3243c6",
+    "ink-2.png": "84d1c82e20812f2fe319c55b2f433a76ac5ca570cda20a389d6308c51759013f",
+    "ink-3.png": "ea1448264978ade9c692822a143fc340e29c507fab4a5520055eb273ed3e185e",
+    "ink-4.png": "0c61782c068816a2edbbbed4492d5f38b755520b78587c53ae89bf4d590ebab1",
+    "ink-5.png": "d4bee248a9944b2e46083d18ab1261cc8427e47a068280c87fd9831be18878e9",
+    "knob-0.png": "8b314b74bdfa150db26770c736644323b42578b89b0ad971fa6be92ec4dff925",
+    "knob-1.png": "ec06695ee73fee9b09aebd851a04ec462e2ec4b339d335cc455e57fe23b36479",
+    "knob-2.png": "35cb22f0897864f4ac5cbce368a4846c7f2ad740de5f41a677c00ac6b2a0d2a3",
+    "knob-3.png": "8eb5d61ea9fea032b95d242831292affd25fc2baab4e0498f80302c3b0b0e1c4",
+    "knob-4.png": "ab10027ef308e307782bb9baa9b60921173d860ad586bbd76ff847d8fb00c7ea",
+    "knob-5.png": "27c478b8c7222c9d32748c32f208e6579eef4280f2ab5ac549c78db55fd5cb7a",
+    "knob-6.png": "f0b5b3fdcc8b0ec6f961f3637dd341d7e2df72135b8dc54b2877dd403240da36",
+    "layout-0.png": "a52f8df151a4a88d4294fea53da853df07c91aa35a2411680500fc79ef39ca2a",
+    "layout-1.png": "354b74157686487f31229e0071f5dc4c5214ae9921bb22fe4f9f02e6af303919",
+    "layout-2.png": "1a229681e0a2277f7b6fb5cccf1eb3b690a3d08a38639f1476fe06bef941d9a4",
+    "layout-3.png": "c7fd1e3aafc62471f55052bfdfed27248b516bce73fc128e9a1385f3096add3e",
+    "material-0.png": "7bb76455d6aa59dab658f3c64c1c9b55518dd9a70d598216ddea71dbf815cb18",
+    "material-1.png": "aa7b678cdb77b7870ec9902aca70b16cf9c3026e096f81665173d45bc12db222",
+    "material-2.png": "9f377516f40e808d41273df48577270ae4ef2c7649e91ace8b5fed05d49ae5a9",
+    "material-3.png": "2379fd41c24ba62a5df41b675b136f495c082a1d0d501801ba238b8caa9e9ff6",
+    "material-4.png": "dd5c5f0754b194e7d765340bd3d30373ab46f537c5c989952d4b9788ea65cd6f",
+    "nav-account-0.png": "72a7ff688a83f4602680032adc2364ab361c8a320b491a79d16e339b075828ca",
+    "nav-account-1.png": "4479bbdca3f5c96f7e223be5c2da4a8e1d7100e23143863abd1c64aa6b2b7a62",
+    "nav-account-2.png": "5e9678504e97c1ac5bf36208abebb96362b5cd9d79f39e3ece73cf26df3b4bdf",
+    "nav-account-3.png": "8c8246ec0f91f8ca6848073857d0dcae376e589379aa0cb848e8ad75edcd99c2",
+    "nav-account-4.png": "28a71701823ff7a68d4914a8c0a5ec302602bee7e4f5724c62ef4ab092dd145b",
+    "nav-account-5.png": "22977e7b7a201432d41fadf70c8936553f62b0cf3590ec38c5befc8088f4c1a1",
+    "nav-account-6.png": "417313e000fcfca50edbc159406a734410bacd0e6cb0bab923dbd69a980dd769",
+    "nav-account-7.png": "c859eb35b90caf0d638c67709f6e9d7f785f1f48646e3193eee8e8ae36b81604",
+    "nav-active.png": "d1ebce26b72cb1c4f1806c4b2a0402dc53ed7459e219ccafb2821607ba3d8199",
+    "nav-catalog-0.png": "fcd4630b3517b0c0c3302dfdd861135920af1ede49da9bf972380ef9a075d675",
+    "nav-catalog-1.png": "dee7b0a0e990e761c281e9a01d61325fd9fa56a42513434c5ec32b2c8c914b31",
+    "nav-catalog-2.png": "9fdb72e5b70f4714c0756971efb889e887cd4ccfdee4a004387c8b9f960a5803",
+    "nav-catalog-3.png": "61034b20e07c53a4eeac13e7ba8287fa15c62f5276461fe6a4d3d8d2ff123863",
+    "nav-catalog-4.png": "6dad878e103255575b60ad65aa60bcaa7aacd553ef53da6d7a5a1da10df70be3",
+    "nav-catalog-5.png": "1509b2451964d6d6b1154aef360222431a3475dcd34e59dbf31f0cbfa82079b3",
+    "nav-catalog-6.png": "ee6f5b4f1be82c01349455e8c4271cee3ac3d3f5439cc412e04269b9908f408e",
+    "nav-culture-0.png": "117e25d92cd99d96a4da31983ebc64a44bec033ee8a77f5e96992c604c9dc217",
+    "nav-culture-1.png": "6f725a10f3df9b854c98dbdc55923329525dedf9ad6ccbcf2e060045892d62c8",
+    "nav-culture-2.png": "339ad6a74891563c1cbe5a3365f7af7a44d086f1f5ac79b7d1a4fc7a02b2624c",
+    "nav-culture-3.png": "afe2a33c18e68533813424c475cc5a92ca33f75c0d3613552079499350e620e3",
+    "nav-culture-4.png": "a33cac4f4fdcd8092c933e6290fd13db49559215b0db333d8533561ebbee6806",
+    "nav-culture-5.png": "62417157b518bf25e6d45e90403347567a098840197bd8b4034485f01f7d3cec",
+    "nav-culture-6.png": "c8cea3ec848d188d1ffdc428245781b12d6d8d017df544421fb7f33599d76af2",
+    "nav-customize-0.png": "932f768ba28274c466084bd44c144a5df709af076110f57e51e23fd0946c71cc",
+    "nav-customize-1.png": "1fc655d6a477f707ca75f7fb4185e9f80b7eba7056d660a6baf86a104cfa81af",
+    "nav-customize-2.png": "1a18701e0a6b2d1543708dee218133f83edb489cdd7fe6dca37d9d43aade9f2b",
+    "nav-customize-3.png": "67ead51f5825aec0fb720a41a464a75bd143321cc95c8384040405ff7b82c361",
+    "nav-customize-4.png": "8a8fae3aff311c2e6ad41f7c65fc0a9691bb5abbb79dfb7402cb39f0de517678",
+    "nav-customize-5.png": "b113c1ecec750ca89491fcf4f5c1e01c44a3b06188229bf3ab8fe7e6d06fdfa5",
+    "nav-customize-6.png": "b0a055c2d5a0fe75d6ac4560f676f882eaa192880568e3568342085a9adf413c",
+    "nav-customize-7.png": "01ca881054f4e95faadfa58bd6511607da75513d6c258a2ab41441c800580a5f",
+    "nav-detail-0.png": "714238a1efa6e7c438f3ac2055219e535dcb082272fbc55e83f2bd3317e577ce",
+    "nav-detail-1.png": "02332afd60648123fbd84e6381825724a7bbf3adad17219a71c1928a958e5544",
+    "nav-detail-2.png": "a8d377cc9841ec7a78d4a5388efb1da98d7c373cb2aec6d328f43c3fedae4a70",
+    "nav-detail-3.png": "210da6f6a050e924e6b5e150d435c4d34d55f0472715cf6abfe96e831929e1fe",
+    "nav-detail-4.png": "3643ff3593f59d941b078b4a9b9dc29d974be4c6d6149d4fa27496666073e72b",
+    "nav-detail-5.png": "5ef07b78aeaeb4e4799143afe336c47a019a414f1f094d0f6af292109634a005",
+    "nav-detail-6.png": "b7edd48707a35f5677d2da65b94aa35c9b8b99dccbeddd859ac17b1e4722bd4b",
+    "nav-experience-0.png": "0e331d3b3ae83edf2a7cb8b1cd0feae47a510c70b3965cc770612d01d64dafa1",
+    "nav-experience-1.png": "8dfaa7811f8f15a3d6b22cf8b28da8fd317936ac7736b80b54a0fe5397b97e90",
+    "nav-experience-2.png": "74648562abba073b4313fc739e4e682d993931f38a039ed964201abeb48a4368",
+    "nav-experience-3.png": "55004613c90293339fb241f01a5ad97b523d14ce03d9ce8137cb0551607324e4",
+    "nav-experience-4.png": "1bed41a645b7e9847a2648baf717903c4a01d555bbfef60ba9a603c25b6f6a15",
+    "nav-experience-5.png": "e990d934c9b03e9bf9d467cc06dca0ab814c9489f13ba4082377e31572ca2de0",
+    "nav-experience-6.png": "f3e75221d2a8ab3ec489b2567035c29fbfbe4be31796831738fa95991e9860fe",
+    "nav-generate-0.png": "972de1fa035b967d93bc9a937e565cd570ef8421c2fd6b1264b71bb3ae1f8e3e",
+    "nav-generate-1.png": "0240d441d2abf030c53e5efce781bdb7d80ee671108627f586d27f300c86cae8",
+    "nav-generate-2.png": "4d481894d7822b9cc617932d17819d5cc2a3a21c3d1950ad7a7358a5492fa728",
+    "nav-generate-3.png": "c6fc2e8b4a101a8c77776ecd06a4bd6e1e407dab594fcec4ce2eb4270b08ecda",
+    "nav-generate-4.png": "fd9d2832069b62be829e3e797b75282b357cc6367d1f1a6810748cbb6f47217e",
+    "nav-generate-5.png": "e55be38bfade429e106491381b358bc9f47a35783d357cbccfb55d50f4ad2c47",
+    "nav-generate-6.png": "97da41c881ea2f13f436e473b4efdbc0d98f46ce930cc482e7a7edb5e79f1b0f",
+    "nav-home-0.png": "a7b94b613891b9a89caefaa7c9b30b09bf44506bee9dd966e389e6e835cb0299",
+    "nav-home-1.png": "e866c5af4b0adda61a45ead52d0bf6a91a6628ca0bf257da5c30b038b2d2de64",
+    "nav-home-2.png": "307fcfda8deb8b4ba0b6d8d29c1e19365d77fcf8da8f3bb58e77bb0a554c60ac",
+    "nav-home-3.png": "58976e1964f8ccf9d9d41e5a9bed6bb6714ad906009cfb5f53759a64bcb3cd24",
+    "nav-home-4.png": "285f76a8cf8d718438a3559245f7ad54b36166f555408472f5c8759c40961922",
+    "nav-home-5.png": "70f1dd18ef8dd7c5767c201fe571bb4cf25f0da3015a1439f6838636702134c8",
+    "nav-home-6.png": "3f5b29c44cf702777c887ec88af9f092c71b81d249ad50ea029be904c21de714",
+    "panel-frame.png": "9d520b1ab26b11b5967d6bde5f2b4d68eb8fb4d504e2571a11ca52240f52cdda",
+    "published-0.png": "4434fc0eb24aa00284f033b5bee58739a654db09796701bc81fd6cd641fb2185",
+    "published-1.png": "eeb31b14dcb98073a8f9cdaa1cc5aae2fd5123a503956c7b315bfb4a80a7b26f",
+    "published-2.png": "cce7f26bf90b476d2b5da642be959b1ffa54be6e4510766f3100adebe61474d7",
+    "recent-0.png": "e097a0a4769fe32454c4505e41cbfc6c130168424f6900703695b11a60ba3aa2",
+    "recent-1.png": "05423e88d4b323e2d0e46ee3e12891d424b592cfd5753d75486b549717f77a39",
+    "recent-2.png": "ab00cf18de9969db4343fed82e9f7f6488d1eb34ed3685db2417546a58084cee",
+    "recent-3.png": "5febbc0a9684c2db1dbc0b5622445de1969ae9af4bfd3c30fb0de9f68eb0e4b7",
+    "red-texture.png": "e36cb8eb1197b8cec274e41d2c7b607abbc8c2c47f98df11ded242237aad4c43",
+    "scheme-0.png": "27f47285479785dbc0a3ff2fba37848046ac0982fe7c1826bcc37152fe928ab5",
+    "scheme-1.png": "87c1eaa62f6623fff6f85978e3848c4caa80864bb4a6da243400cafb47cd59b5",
+    "scheme-2.png": "21fbb67f748bce22a4e8d0dd59d656a6e8da2e78a27902b7d5fabc5c8dd7cd12",
+    "scheme-3.png": "0ed0b2b1ce5b4c88e2fca57377c587e457b4a5e55445cf55feebfcd7af6de186",
+    "shape-0.png": "57e189ed975be7f1d54dde42772b7eac0474a0e2513b7e1f4e8ff3aebd176ab0",
+    "shape-1.png": "f8bc07aaf078e783bde412065e369729a8aa8709572c12d00ab29d64b34657ac",
+    "shape-2.png": "58e5bf0ea4a86186f722b4db012449df7bd41c334ad000bf1150b51fdf2646aa",
+    "shape-3.png": "04a7385a7bee860d4511a5a3fe3850e274d497f163719c73dc47d319e0845a21",
+    "shape-4.png": "8fad85d5a17147abee96d92d131c3a126980b82d833349a38c589790705224a5",
+    "sidebar-bottom.png": "8f6fe4cc5aaaa9632e8390765a1a3a67f11356fb30da54f7f980cc34ff15c2cc",
+    "sidebar-catalog.png": "db3c251888d3282a176891c5de5d41d7e7f8c9d4c517dd16e92ad9ddae78dcd8",
+    "sidebar-scenery.png": "0cda78d8287ec8b43e327c3d134011b9ec22fd618a4a0260a86d46ca34104511",
+    "sidebar-texture.png": "5c6d002e8f500a7b8222a8bb5effcd6b57aa2cdea28ddc031f59c0517cf9b276",
+    "small-button.png": "b92c46e7be939b715b728c126db2691f74cbbe27c6d1212cd5a58fe3f217ae67",
+    "stone-0.png": "8674e6c2a83862ccd4ef914aeb77ca3e7290a90493e28b5ea8635d468c4bced9",
+    "stone-1.png": "b87cec2866bd9ca2fd658a82e4b57c24b8c1f5e574e586157a035dd2203e3730",
+    "stone-2.png": "42afc942651991f1334672c2d2210117ab51167410890e291905165741507b88",
+    "stone-3.png": "a19187b54c279e23091020adfb3a41be72dcd45a3b5adb4f05f10cc39d2242e9",
+    "stone-4.png": "c05a6380a894adeb85b983aed01d518b751d08b23c22edd9eaa508fc7790c9b7",
+    "stone-5.png": "e490780a9179f0aa9c38c6c05f6fdae5900272d69de289af443e644ab9c3bbaf",
+    "stone-6.png": "2fc0ccbbd4317951c52dcbacdbce2b23dc4be176c8a43ac7c14810cc736f0c1b",
+    "stone-7.png": "dd4a9a7d0686183a50dd5b3e0a828cacdb491d75642321d16f0064dfba886e5a",
+    "style-0.png": "f87e3fdd0a82614184a518859540fb2564e42236874e98c2ba2663721261e1f0",
+    "style-1.png": "b2697b3cb074f0736f3b0065ac8cbdcc9ed9b91e153723ce1cc7f8342eaf7bfa",
+    "style-2.png": "9a4720735dfa3039811d2a088845a69d43efcfc7890c520451d61c6086a86260",
+    "style-3.png": "d98bc37faf64134f44e941fb6b7c954cab7de24af76394500d057c28eb8add87",
+    "style-4.png": "cd0bbc5866af15c5b6f48d62ed0849ad3623db4d2c6015354b57c21a836b3e8b",
+    "surface-texture.png": "b9faf694a4517f81ca9c63b4477e5c5bec375d563838575190b3040aff434b2b",
+    "tool-bell.png": "967ddde82f9d5100aab91a2e3b1d67b43e3fc09e9758e78f785662f83f7dbdee",
+    "tool-moon.png": "bb7f25fa6f03ca9090187ba6bdc6cbb6de62a022ec2d87a8d605b0c559d84106"
+  },
+  "refinements": "Source crops for clean panel borders, static brush title, floor, layout and account images; baked action glyphs removed under native controls.",
+  "icon_provenance": "Sidebar and topbar icon artwork extracted from user reference images; live controls retain accessible names and event handlers.",
+  "panel_frame_mapping": {
+    "home:1266:76:386:312": "frame-home-0",
+    "home:196:397:1047:160": "frame-home-1",
+    "home:1255:398:397:159": "frame-home-2",
+    "home:231:762:1421:161": "frame-home-3",
+    "home:196:569:344:180": "frame-home-4",
+    "home:554:569:354:180": "frame-home-5",
+    "home:922:569:362:180": "frame-home-6",
+    "home:1300:569:351:180": "frame-home-7",
+    "generate:197:69:444:850": "frame-generate-0",
+    "generate:641:69:579:678": "frame-generate-1",
+    "generate:1220:69:433:678": "frame-generate-2",
+    "generate:641:749:1012:170": "frame-generate-3",
+    "catalog:186:338:257:601": "frame-catalog-0",
+    "catalog:1327:258:327:350": "frame-catalog-1",
+    "catalog:1327:615:327:324": "frame-catalog-2",
+    "detail:1118:76:534:307": "frame-detail-0",
+    "detail:1118:398:534:243": "frame-detail-1",
+    "detail:236:703:869:216": "frame-detail-2",
+    "detail:1118:650:534:130": "frame-detail-3",
+    "detail:1118:789:534:140": "frame-detail-4",
+    "culture:183:201:1038:270": "frame-culture-0",
+    "culture:1230:202:426:275": "frame-culture-1",
+    "culture:183:483:1038:289": "frame-culture-2",
+    "culture:1230:486:426:248": "frame-culture-3",
+    "culture:183:780:610:145": "frame-culture-4",
+    "culture:804:780:418:145": "frame-culture-5",
+    "culture:1230:742:426:183": "frame-culture-6",
+    "customize:582:65:1074:51": "frame-customize-0",
+    "customize:268:177:211:332": "frame-customize-1",
+    "customize:951:177:173:305": "frame-customize-2",
+    "customize:1166:141:490:345": "frame-customize-3",
+    "customize:181:598:288:309": "frame-customize-4",
+    "customize:472:598:230:309": "frame-customize-5",
+    "customize:706:598:337:309": "frame-customize-6",
+    "customize:1047:598:323:309": "frame-customize-7",
+    "customize:1375:598:281:185": "frame-customize-8",
+    "customize:1375:790:281:117": "frame-customize-9",
+    "experience:212:515:273:288": "frame-experience-0",
+    "experience:499:515:273:288": "frame-experience-1",
+    "experience:786:515:273:288": "frame-experience-2",
+    "experience:1073:515:273:288": "frame-experience-3",
+    "experience:1360:515:273:288": "frame-experience-4",
+    "account:190:246:1463:118": "frame-account-0",
+    "account:190:378:1031:562": "frame-account-1",
+    "account:1238:378:416:236": "frame-account-2",
+    "account:1238:625:416:153": "frame-account-3",
+    "account:1238:790:416:135": "frame-account-4"
+  }
+}

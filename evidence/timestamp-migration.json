@@ -1,0 +1,22 @@
+{
+  "backup_written_outside_delivery": true,
+  "row_counts_before": {
+    "seals": 2,
+    "artifacts": 9,
+    "events": 10,
+    "knowledge": 4
+  },
+  "row_counts_after": {
+    "seals": 2,
+    "artifacts": 9,
+    "events": 10,
+    "knowledge": 4
+  },
+  "datetime_precision": {
+    "artifacts": 6,
+    "events": 6,
+    "seals": 6
+  },
+  "existing_values_preserved": true,
+  "reason": "Prevent latest-annotation ambiguity for multiple saves within the same second"
+}

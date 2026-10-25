@@ -1,0 +1,7 @@
+{
+  "experimental_service_enabled": true,
+  "production_missing_stroke_restoration_enabled": false,
+  "ancient_seal_ocr_enabled": false,
+  "model_sha256": "b30a7fa8595e4f84fc67905aba78d28d482257530a17727b13fb235aaf3b8db3",
+  "evidence": "../../evidence/lab-service-verification.json"
+}

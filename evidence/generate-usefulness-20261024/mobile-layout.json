@@ -1,0 +1,56 @@
+{
+  "body": [
+    388,
+    2625
+  ],
+  "panels": [
+    {
+      "client": [
+        283,
+        919
+      ],
+      "cls": "im-rect im-panel gw-panel gw-design",
+      "scroll": [
+        283,
+        919
+      ]
+    },
+    {
+      "client": [
+        283,
+        507
+      ],
+      "cls": "im-rect im-panel gw-panel gw-preview",
+      "scroll": [
+        283,
+        507
+      ]
+    },
+    {
+      "client": [
+        283,
+        737
+      ],
+      "cls": "im-rect im-panel gw-panel gw-output",
+      "scroll": [
+        283,
+        737
+      ]
+    },
+    {
+      "client": [
+        283,
+        162
+      ],
+      "cls": "im-rect im-panel gw-panel gw-history",
+      "scroll": [
+        283,
+        162
+      ]
+    }
+  ],
+  "viewport": [
+    388,
+    844
+  ]
+}

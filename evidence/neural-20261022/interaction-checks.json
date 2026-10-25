@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22",
+  "target": "http://127.0.0.1:5173/graph",
+  "method": "Actual IAB browser interactions and rendered DOM observations through CUA; no mocked API results.",
+  "desktop": {"viewport": [1620,911],"rendered_nodes":61,"rendered_edges":126,"flow_particles":756,"webgl_canvas_count":1,"label_layer_count":1,"horizontal_overflow":false,"warn_or_error_logs":[]},
+  "checks": [
+    {"action":"Click the visible label for 梦","observed":"Node detail shows Unicode U+68A6 and four actual seal-draft relations","passed":true},
+    {"action":"Expand around 梦, one hop","observed":{"nodes":5,"edges":4},"passed":true},
+    {"action":"Drag central canvas","observed":"Visible 梦 label projection changed from (715.61,589.255) to (705.349,586.805)","passed":true},
+    {"action":"Click actual Fudan core on the WebGL canvas at (882,253)","observed":"Fudan resource tooltip and details, zero object relations, homepage-only scope","passed":true},
+    {"action":"Select 人生如梦→梦 relation, then refresh search","observed":"Same relation evidence remains selected after actual API refresh","passed":true},
+    {"action":"Search 梦","observed":{"nodes":15,"edges":32,"particles":192,"matched":5,"context":10},"passed":true},
+    {"action":"Search 没有这条印稿xyz","observed":{"nodes":0,"edges":0,"particles":0,"empty_state_visible":true},"passed":true},
+    {"action":"Toggle radial→3D→hierarchy→3D","observed":"One WebGL canvas and one CSS label layer on return; neural layer absent in 2D; no warn/error log entries","passed":true},
+    {"action":"Open source panel","observed":"Four actual source states visible, including Fudan catalog not imported","passed":true},
+    {"action":"Find path 人生如梦→梦 under current filters","observed":"One real relation shown, with notice distinguishing association from historical transmission","passed":true},
+    {"action":"Toggle pause and play","observed":"Paused central scene remains identical; playing central scene changes. Separate raw captures and motion-comparison.json retained","passed":true},
+    {"action":"389×844 viewport: enter and exit immersive mode","observed":"No horizontal overflow; bloom disabled initially; exit button is inside 70px header; graph ready with 61 nodes,126 edges,252 particles","passed":true},
+    {"action":"Culture real mode: click embedded Fudan label","observed":"Navigates to graph?node=<actual-id>, displays matching Fudan detail; same actual graph and business counts","passed":true}
+  ],
+  "limits":["Viewport emulation is not a physical phone or HarmonyOS validation","No deliberate WebGL initialization failure/context-loss injection","FPS readout is not a portable performance guarantee","8 original museum screenshots still have an independent blocked 1:1 report"]
+}

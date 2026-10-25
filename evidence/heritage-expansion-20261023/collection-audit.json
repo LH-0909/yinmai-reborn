@@ -1,0 +1,241 @@
+{
+  "indexed": 314,
+  "checked": 150,
+  "accepted": 119,
+  "quarantined": [
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229680.html",
+      "title": "白玉鼻钮“絑『0553』”印",
+      "reason": "missing_glyph_in_title"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229079.html",
+      "title": "燕国铜鼻钮“外司炉鍴”鉨“",
+      "reason": "unbalanced_quotation_in_official_title"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/228511.html",
+      "title": "铜瓦纽“『0116』邑尉印”",
+      "reason": "missing_glyph_in_title"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229959.html",
+      "title": "铜鼻钮青鸟图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229835.html",
+      "title": "铜鼻钮追水豹图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229830.html",
+      "title": "铜鼻钮吐火魔术图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229823.html",
+      "title": "铜鼻钮郁儡图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229821.html",
+      "title": "铜鼻钮舞乐杂技图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/229803.html",
+      "title": "铜神虎逐鬼图案印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233264.html",
+      "title": "兔纹印押",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/262031.html",
+      "title": "花寿山石“琴书清乐”印",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233475.html",
+      "title": "兰亭序印章",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/259335.html",
+      "title": "“戊辰翰林”寿山石章",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/260031.html",
+      "title": "青玉制《清文翻译全藏经序》册",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/234692.html",
+      "title": "二十五宝玺",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/259327.html",
+      "title": "“甲辰榜眼”寿山石印",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/259300.html",
+      "title": "“人生惟有读书好”石章",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/232963.html",
+      "title": "紫砂覆斗纽“受命于天既寿永昌”传国玺",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/232759.html",
+      "title": "昇平署木印",
+      "reason": "no_unique_accession_container"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233622.html",
+      "title": "碧玉虎纽“宝亲王宝”、“长春居士”连珠印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233587.html",
+      "title": "白玉螭纽“匊水月在手”印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/262035.html",
+      "title": "碧玉雅正希音册",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/234698.html",
+      "title": "田黄石乾隆帝三联印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233620.html",
+      "title": "青玉交龙纽“太上皇帝之宝”",
+      "reason": "conflicting_material_in_caption"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233615.html",
+      "title": "青田石螭纽“乾隆敕命之宝”",
+      "reason": "conflicting_material_in_caption"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233003.html",
+      "title": "铜柱纽“广储司印”",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233665.html",
+      "title": "寿山石龙凤瑞兽纽“慈禧皇太后御览之宝”",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233638.html",
+      "title": "鸡血石“咸”“丰”对印",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/233943.html",
+      "title": "寿山石“宣统御览之宝”",
+      "reason": "photo_caption_mismatch"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/262061.html",
+      "title": "“张懿印信”“钜鹿下曲阳张懿仲然”辟邪钮铜套印",
+      "reason": "AssertionError"
+    },
+    {
+      "status": "quarantined",
+      "url": "https://www.dpm.org.cn/collection/seal/259998.html",
+      "title": "藏文“大明皇帝谕旨”“皇帝仁波切”木两面印",
+      "reason": "AssertionError"
+    }
+  ],
+  "published_collection_records": 125,
+  "local_photos": 125,
+  "local_impressions": 106,
+  "period_disagreements": [
+    {
+      "node_id": "node-76e00d10ca86d95a8c95b326e728",
+      "official_title": "瓷云龙纽“乐善堂”宝",
+      "period_index": "清雍正",
+      "period_body": "清康熙",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233642.html"
+    },
+    {
+      "node_id": "node-ffecfe3c1797c4bc3b8095fb1a87",
+      "official_title": "寿山石“破尘居士”印",
+      "period_index": "清雍正",
+      "period_body": "清康熙",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233602.html"
+    },
+    {
+      "node_id": "node-cf7e9889ea95504762ca3e1d7e90",
+      "official_title": "田黄石“三希堂”印",
+      "period_index": "清乾隆",
+      "period_body": "清嘉庆",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233657.html"
+    },
+    {
+      "node_id": "node-376fd3b99693240321b4a219c8f1",
+      "official_title": "白玉螭纽“落花满地皆文章”印",
+      "period_index": "清乾隆",
+      "period_body": "清雍正",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233598.html"
+    },
+    {
+      "node_id": "node-e82075b34bf7dea6b9f0992bf7ad",
+      "official_title": "玛瑙螭纽“菑畬经训”印",
+      "period_index": "清乾隆",
+      "period_body": "清雍正",
+      "page_url": "https://www.dpm.org.cn/collection/seal/233593.html"
+    }
+  ],
+  "institutions": {
+    "故宫博物院": 120,
+    "中国国家博物馆": 3,
+    "南越王博物院": 2
+  },
+  "bibliography_citations": 20,
+  "bibliography_full_texts_read": 0,
+  "extraction_scope": "Automated field/title/image match with explicit exceptions and sampled inspection; not independent artifact authentication"
+}

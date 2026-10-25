@@ -1,0 +1,28 @@
+✔ all actual claims retain their real endpoints in the 3D scope (0.6866ms)
+✔ one-hop scope excludes unrelated records and includes explicit path context (0.24ms)
+✔ spatial layout is finite, deterministic and preserves source data (17.489ms)
+✔ every moving particle belongs to an existing relation and budget is bounded (1.1463ms)
+✔ real Three.js ray intersections respect depth for an overlapping line and node (2.8526ms)
+✔ physical gallery requires exact official accession, page receipt and object identity (0.9598ms)
+✔ an official-looking URL or manual claim does not establish a physical collection object (0.1905ms)
+✔ physical gallery excludes all fourteen unproven draft objects from scope and frequency (5.7878ms)
+✔ three official photos and impressions preserve source captions, identities and file hashes (4.0273ms)
+✔ a preview requires matching object ID, title, page URL and bounded local path (0.1574ms)
+✔ reading order comes from recorded positions and excludes unrelated node labels (0.1179ms)
+✔ related prints and comparison use shared transcriptions, never fabricated inter-seal claims (0.698ms)
+✔ reading and association scopes preserve actual evidence IDs and original data (0.4753ms)
+✔ spatial reading layout has only visible IDs, a real anchor and finite deterministic positions (0.5059ms)
+✔ character counts measure distinct actual seal records even if an edge is duplicated (0.7243ms)
+✔ all fourteen packaged previews match original record identity and verified file hashes (3.2537ms)
+✔ candidate/rejected claims cannot become reading text, related prints or statistics (0.7698ms)
+✔ parallel documentary evidence stays available without double-counting letters or claims (0.2564ms)
+✔ registry cross-object IDs, cross-object filenames and invalid dimensions are rejected (0.184ms)
+✔ image source document wins over first-edge order and candidate documents (0.1931ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 325.384

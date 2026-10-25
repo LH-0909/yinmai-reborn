@@ -1,0 +1,19 @@
+{
+  "actual_original_png_files": 13646,
+  "split_counts": {
+    "train": 11144,
+    "validation": 1167,
+    "test": 1333,
+    "excluded": 2
+  },
+  "source_bytes": 235776613,
+  "all_source_sha256_verified": true,
+  "original_files_modified": false,
+  "page_group_overlap": false,
+  "baseline_selected": 2304,
+  "ocr_labels_available": false,
+  "undamaged_targets_available": false,
+  "annotation_candidates": 100,
+  "manifest_path_base": "Each JSONL file directory",
+  "first_batch_replay_verified": true
+}

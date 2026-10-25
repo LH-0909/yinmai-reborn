@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-22",
+  "counts": {
+    "nodes": 61,
+    "edges": 126,
+    "documents": 15,
+    "receipts": 18,
+    "matched": 61,
+    "context": 0,
+    "by_kind": {
+      "character": 39,
+      "collection": 1,
+      "document": 1,
+      "resource": 4,
+      "script": 1,
+      "seal_draft": 14,
+      "seal_type": 1
+    }
+  },
+  "sources": 4,
+  "source_receipts": 18,
+  "exports": {
+    "json": {
+      "bytes": 102625,
+      "sha256": "9af4e0445de37101f72eeca053698d461c61543d21cb3bca61533db09e16a6d1"
+    },
+    "turtle": {
+      "bytes": 71105,
+      "sha256": "c675ded5885c72dd71b02f688633e53a4e54f4aedd8eb0f17bb473cee00f7d78"
+    },
+    "json-ld": {
+      "bytes": 200196,
+      "sha256": "e3eb379e7e4ae4aba313d58e22720840c8c368929d825cc28716753062f6ea44"
+    }
+  },
+  "database": "real MySQL",
+  "frontend_build": "passed",
+  "backend_tests": 79,
+  "expert_historical_verification": false,
+  "training_permission_imported": false
+}

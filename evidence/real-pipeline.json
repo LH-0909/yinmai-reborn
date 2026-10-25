@@ -1,0 +1,51 @@
+{
+  "seal_id": "6cdde91a-7d82-4b82-b2bb-99c6611669c4",
+  "source_kind": "synthetic_test",
+  "artifact": {
+    "id": "2d43ae78-6d3c-45ed-babb-3315af1fd7c8",
+    "kind": "stl",
+    "url": "/api/files/2d43ae78-6d3c-45ed-babb-3315af1fd7c8",
+    "metadata": {
+      "faces": 36860,
+      "style": "zhu",
+      "units": "mm",
+      "engine": "heightfield-to-STL",
+      "mirror": true,
+      "sha256": "2255adac28ec47ff472e047d40c7969a1796102899354481b74b432a0bdb4be7",
+      "base_mm": 8.0,
+      "vertices": 18432,
+      "width_mm": 30.0,
+      "bounds_mm": [
+        [
+          -15.0,
+          -15.0,
+          0.0
+        ],
+        [
+          15.0,
+          15.0,
+          9.2
+        ]
+      ],
+      "relief_mm": 1.2,
+      "limitation": "由二维印文构建的印面浮雕，不是文物真实形制复原；STL本身不携带单位",
+      "resolution": 96,
+      "volume_mm3": 7335.942,
+      "watertight": true,
+      "ai_inference": false,
+      "source_artifact_id": "a84590d3-1abe-4cc8-9f0a-84b620197406",
+      "winding_consistent": true
+    },
+    "created_at": "2026-10-19T05:00:37+00:00"
+  },
+  "download_bytes": 1843084,
+  "reload_watertight": true,
+  "reload_winding_consistent": true,
+  "reload_volume_mm3": 7335.942408767228,
+  "extents_mm": [
+    30.0,
+    30.0,
+    9.199999809265137
+  ],
+  "physical_trial_performed": false
+}

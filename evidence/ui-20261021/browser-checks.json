@@ -1,0 +1,74 @@
+[
+  {
+    "page": "01-home",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 15,
+    "height": 941,
+    "links": 22,
+    "width": 1672
+  },
+  {
+    "page": "02-generate",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 74,
+    "height": 941,
+    "links": 9,
+    "width": 1672
+  },
+  {
+    "page": "03-catalog",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 33,
+    "height": 941,
+    "links": 36,
+    "width": 1672
+  },
+  {
+    "page": "04-detail",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 29,
+    "height": 941,
+    "links": 11,
+    "width": 1672
+  },
+  {
+    "page": "05-culture",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 62,
+    "height": 941,
+    "links": 9,
+    "width": 1672
+  },
+  {
+    "page": "06-customize",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 73,
+    "height": 941,
+    "links": 10,
+    "width": 1672
+  },
+  {
+    "page": "07-experience",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 17,
+    "height": 941,
+    "links": 9,
+    "width": 1672
+  },
+  {
+    "page": "08-account",
+    "alerts": [],
+    "brokenImages": [],
+    "buttons": 71,
+    "height": 941,
+    "links": 12,
+    "width": 1672
+  }
+]

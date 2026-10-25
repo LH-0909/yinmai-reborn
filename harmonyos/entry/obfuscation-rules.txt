@@ -1,0 +1,3 @@
+# Add project-specific obfuscation rules before enabling release obfuscation.
+# The starter keeps obfuscation disabled in entry/build-profile.json5 so the
+# source remains easy to audit while the app is being evaluated.

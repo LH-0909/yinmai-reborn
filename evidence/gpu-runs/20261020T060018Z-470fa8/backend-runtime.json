@@ -1,0 +1,19 @@
+{
+  "torch": "2.14.1+cpu",
+  "model_sha256": "28c104376c5d99688137b5c53c6f18737b1561571859ec2e4e08eb059081b93e",
+  "shape": [
+    1,
+    3,
+    256,
+    256
+  ],
+  "finite": true,
+  "range": [
+    0.0,
+    1.0
+  ],
+  "reference_written": false,
+  "business_model_enabled": false,
+  "max_absolute_difference": 0.0,
+  "allclose_atol_1e-5": true
+}

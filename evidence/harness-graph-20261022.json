@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22",
+  "mode": "Advice",
+  "authenticated_existing_session": true,
+  "exit_code": 0,
+  "elapsed_seconds": 205.3,
+  "read_calls": 4,
+  "failed_calls": 0,
+  "other_tools_observed": false,
+  "control_plane_changed": false,
+  "permission_requested": "read-only",
+  "permission_enforcement_verified": false,
+  "findings_addressed": [
+    "assertion origin is retained independently of review result",
+    "source homepage receipts retained and exposed",
+    "RDF preserves evidence, attributes and review provenance as cited claims",
+    "path search uses the current filters",
+    "manual citation host must match its source"
+  ],
+  "runtime_test_performed_by_harness": false,
+  "codex_backend_tests_passed": 79
+}

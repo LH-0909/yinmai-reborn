@@ -1,0 +1,7 @@
+{
+  "new_page_receipts_hash_checked": 122,
+  "immutable_core_receipts": 3,
+  "sample_image_tiles": 23,
+  "source_page_checks": "Every new entry matches cached official HTML SHA256; index-backed fields match saved index receipt SHA256.",
+  "limits": "This checks acquisition and mapping, not independent historical authentication or a claim that every catalogue main image is a physical-object photograph."
+}

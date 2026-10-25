@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "browser": "Codex IAB",
+  "favorite_reload_persisted": true,
+  "favorite_original_state_restored": true,
+  "keyword_search": "长乐未央 -> one matching card",
+  "native_typesetting_ui_completed": true,
+  "actual_stl_ui_previewed": true,
+  "actual_stl_download_href": "/api/files/36c672a7-c459-4f05-9bf8-b397e47032d1",
+  "saved_customization": {
+    "verified_in_mysql": true,
+    "source_kind": "parameter_draft",
+    "layout": "square",
+    "depth": "71"
+  },
+  "screenshots": [
+    "actual-typeset.png",
+    "actual-stl.png"
+  ],
+  "automated_backend_tests": 65,
+  "front_end_build": "passed",
+  "not_claimed": [
+    "trained seal-style font",
+    "ancient OCR",
+    "missing-stroke restoration",
+    "lion-knob generation",
+    "AR/VR",
+    "HarmonyOS compilation"
+  ]
+}

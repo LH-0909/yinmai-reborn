@@ -1,0 +1,10 @@
+{
+  "session_id": "session-83e0ba7d-a95d-4ec4-b871-0faf256f1386",
+  "exit_code": 1,
+  "mode": "Execute",
+  "failed_tool_calls": 0,
+  "control_plane_changed": [],
+  "successful_file_mutations": 37,
+  "reason": "Provider returned Insufficient Balance after partial HarmonyOS source creation",
+  "challenge_verified": true
+}

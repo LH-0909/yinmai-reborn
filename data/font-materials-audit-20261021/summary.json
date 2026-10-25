@@ -1,0 +1,28 @@
+{
+  "task": "font_style_generation_material_inventory",
+  "root": "C:\\Users\\pc\\Documents\\Codex\\2026-10-19\\referenced-chatgpt-conversation-this-is-an\\outputs\\yinmai-training-data\\images",
+  "material_state": "uncurated_images",
+  "source_images_modified": false,
+  "directory_names_interpreted_as_training_splits": false,
+  "image_files": 13646,
+  "readable_images": 13646,
+  "unreadable_images": 0,
+  "short_edge_under_32": 2,
+  "byte_duplicate_groups": 0,
+  "byte_duplicate_extra_copies": 0,
+  "character_labels_assigned": 0,
+  "style_labels_assigned": 0,
+  "font_split_assigned": false,
+  "ready_for_seal_font_training": false,
+  "next_required": [
+    "image-type review: whole seal / single character / other",
+    "select one coherent target style",
+    "single-character boxes and checked transcription",
+    "duplicate and character identity review before final split"
+  ],
+  "limitations": [
+    "Byte hashes do not detect all visual duplicates",
+    "Readability does not establish historical character identity or training suitability",
+    "Old train/validation/test folder names are ignored for the font task"
+  ]
+}

@@ -1,0 +1,27 @@
+<script setup lang="ts">
+import {computed,onMounted,onBeforeUnmount,ref,watch} from 'vue';import {useRoute,useRouter} from 'vue-router';import {IconHomeFilled,IconDatabase,IconTool,IconPalette,IconSettings,IconUserFilled,IconSearch,IconBell,IconMoon,IconX,IconArrowRight,IconCircleCheck,IconBook,IconMenu2} from '@tabler/icons-vue'
+import {loadHeritage} from './heritage-state'
+import Home from './Home.vue';import Catalog from './Catalog.vue';import Detail from './Detail.vue';import Culture from './Culture.vue';import Customize from './Customize.vue';import Experience from './Experience.vue';import Account from './Account.vue';import Art from './Art.vue';import Dialogs from './Dialogs.vue';import {globalSearch,referenceMode,setReferenceMode,loadStudio,restoreComposition,show} from './state';import {refresh,error,message,health} from '../store';import './museum.css'
+const route=useRoute(),router=useRouter(),width=ref(window.innerWidth),mobileMenu=ref(false),light=ref(false)
+function resize(){width.value=window.innerWidth}
+onMounted(()=>{window.addEventListener('resize',resize);Promise.all([refresh(),loadStudio(),loadHeritage()]).then(restoreComposition).catch(e=>error.value=e.message)})
+onBeforeUnmount(()=>window.removeEventListener('resize',resize))
+const scale=computed(()=>width.value>=1000?width.value/1672:1)
+const page=computed(()=>route.path==='/customize'?'customize':route.path==='/catalog'?'catalog':route.path.startsWith('/catalog/')?'detail':route.path==='/culture'?'culture':route.path==='/experience'?'experience':route.path==='/account'?'account':'home')
+const component=computed(()=>({home:Home,catalog:Catalog,detail:Detail,culture:Culture,customize:Customize,experience:Experience,account:Account}[page.value]))
+const nav=computed(()=>{const n:any[]=[['首页','/',IconHomeFilled],['印谱数据库','/catalog',IconDatabase],['篆刻风格','/catalog?view=styles',IconTool],['文化溯源','/culture',IconPalette],['交互体验','/experience',IconSettings],['我的印章','/account',IconBook]];if(page.value==='customize')n.splice(1,0,['个性定制','/customize',IconPalette]);if(page.value==='account')n.splice(1,0,['个人中心','/account',IconUserFilled]);if(page.value==='detail'){n.splice(1,0,['印章详情',route.path,IconBook]);n.splice(n.findIndex(item=>item[0]==='篆刻风格'),1)}return n})
+function active(path:string,label:string){if(label==='篆刻风格')return route.query.view==='styles';if(label==='我的印章'&&page.value==='account')return false;return path===route.path&&!route.query.view}
+function search(){router.push('/catalog');mobileMenu.value=false}
+watch(()=>route.fullPath,()=>{mobileMenu.value=false})
+</script>
+<template>
+<div class="im-host" :class="{light,'im-mobile-nav-open':mobileMenu}" :style="{height:width>=1000?941*scale+'px':'auto'}">
+<div class="im-stage" :class="'im-page-'+page" :style="width>=1000?{transform:`scale(${scale})`}:{}">
+<aside class="im-sidebar"><RouterLink to="/" class="im-brand" aria-label="印脉重生首页"><Art name="brand" alt="印脉重生 SEAL REBORN"/></RouterLink><nav aria-label="系统主要导航"><RouterLink v-for="[label,path,icon] in nav" :to="path" :key="label" :class="{active:active(path,label)}"><component :is="icon" :size="19" class="im-nav-icon" aria-hidden="true"/><span>{{label}}</span></RouterLink></nav><Art :name="page==='catalog'?'sidebar-catalog':'sidebar-scenery'" class="im-sidebar-scenery" alt="山水楼阁装饰"/><div v-if="page==='catalog'&&referenceMode" class="im-sidebar-ranking"><h3>构图示例 · 非馆藏</h3><RouterLink v-for="(s,i) in ['传国玺（仿）','汉委奴国王印','大明行玺','西泠八家印','赵之谦印']" :to="'/catalog/'+['great-han','han-01','qing-01','qing-03','yuan-01'][i]"><b>{{i+1}}</b>{{s}}</RouterLink><RouterLink class="im-outline" to="/catalog">查看全部</RouterLink></div><div v-else class="im-sidebar-quote"><h3>今日印语</h3><p>“ 金石有声，<br>　文脉无尽。”</p><small>—— 项目题语</small></div><Art name="sidebar-bottom" class="im-sidebar-bottom" alt="山石装饰"/><button class="im-reference-toggle" @click="setReferenceMode" :title="referenceMode?'示例图与示例数值用于视觉对照；点击查看本机真实数据':'显示本机数据库真实数值；点击进入视觉对照'">{{referenceMode?'视觉示例 · 切换实值':'本机实值 · 切换示例'}}</button><button class="im-workspace-link" @click="router.push('/workspace')" title="进入真实处理、训练与标注工作台">处理工作台 <IconArrowRight :size="12"/></button></aside>
+<RouterLink to="/graph" class="im-truth-label">{{referenceMode?'构图参考含虚构示例 · 查看真实馆藏 ↗':'山水与狮钮为视觉概念 · 真实馆藏 ↗'}}</RouterLink><div class="im-top-tools"><form class="im-global-search" @submit.prevent="search"><IconSearch :size="18"/><input v-model="globalSearch" aria-label="搜索印章、风格或人物" :placeholder="page==='catalog'?'搜索印章名称、印文、作者、朝代或关键词…':'搜索印谱、风格或历史人物…'"></form><button class="im-round" aria-label="查看通知和系统状态" @click="show('status','系统与模块状态')"><Art name="tool-bell" alt="通知"/><i v-if="health"/></button><button class="im-round" aria-label="切换阅读亮度" :aria-pressed="light" @click="light=!light"><Art name="tool-moon" alt="阅读亮度"/></button><RouterLink class="im-top-avatar" to="/account" aria-label="打开个人中心"><Art name="avatar" alt="个人中心头像"/></RouterLink></div>
+<button class="im-mobile-menu" aria-label="展开导航" @click="mobileMenu=!mobileMenu"><IconMenu2/></button>
+<div class="im-page-content"><component :is="component" :key="route.path"/></div>
+</div><Dialogs/>
+<div v-if="message" class="im-toast" role="status"><IconCircleCheck :size="20"/><span>{{message}}</span><button aria-label="关闭提示" @click="message=''"><IconX :size="18"/></button></div><div v-if="error" class="im-toast im-error" role="alert"><span>{{error}}</span><button aria-label="关闭错误提示" @click="error=''"><IconX :size="18"/></button></div>
+</div>
+</template>

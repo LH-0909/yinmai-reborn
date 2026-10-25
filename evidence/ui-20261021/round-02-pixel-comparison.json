@@ -1,0 +1,154 @@
+[
+  {
+    "page": "01-home",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 16.011,
+    "root_mean_square_rgb_error": 32.92,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "02-generate",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 22.531,
+    "root_mean_square_rgb_error": 42.633,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "03-catalog",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 18.257,
+    "root_mean_square_rgb_error": 38.654,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "04-detail",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 16.482,
+    "root_mean_square_rgb_error": 35.196,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "05-culture",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 23.411,
+    "root_mean_square_rgb_error": 44.263,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "06-customize",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 19.22,
+    "root_mean_square_rgb_error": 38.144,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "07-experience",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 15.108,
+    "root_mean_square_rgb_error": 32.038,
+    "exact_pixel_match": false
+  },
+  {
+    "page": "08-account",
+    "reference": [
+      1672,
+      941
+    ],
+    "dom_viewport": [
+      1672,
+      941
+    ],
+    "raw_capture": [
+      2116,
+      1191
+    ],
+    "normalization": "crop Windows/IAB right/bottom padding; no scaling",
+    "mean_absolute_rgb_error": 19.573,
+    "root_mean_square_rgb_error": 40.06,
+    "exact_pixel_match": false
+  }
+]

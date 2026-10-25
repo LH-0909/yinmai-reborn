@@ -1,0 +1,156 @@
+{
+  "body": [
+    1620,
+    911
+  ],
+  "images": [
+    {
+      "alt": "齐国铜鼻钮“东武城攻师鈢”鉨 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "铜瓦纽“小厩南田”印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "铜龟纽“文德左千人”印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 400
+    },
+    {
+      "alt": "青玉鼻钮“王尊”印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "铜高鼻钮“唐安县之印” · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "铜柄钮“通远军防城库铜朱记”印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "滑石异兽纽“大明天子之宝” · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 400
+    },
+    {
+      "alt": "白玉盘龙纽“皇帝尊亲之宝” · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "青田石“马衡”章 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 400
+    },
+    {
+      "alt": "“右夫人玺”金印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "“君之信玺”玉印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    },
+    {
+      "alt": "楚国铜柱钮“大府”鉨 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 343
+    },
+    {
+      "alt": "铜瓦纽“小厩南田”印 · 官方馆藏图像",
+      "complete": true,
+      "naturalWidth": 1024
+    }
+  ],
+  "panels": [
+    {
+      "client": [
+        1010,
+        242
+      ],
+      "cls": "im-rect im-panel hc-panel hc-period-panel",
+      "scroll": [
+        1010,
+        242
+      ]
+    },
+    {
+      "client": [
+        398,
+        247
+      ],
+      "cls": "im-rect im-panel hc-panel hc-source-panel",
+      "scroll": [
+        398,
+        247
+      ]
+    },
+    {
+      "client": [
+        1010,
+        261
+      ],
+      "cls": "im-rect im-panel hc-panel hc-object-panel",
+      "scroll": [
+        1010,
+        261
+      ]
+    },
+    {
+      "client": [
+        398,
+        220
+      ],
+      "cls": "im-rect im-panel hc-panel hc-book-panel",
+      "scroll": [
+        398,
+        220
+      ]
+    },
+    {
+      "client": [
+        582,
+        117
+      ],
+      "cls": "im-rect im-panel hc-panel hc-path-panel",
+      "scroll": [
+        582,
+        117
+      ]
+    },
+    {
+      "client": [
+        390,
+        117
+      ],
+      "cls": "im-rect im-panel hc-panel hc-scroll-panel",
+      "scroll": [
+        390,
+        117
+      ]
+    },
+    {
+      "client": [
+        398,
+        155
+      ],
+      "cls": "im-rect im-panel hc-panel hc-review-panel",
+      "scroll": [
+        398,
+        155
+      ]
+    }
+  ],
+  "viewport": [
+    1620,
+    911
+  ]
+}

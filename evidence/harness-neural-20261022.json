@@ -1,0 +1,31 @@
+{
+  "session_id": "session-2eaa0001-7e72-434d-b43f-60e459abba8f",
+  "exit_code": 0,
+  "elapsed_sec": 255.1,
+  "mode": "Advice",
+  "requested_permission_mode": "read-only",
+  "observed_permission_mode": "undetermined",
+  "failed_tool_calls": 0,
+  "control_plane_changed": [],
+  "date": "2026-10-22",
+  "actual_read_calls": 4,
+  "scope": [
+    "NeuralGraphCanvas.vue",
+    "neural-layout.ts",
+    "GraphPage.vue",
+    "neural-layout.test.mjs"
+  ],
+  "findings_fixed": [
+    "preserve selected edge on refresh",
+    "respect nearest ray intersection",
+    "defined smoothstep bounds",
+    "shared idempotent teardown"
+  ],
+  "runtime_tests_performed_by_reviewer": false,
+  "codex_validation": [
+    "5 frontend unit tests",
+    "TypeScript production build",
+    "actual browser checks"
+  ],
+  "forced_initialization_failure_tested": false
+}

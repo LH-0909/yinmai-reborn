@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "印脉重生原生入口：健康检查、印谱库、设置与 ArkWeb 工作台"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "印脉重生主窗口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "印脉重生"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "读取电脑上的印脉重生后端与 Web 工作台"
+    }
+  ]
+}

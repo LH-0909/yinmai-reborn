@@ -1,0 +1,45 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: yinmai
+      MYSQL_USER: yinmai
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Set MYSQL_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Set MYSQL_ROOT_PASSWORD in .env}
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: [CMD, mysqladmin, ping, -h, localhost, --silent]
+      interval: 5s
+      timeout: 4s
+      retries: 30
+  backend:
+    build: ./backend
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_USER: yinmai
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: yinmai
+      STORAGE_DIR: /data/storage
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.deepseek.com}
+      LLM_MODEL: ${LLM_MODEL:-deepseek-chat}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+    volumes:
+      - storage:/data/storage
+      - ./models:/models:ro
+      - ./data:/data:ro
+      - ./frontend/public/assets/seal-previews:/frontend/public/assets/seal-previews:ro
+    ports:
+      - 127.0.0.1:8000:8000
+  web:
+    build: ./frontend
+    depends_on: [backend]
+    ports:
+      - 127.0.0.1:5173:80
+volumes:
+  mysql-data:
+  storage:

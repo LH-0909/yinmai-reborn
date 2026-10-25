@@ -1,0 +1,29 @@
+{
+  "scope": "Verified CUDA replay, not newly invented supervision",
+  "torch": "1.13.1+cu116",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "first_training_batch_count": 16,
+  "recorded_step1_loss": 0.0048986561596393585,
+  "replayed_step1_loss": 0.0048986561596393585,
+  "step1_loss_matches_atol_1e-8": true,
+  "recorded_test": {
+    "noisy_mse": 0.005030061364713397,
+    "model_mse": 0.0007072514440364385,
+    "noisy_psnr_db": 22.984267166947983,
+    "model_psnr_db": 31.504261571457448,
+    "psnr_gain_db": 8.519994404509465
+  },
+  "replayed_test": {
+    "noisy_mse": 0.005030061364713397,
+    "model_mse": 0.0007072514440364385,
+    "noisy_psnr_db": 22.984267166947983,
+    "model_psnr_db": 31.504261571457448,
+    "psnr_gain_db": 8.519994404509465
+  },
+  "test_psnr_matches_atol_1e-4": true,
+  "model_sha256": "b30a7fa8595e4f84fc67905aba78d28d482257530a17727b13fb235aaf3b8db3",
+  "png_note": "PNG is rounded to 8-bit for viewing. NPZ preserves exact float32 input/target/mask arrays; load with allow_pickle=False.",
+  "no_ocr_labels": true,
+  "targets_are_original_worn_scans": true,
+  "missing_stroke_ground_truth_available": false
+}

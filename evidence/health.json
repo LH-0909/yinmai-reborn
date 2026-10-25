@@ -1,0 +1,1 @@
+{"database":"connected","database_engine":"MySQL","ai":{"torch_installed":true,"restoration":{"configured":false,"state":"unavailable","reason":"未提供经训练的TorchScript权重；没有生成AI结果"},"recognition":{"configured":false,"state":"unavailable","reason":"未提供经训练的TorchScript权重；没有生成AI结果"},"culture":{"configured":false,"state":"unavailable"}},"counts":{"seals":2,"artifacts":9}}

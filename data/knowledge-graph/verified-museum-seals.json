@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "purpose": "Three source-backed physical collection objects; no reconstructed artifact or generated image",
+  "sources": [
+    {
+      "id": "dpm",
+      "title": "故宫博物院 · 馆藏玺印",
+      "url": "https://www.dpm.org.cn/collection/seal.html",
+      "priority": 5,
+      "access_state": "official_object_records",
+      "note": "实际读取3条官方藏品记录及其文物号、照片和钤本。官方记录证明有对应馆藏，不等于系统自行完成真伪鉴定或取得训练授权。"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-bae93d03d943d6800c98ebfcc341",
+      "source_id": "dpm",
+      "title": "白玉盘龙纽“皇帝尊亲之宝” · 故00166815",
+      "url": "https://www.dpm.org.cn/collection/seal/233558.html",
+      "summary": "故宫官方藏品页；文物号故00166815。中文印文皇帝尊亲之宝，清早期，白玉。",
+      "sha256": "72bf7b231d8f326697f77555f8b4e309be9ca88e9d42372614b95b0dc737dd76",
+      "fetched_at": "2026-10-23T04:04:56.790908+00:00",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-edff3037a693139ac2b725d9aaf5",
+      "source_id": "dpm",
+      "title": "青玉交龙纽“乾清宫宝” · 故00166295",
+      "url": "https://www.dpm.org.cn/collection/seal/233652.html",
+      "summary": "故宫官方藏品页；文物号故00166295。中文印文乾清宫宝，清乾隆，青玉。",
+      "sha256": "aadf6e35d58be76a884707c9a831182040bc2ea502be2f4600c3df85b6ff76c8",
+      "fetched_at": "2026-10-23T04:04:57.922336+00:00",
+      "method": "public_html_metadata_extraction"
+    },
+    {
+      "id": "doc-aa3b637632b8945668ca64babbb1",
+      "source_id": "dpm",
+      "title": "碧玉交龙纽“敕命之宝” · 故00166806",
+      "url": "https://www.dpm.org.cn/collection/seal/233579.html",
+      "summary": "故宫官方藏品页；文物号故00166806。中文印文敕命之宝，清早期，碧玉。",
+      "sha256": "474f003c2f971abb74817f0e0ababc43f40c4107526a257ff93659c13a5403c8",
+      "fetched_at": "2026-10-23T04:04:58.793137+00:00",
+      "method": "public_html_metadata_extraction"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-c71f69cc0d5aa2d64d838b4c0cf6",
+      "label": "故宫博物院",
+      "kind": "resource",
+      "attributes": {
+        "source_id": "dpm",
+        "url": "https://www.dpm.org.cn/collection/seal.html"
+      }
+    },
+    {
+      "id": "node-3d244aa320beed02a27bc8345fde",
+      "label": "皇帝尊亲之宝",
+      "kind": "seal_object",
+      "attributes": {
+        "url": "https://www.dpm.org.cn/collection/seal/233558.html",
+        "official_title": "白玉盘龙纽“皇帝尊亲之宝”",
+        "transcription": "皇帝尊亲之宝",
+        "museum": "故宫博物院",
+        "accession_number": "故00166815",
+        "record_type": "museum_object",
+        "period": "清早期",
+        "material": "白玉",
+        "dimensions": "印面6.8厘米见方，通高6.1厘米，纽高4.3厘米",
+        "transcription_scope": "中文印文；不代替满文转写"
+      }
+    },
+    {
+      "id": "node-8bbec5abcf67114145f573dd332f",
+      "label": "皇",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+7687"
+      }
+    },
+    {
+      "id": "node-0012ad02ec2c29a4e831a32d1b9a",
+      "label": "帝",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+5E1D"
+      }
+    },
+    {
+      "id": "node-cebcbe5dd354fed18e4f8ee15659",
+      "label": "尊",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+5C0A"
+      }
+    },
+    {
+      "id": "node-049dd83a46a115c98123eb13ce59",
+      "label": "亲",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+4EB2"
+      }
+    },
+    {
+      "id": "node-f1bcff5bec02983a8a1d7671dc14",
+      "label": "之",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+4E4B"
+      }
+    },
+    {
+      "id": "node-9889116947cb64e07727d7a3f1d5",
+      "label": "宝",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+5B9D"
+      }
+    },
+    {
+      "id": "node-6208ab1aec5a2ce81b5e59ffaf98",
+      "label": "汉文篆书、满文篆书",
+      "kind": "script",
+      "attributes": {}
+    },
+    {
+      "id": "node-82168367d28b8e3a25bd8b93842b",
+      "label": "乾清宫宝",
+      "kind": "seal_object",
+      "attributes": {
+        "url": "https://www.dpm.org.cn/collection/seal/233652.html",
+        "official_title": "青玉交龙纽“乾清宫宝”",
+        "transcription": "乾清宫宝",
+        "museum": "故宫博物院",
+        "accession_number": "故00166295",
+        "record_type": "museum_object",
+        "period": "清乾隆",
+        "material": "青玉",
+        "dimensions": "印面11.6厘米见方，通高8.5厘米，纽高4.4厘米",
+        "transcription_scope": "中文印文；不代替满文转写"
+      }
+    },
+    {
+      "id": "node-ec357afa00aeaee8eacdbb1c5742",
+      "label": "乾",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+4E7E"
+      }
+    },
+    {
+      "id": "node-3e9250476282834aa29be25af753",
+      "label": "清",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+6E05"
+      }
+    },
+    {
+      "id": "node-396a89aca1a857d92d05eaef2a6f",
+      "label": "宫",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+5BAB"
+      }
+    },
+    {
+      "id": "node-3a4d2df3b2e13218f62bd998121b",
+      "label": "汉文篆书",
+      "kind": "script",
+      "attributes": {}
+    },
+    {
+      "id": "node-85dce9723a775423cd06eebc018e",
+      "label": "敕命之宝",
+      "kind": "seal_object",
+      "attributes": {
+        "url": "https://www.dpm.org.cn/collection/seal/233579.html",
+        "official_title": "碧玉交龙纽“敕命之宝”",
+        "transcription": "敕命之宝",
+        "museum": "故宫博物院",
+        "accession_number": "故00166806",
+        "record_type": "museum_object",
+        "period": "清早期",
+        "material": "碧玉",
+        "dimensions": "印面11.3厘米见方，通高9厘米，纽高5.5厘米",
+        "transcription_scope": "中文印文；不代替满文转写"
+      }
+    },
+    {
+      "id": "node-c22856c10c764bfc411734cb184f",
+      "label": "敕",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+6555"
+      }
+    },
+    {
+      "id": "node-26fdcb426b35b05fc00bb805ee1d",
+      "label": "命",
+      "kind": "character",
+      "attributes": {
+        "unicode": "U+547D"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-7262bd14dfc0132792e73647821c",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-8bbec5abcf67114145f573dd332f",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-d6b5476f6b729be41ce7564174b6",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-0012ad02ec2c29a4e831a32d1b9a",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-99c5d25b571f56c29b568b1e9468",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-cebcbe5dd354fed18e4f8ee15659",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-02688ff7cc955a78aa0a2dc7a7bf",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-049dd83a46a115c98123eb13ce59",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-3c7be4eccb48ce334122486c9b5a",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-f1bcff5bec02983a8a1d7671dc14",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          5
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-c5e7d7270c2b6077e8ad490a12c9",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "contains_character",
+      "object": "node-9889116947cb64e07727d7a3f1d5",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          6
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-09cdc373c7620b8dfe860c51ca50",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "has_script",
+      "object": "node-6208ab1aec5a2ce81b5e59ffaf98",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-4388203893d500f5d572150163a6",
+      "subject": "node-3d244aa320beed02a27bc8345fde",
+      "predicate": "recorded_in",
+      "object": "node-c71f69cc0d5aa2d64d838b4c0cf6",
+      "document_id": "doc-bae93d03d943d6800c98ebfcc341",
+      "status": "page_asserted",
+      "attributes": {
+        "accession_number": "故00166815"
+      }
+    },
+    {
+      "id": "edge-0779f73462eddff31a8db2e05dc9",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "contains_character",
+      "object": "node-ec357afa00aeaee8eacdbb1c5742",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-25891e9834186443f665dd2967d2",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "contains_character",
+      "object": "node-3e9250476282834aa29be25af753",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-49a27ced2e7da1ad9d1e28882676",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "contains_character",
+      "object": "node-396a89aca1a857d92d05eaef2a6f",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-4b821e43a4dd680f8a2dba4e81cf",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "contains_character",
+      "object": "node-9889116947cb64e07727d7a3f1d5",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-c232d80d77238ef3c3fd0a878f1c",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "has_script",
+      "object": "node-3a4d2df3b2e13218f62bd998121b",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-7186bbb87250fed10ffbd95f1345",
+      "subject": "node-82168367d28b8e3a25bd8b93842b",
+      "predicate": "recorded_in",
+      "object": "node-c71f69cc0d5aa2d64d838b4c0cf6",
+      "document_id": "doc-edff3037a693139ac2b725d9aaf5",
+      "status": "page_asserted",
+      "attributes": {
+        "accession_number": "故00166295"
+      }
+    },
+    {
+      "id": "edge-8e0710cf3f73ddc7779094e894f6",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "contains_character",
+      "object": "node-c22856c10c764bfc411734cb184f",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          1
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-8fe4eaddc8b9511d6fa39c467c72",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "contains_character",
+      "object": "node-26fdcb426b35b05fc00bb805ee1d",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          2
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-bbf53afac1e33bf076915797ab09",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "contains_character",
+      "object": "node-f1bcff5bec02983a8a1d7671dc14",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          3
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-6ace92af8d4011077854bb644bbc",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "contains_character",
+      "object": "node-9889116947cb64e07727d7a3f1d5",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {
+        "positions": [
+          4
+        ],
+        "scope": "Chinese inscription as named by official catalogue; no Manchu transcription"
+      }
+    },
+    {
+      "id": "edge-b390042abc28f9765cb97b4b5d1b",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "has_script",
+      "object": "node-6208ab1aec5a2ce81b5e59ffaf98",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {}
+    },
+    {
+      "id": "edge-625e473150edaf514a6a61b7c3eb",
+      "subject": "node-85dce9723a775423cd06eebc018e",
+      "predicate": "recorded_in",
+      "object": "node-c71f69cc0d5aa2d64d838b4c0cf6",
+      "document_id": "doc-aa3b637632b8945668ca64babbb1",
+      "status": "page_asserted",
+      "attributes": {
+        "accession_number": "故00166806"
+      }
+    }
+  ]
+}

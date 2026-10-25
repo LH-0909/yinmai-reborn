@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22",
+  "layout_switches": {
+    "radial": true,
+    "hierarchy": true
+  },
+  "canvas_click_before_viewport_resize": {
+    "node": "小篆",
+    "edge": "人生一梦 → 小篆",
+    "evidence_url": "https://yingaoku.cn/seal/1"
+  },
+  "latest_edge_selection": {
+    "heading": "人生一梦 → 小篆",
+    "origin": "来源方式公开页面字段提取核验状态尚未人工复核",
+    "url": "https://yingaoku.cn/seal/1"
+  },
+  "center_switch": {
+    "node": "小篆",
+    "displayed_nodes": 15
+  },
+  "path": "人生一梦 → 生 → 人生如梦",
+  "search": {
+    "query": "梦",
+    "matched": 5,
+    "context": 10
+  },
+  "import_placeholder_rejected": true,
+  "escape_restores_focus": true,
+  "mobile": {
+    "width": 389,
+    "height": 844,
+    "scrollWidth": 389
+  },
+  "console": []
+}

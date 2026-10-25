@@ -1,0 +1,44 @@
+{
+  "source": "D:\\LH\\raw_crops",
+  "total_files": 27292,
+  "apple_sidecars_excluded": 13646,
+  "candidate_images": 13646,
+  "decodable_images": 13646,
+  "status_counts": {
+    "valid": 13644,
+    "too_small": 2
+  },
+  "eligible_unique_images": 13644,
+  "split_counts": {
+    "train": 11144,
+    "validation": 1167,
+    "test": 1333,
+    "excluded": 2
+  },
+  "page_groups_per_split": {
+    "train": 1515,
+    "validation": 160,
+    "test": 181
+  },
+  "page_group_overlap": false,
+  "exact_pixel_overlap": false,
+  "width_range": [
+    27,
+    295
+  ],
+  "height_range": [
+    26,
+    377
+  ],
+  "median_size": [
+    91.0,
+    92.0
+  ],
+  "low_contrast_flags": 0,
+  "red_pixel_ratio_median": 0.2627,
+  "non_image_files": [],
+  "ocr_labels_found": false,
+  "paired_restoration_targets_found": false,
+  "split_unit": "filename source-page; duplicates excluded by decoded RGB pixel hash",
+  "limitation": "No OCR transcription, character boxes, clean restoration targets or source-license manifest found. Split does not guarantee independence between different pages from the same book."
+}

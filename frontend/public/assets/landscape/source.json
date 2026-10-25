@@ -1,0 +1,44 @@
+{
+  "page_url": "https://commons.wikimedia.org/wiki/File:Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(Complete,_51,3x1191,5_cm)._1113._Palace_museum,_Beijing.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "original_sha256": "8642d4f3d5f7edaa022200dfe2cdea56b1183c78c6cd4abbf47620daf7fda8f4",
+  "title": "王希孟千里江山图卷",
+  "accession_number": "新00146004",
+  "institution": "故宫博物院",
+  "identity_source": "https://www.dpm.org.cn/collection/paint/228354.html",
+  "image_provider": "Wikimedia Commons, faithful reproduction",
+  "license_as_published": "Public Domain Mark / PD-Art; see source file page",
+  "display_scope": "Animated detail window over the full handscroll; original reproduction preserved, no invented reconstruction or historical associations.",
+  "files": {
+    "qianli-detail-official.jpg": {
+      "sha256": "0cc4de9f718e39d0c6d0820efdc0c1a4732255ba56402d100b1e699b42c7b9a0",
+      "bytes": 140187,
+      "size": [
+        1258,
+        500
+      ]
+    },
+    "qianli-panorama-mobile.webp": {
+      "sha256": "43c7467f617fa294fffea025070bbf7b0b59675a41285706262e1510da51c1b9",
+      "bytes": 548234,
+      "size": [
+        8192,
+        328
+      ]
+    },
+    "qianli-panorama.webp": {
+      "sha256": "dc848fea537a60b16b3fbdae6bb7589aa0305e3edb947e5b87b9b82e5e863e34",
+      "bytes": 2365062,
+      "size": [
+        16000,
+        640
+      ]
+    }
+  },
+  "official_detail_source": {
+    "image_url": "https://img.dpm.org.cn/Uploads/Picture/2017/04/01/s58defb9d45b7f.jpg",
+    "sha256": "0cc4de9f718e39d0c6d0820efdc0c1a4732255ba56402d100b1e699b42c7b9a0",
+    "width": 1258,
+    "height": 500
+  }
+}

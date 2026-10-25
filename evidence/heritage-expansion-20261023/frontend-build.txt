@@ -1,0 +1,22 @@
+$ vue-tsc -b && vite build
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 6963 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                                              0.47 kB │ gzip:   0.35 kB
+dist/assets/GraphCanvas-BtjufbjZ.css                                         0.91 kB │ gzip:   0.43 kB
+dist/assets/NeuralGraphCanvas-CqrW6Hj-.css                                   3.10 kB │ gzip:   1.09 kB
+dist/assets/GraphPage-BoNsFVCg.css                                          46.13 kB │ gzip:  10.12 kB
+dist/assets/index--WF6vD-X.css                                             112.99 kB │ gzip:  23.92 kB
+dist/assets/NeuralGraphCanvas-DDVwSauE.js                                    0.13 kB │ gzip:   0.14 kB
+dist/assets/NeuralGraphCanvas.vue_vue_type_style_index_0_lang-Cva4tzD4.js   45.33 kB │ gzip:  15.62 kB
+dist/assets/GraphCanvas-BdSBe7iK.js                                        448.83 kB │ gzip: 144.56 kB
+dist/assets/index-B_DivYPf.js                                              817.08 kB │ gzip: 237.46 kB
+dist/assets/GraphPage-B6dNSE5l.js                                          902.57 kB │ gzip: 257.74 kB
+
+(!) Some chunks are larger than 900 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.86s

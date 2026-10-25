@@ -1,0 +1,1 @@
+{"enhancement":{"available":true,"experimental_only":true,"model_sha256":"b30a7fa8595e4f84fc67905aba78d28d482257530a17727b13fb235aaf3b8db3","task":"合成噪声去除实验","training_gpu":"NVIDIA GeForce RTX 4060 Ti","training_steps":400,"synthetic_benchmark_psnr_db":31.504261571457448},"corpus_configured":true,"annotations":"人工草稿，待独立复核，不自动进入训练集"}

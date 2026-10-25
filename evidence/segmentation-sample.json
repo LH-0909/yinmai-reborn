@@ -1,0 +1,4376 @@
+[
+  {
+    "file": "tzsf_yt_p0290_03.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      131,
+      127
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5801526717557252,
+          0.2283464566929134,
+          0.7709923664122137,
+          0.5039370078740157
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.5801526717557252,
+          0.5039370078740157,
+          0.7709923664122137,
+          0.7795275590551181
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.35877862595419846,
+          0.2283464566929134,
+          0.5801526717557252,
+          0.5039370078740157
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.35877862595419846,
+          0.5039370078740157,
+          0.5801526717557252,
+          0.7795275590551181
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22900763358778625,
+          0.2283464566929134,
+          0.35877862595419846,
+          0.5039370078740157
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22900763358778625,
+          0.5039370078740157,
+          0.35877862595419846,
+          0.7795275590551181
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "2x3",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.22900763358778625,
+      0.2283464566929134,
+      0.7709923664122137,
+      0.7795275590551181
+    ],
+    "alternatives": [
+      {
+        "layout": "2x3",
+        "heuristic_score": 0.35782
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.32517
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.08922
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00496
+      },
+      {
+        "layout": "3x3",
+        "heuristic_score": -0.10176
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0929_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      63,
+      63
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.25396825396825395,
+          0.23809523809523808,
+          0.746031746031746,
+          0.7777777777777778
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25396825396825395,
+      0.23809523809523808,
+      0.746031746031746,
+      0.7777777777777778
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.03233
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.60633
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.93731
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.09077
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.20101
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1679_07.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      82,
+      78
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.21951219512195122,
+          0.21794871794871795,
+          0.8048780487804879,
+          0.7948717948717948
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.21951219512195122,
+      0.21794871794871795,
+      0.8048780487804879,
+      0.7948717948717948
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02259
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.73025
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.03469
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.23856
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.30233
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0929_07.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      125,
+      128
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.232,
+          0.2109375,
+          0.792,
+          0.796875
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.232,
+      0.2109375,
+      0.792,
+      0.796875
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02415
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.96515
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.00075
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.3679
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.40167
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1544_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      82,
+      83
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4878048780487805,
+          0.2289156626506024,
+          0.8048780487804879,
+          0.7710843373493976
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2073170731707317,
+          0.2289156626506024,
+          0.4878048780487805,
+          0.7710843373493976
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "1x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2073170731707317,
+      0.2289156626506024,
+      0.8048780487804879,
+      0.7710843373493976
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.1214
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.1114
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02981
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.16953
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.4654
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0609_08.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      102,
+      102
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5490196078431373,
+          0.21568627450980393,
+          0.7941176470588235,
+          0.5392156862745098
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.5490196078431373,
+          0.5392156862745098,
+          0.7941176470588235,
+          0.7843137254901961
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.5490196078431373,
+          0.5392156862745098
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.21568627450980393,
+          0.5392156862745098,
+          0.5490196078431373,
+          0.7843137254901961
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "2x2",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.21568627450980393,
+      0.21568627450980393,
+      0.7941176470588235,
+      0.7843137254901961
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.02161
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00598
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.20504
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.25257
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.46475
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1080_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      82,
+      82
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.25609756097560976,
+          0.2073170731707317,
+          0.7560975609756098,
+          0.8048780487804879
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.25609756097560976,
+      0.2073170731707317,
+      0.7560975609756098,
+      0.8048780487804879
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.06239
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.69592
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.96032
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.11874
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.23342
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0475_03.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      119,
+      119
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5042016806722689,
+          0.23529411764705882,
+          0.7647058823529411,
+          0.5462184873949579
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.5042016806722689,
+          0.5462184873949579,
+          0.7647058823529411,
+          0.773109243697479
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.5042016806722689,
+          0.5462184873949579
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.23529411764705882,
+          0.5462184873949579,
+          0.5042016806722689,
+          0.773109243697479
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.23529411764705882,
+      0.23529411764705882,
+      0.7647058823529411,
+      0.773109243697479
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.44113
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.2149
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.18528
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00551
+      },
+      {
+        "layout": "4x2",
+        "heuristic_score": -0.2096
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0757_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      82,
+      82
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2073170731707317,
+          0.17073170731707318,
+          0.8536585365853658,
+          0.7926829268292683
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2073170731707317,
+      0.17073170731707318,
+      0.8536585365853658,
+      0.7926829268292683
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01346
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.18677
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.66194
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.67183
+      },
+      {
+        "layout": "1x4",
+        "heuristic_score": -0.93542
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1071_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      93,
+      94
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5053763440860215,
+          0.24468085106382978,
+          0.7849462365591398,
+          0.7659574468085106
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.24731182795698925,
+          0.24468085106382978,
+          0.5053763440860215,
+          0.7659574468085106
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "1x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.24731182795698925,
+      0.24468085106382978,
+      0.7849462365591398,
+      0.7659574468085106
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.13291
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.01918
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00707
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.01873
+      },
+      {
+        "layout": "4x2",
+        "heuristic_score": -0.4149
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1315_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      79,
+      77
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.26582278481012656,
+          0.23376623376623376,
+          0.7468354430379747,
+          0.4805194805194805
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.26582278481012656,
+          0.4805194805194805,
+          0.7468354430379747,
+          0.7532467532467533
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "2x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.26582278481012656,
+      0.23376623376623376,
+      0.7468354430379747,
+      0.7532467532467533
+    ],
+    "alternatives": [
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.0606
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.00873
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01795
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.51911
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.7288
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1156_09.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      85,
+      88
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.49411764705882355,
+          0.23863636363636365,
+          0.7647058823529411,
+          0.5113636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.49411764705882355,
+          0.5113636363636364,
+          0.7647058823529411,
+          0.7613636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25882352941176473,
+          0.23863636363636365,
+          0.49411764705882355,
+          0.5113636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25882352941176473,
+          0.5113636363636364,
+          0.49411764705882355,
+          0.7613636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25882352941176473,
+      0.23863636363636365,
+      0.7647058823529411,
+      0.7613636363636364
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.46407
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.175
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.0276
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.0236
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.17253
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0353_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      72,
+      71
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5,
+          0.2112676056338028,
+          0.75,
+          0.5211267605633803
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.5,
+          0.5211267605633803,
+          0.75,
+          0.7887323943661971
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2361111111111111,
+          0.2112676056338028,
+          0.5,
+          0.5211267605633803
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2361111111111111,
+          0.5211267605633803,
+          0.5,
+          0.7887323943661971
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2361111111111111,
+      0.2112676056338028,
+      0.75,
+      0.7887323943661971
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.27453
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.1528
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.03593
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.20909
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.32755
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1140_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      87,
+      88
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.22988505747126436,
+          0.2159090909090909,
+          0.7816091954022989,
+          0.7727272727272727
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.22988505747126436,
+      0.2159090909090909,
+      0.7816091954022989,
+      0.7727272727272727
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00722
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.94689
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.99381
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.29691
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.30048
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1204_07.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      69,
+      69
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2028985507246377,
+          0.21739130434782608,
+          0.782608695652174,
+          0.7971014492753623
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2028985507246377,
+      0.21739130434782608,
+      0.782608695652174,
+      0.7971014492753623
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.26626
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.34235
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.5613
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.91225
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0532_09.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      88,
+      87
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4772727272727273,
+          0.2413793103448276,
+          0.7613636363636364,
+          0.5172413793103449
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4772727272727273,
+          0.5172413793103449,
+          0.7613636363636364,
+          0.7586206896551724
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22727272727272727,
+          0.2413793103448276,
+          0.4772727272727273,
+          0.5172413793103449
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22727272727272727,
+          0.5172413793103449,
+          0.4772727272727273,
+          0.7586206896551724
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.22727272727272727,
+      0.2413793103448276,
+      0.7613636363636364,
+      0.7586206896551724
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.54913
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.26081
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.23654
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": 0.14173
+      },
+      {
+        "layout": "3x3",
+        "heuristic_score": 0.1068
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0647_08.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      89,
+      89
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.48314606741573035,
+          0.21348314606741572,
+          0.797752808988764,
+          0.7640449438202247
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.20224719101123595,
+          0.21348314606741572,
+          0.48314606741573035,
+          0.7640449438202247
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "1x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.20224719101123595,
+      0.21348314606741572,
+      0.797752808988764,
+      0.7640449438202247
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.10843
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02747
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.46613
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.72756
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.77118
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0107_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      140,
+      139
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2,
+          0.2014388489208633,
+          0.8071428571428572,
+          0.5035971223021583
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2,
+          0.5035971223021583,
+          0.8071428571428572,
+          0.8129496402877698
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "2x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2,
+      0.2014388489208633,
+      0.8071428571428572,
+      0.8129496402877698
+    ],
+    "alternatives": [
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.07728
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.03766
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.52483
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.53561
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0401_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      62,
+      61
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.25806451612903225,
+          0.26229508196721313,
+          0.7419354838709677,
+          0.7377049180327869
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25806451612903225,
+      0.26229508196721313,
+      0.7419354838709677,
+      0.7377049180327869
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01187
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.65031
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.96022
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.08971
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.26669
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0816_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      103,
+      105
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5242718446601942,
+          0.24761904761904763,
+          0.7669902912621359,
+          0.7619047619047619
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.24271844660194175,
+          0.24761904761904763,
+          0.5242718446601942,
+          0.7619047619047619
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "1x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.24271844660194175,
+      0.24761904761904763,
+      0.7669902912621359,
+      0.7619047619047619
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.17387
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.5915
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.68591
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.91951
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1395_07.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      93,
+      92
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.1935483870967742,
+          0.2391304347826087,
+          0.7956989247311828,
+          0.75
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.1935483870967742,
+      0.2391304347826087,
+      0.7956989247311828,
+      0.75
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.06132
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.15003
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.18146
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.39245
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.39817
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0950_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      96,
+      93
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4375,
+          0.22580645161290322,
+          0.7916666666666666,
+          0.7741935483870968
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.21875,
+          0.22580645161290322,
+          0.4375,
+          0.7741935483870968
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "1x2",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.21875,
+      0.22580645161290322,
+      0.7916666666666666,
+      0.7741935483870968
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.24833
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02643
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.10607
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.34168
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.49812
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1517_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      99,
+      101
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4444444444444444,
+          0.2376237623762376,
+          0.7575757575757576,
+          0.504950495049505
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4444444444444444,
+          0.504950495049505,
+          0.7575757575757576,
+          0.7623762376237624
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25252525252525254,
+          0.2376237623762376,
+          0.4444444444444444,
+          0.504950495049505
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25252525252525254,
+          0.504950495049505,
+          0.4444444444444444,
+          0.7623762376237624
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25252525252525254,
+      0.2376237623762376,
+      0.7575757575757576,
+      0.7623762376237624
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.36694
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": 0.08326
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.04636
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02039
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.14422
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0219_04.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      118,
+      119
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4915254237288136,
+          0.23529411764705882,
+          0.7627118644067796,
+          0.5630252100840336
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4915254237288136,
+          0.5630252100840336,
+          0.7627118644067796,
+          0.773109243697479
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2457627118644068,
+          0.23529411764705882,
+          0.4915254237288136,
+          0.5630252100840336
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2457627118644068,
+          0.5630252100840336,
+          0.4915254237288136,
+          0.773109243697479
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2457627118644068,
+      0.23529411764705882,
+      0.7627118644067796,
+      0.773109243697479
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.75516
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.28172
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.17277
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.114
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.0168
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0792_08.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      68,
+      69
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.23529411764705882,
+          0.21739130434782608,
+          0.75,
+          0.7536231884057971
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.23529411764705882,
+      0.21739130434782608,
+      0.75,
+      0.7536231884057971
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01945
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.84692
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.00319
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.30231
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.38436
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1825_03.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      70,
+      74
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2571428571428571,
+          0.25675675675675674,
+          0.7571428571428571,
+          0.7432432432432432
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2571428571428571,
+      0.25675675675675674,
+      0.7571428571428571,
+      0.7432432432432432
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00986
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.23926
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -0.68571
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.92162
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -1.15771
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0526_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      68,
+      69
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.25,
+          0.2318840579710145,
+          0.7647058823529411,
+          0.7681159420289855
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.25,
+      0.2318840579710145,
+      0.7647058823529411,
+      0.7681159420289855
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01945
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.71611
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.83217
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.92683
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.08253
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0527_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      92,
+      91
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4673913043478261,
+          0.23076923076923078,
+          0.7717391304347826,
+          0.5384615384615384
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4673913043478261,
+          0.5384615384615384,
+          0.7717391304347826,
+          0.7582417582417582
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22826086956521738,
+          0.23076923076923078,
+          0.4673913043478261,
+          0.5384615384615384
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22826086956521738,
+          0.5384615384615384,
+          0.4673913043478261,
+          0.7582417582417582
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.22826086956521738,
+      0.23076923076923078,
+      0.7717391304347826,
+      0.7582417582417582
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.13153
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01429
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.13568
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.20371
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.50451
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1689_10.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      71,
+      74
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2112676056338028,
+          0.22972972972972974,
+          0.7887323943661971,
+          0.7567567567567568
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2112676056338028,
+      0.22972972972972974,
+      0.7887323943661971,
+      0.7567567567567568
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.0175
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.3458
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.67694
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.91486
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.03675
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0918_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      102,
+      102
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.029411764705882353,
+          0.21568627450980393,
+          0.803921568627451,
+          0.7843137254901961
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.029411764705882353,
+      0.21568627450980393,
+      0.803921568627451,
+      0.7843137254901961
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.10815
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.80924
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.16338
+      },
+      {
+        "layout": "1x4",
+        "heuristic_score": -1.17245
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.22953
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0976_09.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      94,
+      96
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.1276595744680851,
+          0.21875,
+          0.7872340425531915,
+          0.8958333333333334
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.1276595744680851,
+      0.21875,
+      0.7872340425531915,
+      0.8958333333333334
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01654
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.47725
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.85653
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.0202
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.02879
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1794_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      69,
+      66
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.21739130434782608,
+          0.21212121212121213,
+          0.782608695652174,
+          0.7727272727272727
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.21739130434782608,
+      0.21212121212121213,
+      0.782608695652174,
+      0.7727272727272727
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01843
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.16163
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.71369
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.72192
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.01884
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0309_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      79,
+      121
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.3037974683544304,
+          0.2396694214876033,
+          0.6962025316455697,
+          0.4628099173553719
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.3037974683544304,
+          0.4628099173553719,
+          0.6962025316455697,
+          0.7768595041322314
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.3037974683544304,
+      0.2396694214876033,
+      0.6962025316455697,
+      0.7768595041322314
+    ],
+    "alternatives": [
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.07897
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.25914
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -0.35461
+      },
+      {
+        "layout": "4x1",
+        "heuristic_score": -0.63628
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.91259
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0901_09.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      99,
+      101
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.494949494949495,
+          0.24752475247524752,
+          0.7676767676767676,
+          0.44554455445544555
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.494949494949495,
+          0.44554455445544555,
+          0.7676767676767676,
+          0.7722772277227723
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25252525252525254,
+          0.24752475247524752,
+          0.494949494949495,
+          0.44554455445544555
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25252525252525254,
+          0.44554455445544555,
+          0.494949494949495,
+          0.7722772277227723
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25252525252525254,
+      0.24752475247524752,
+      0.7676767676767676,
+      0.7722772277227723
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.47201
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.16841
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.14237
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": 0.09435
+      },
+      {
+        "layout": "3x3",
+        "heuristic_score": 0.02162
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1493_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      92,
+      93
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.43478260869565216,
+          0.23655913978494625,
+          0.7608695652173914,
+          0.4838709677419355
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.43478260869565216,
+          0.4838709677419355,
+          0.7608695652173914,
+          0.7634408602150538
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2391304347826087,
+          0.23655913978494625,
+          0.43478260869565216,
+          0.4838709677419355
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2391304347826087,
+          0.4838709677419355,
+          0.43478260869565216,
+          0.7634408602150538
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "2x2",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.2391304347826087,
+      0.23655913978494625,
+      0.7608695652173914,
+      0.7634408602150538
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.14508
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.1134
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00722
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.32254
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.38969
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0995_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      77,
+      79
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5194805194805194,
+          0.25316455696202533,
+          0.7662337662337663,
+          0.759493670886076
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.23376623376623376,
+          0.25316455696202533,
+          0.5194805194805194,
+          0.759493670886076
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "行列判断存在歧义，可选择行列布局重新分割。"
+    ],
+    "layout": "1x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.23376623376623376,
+      0.25316455696202533,
+      0.7662337662337663,
+      0.759493670886076
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.14819
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.12457
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00864
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.26862
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.50019
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0733_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      85,
+      87
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.25882352941176473,
+          0.2413793103448276,
+          0.7647058823529411,
+          0.7586206896551724
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25882352941176473,
+      0.2413793103448276,
+      0.7647058823529411,
+      0.7586206896551724
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.01591
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.15022
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.28248
+      },
+      {
+        "layout": "3x3",
+        "heuristic_score": -0.43882
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.55562
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0696_06.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      84,
+      86
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.21428571428571427,
+          0.20930232558139536,
+          0.7857142857142857,
+          0.8488372093023255
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.21428571428571427,
+      0.20930232558139536,
+      0.7857142857142857,
+      0.8488372093023255
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.04765
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.861
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.90028
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.22648
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.25285
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1246_04.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      89,
+      88
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.48314606741573035,
+          0.23863636363636365,
+          0.7640449438202247,
+          0.5
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.48314606741573035,
+          0.5,
+          0.7640449438202247,
+          0.7613636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2247191011235955,
+          0.23863636363636365,
+          0.48314606741573035,
+          0.5
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2247191011235955,
+          0.5,
+          0.48314606741573035,
+          0.7613636363636364
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2247191011235955,
+      0.23863636363636365,
+      0.7640449438202247,
+      0.7613636363636364
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.7411
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.17911
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": 0.11297
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.09168
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.0149
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1123_05.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      106,
+      106
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.49056603773584906,
+          0.2169811320754717,
+          0.7830188679245284,
+          0.5377358490566038
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.49056603773584906,
+          0.5377358490566038,
+          0.7830188679245284,
+          0.7830188679245284
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22641509433962265,
+          0.2169811320754717,
+          0.49056603773584906,
+          0.5377358490566038
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.22641509433962265,
+          0.5377358490566038,
+          0.49056603773584906,
+          0.7830188679245284
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.22641509433962265,
+      0.2169811320754717,
+      0.7830188679245284,
+      0.7830188679245284
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.60249
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.09418
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": 0.02899
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00588
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.04402
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0118_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      140,
+      138
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2,
+          0.21014492753623187,
+          0.7785714285714286,
+          0.7971014492753623
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.2,
+      0.21014492753623187,
+      0.7785714285714286,
+      0.7971014492753623
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.9725
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.05596
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.34657
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.42993
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1580_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      73,
+      75
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4931506849315068,
+          0.26666666666666666,
+          0.7534246575342466,
+          0.5066666666666667
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4931506849315068,
+          0.5066666666666667,
+          0.7534246575342466,
+          0.76
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2465753424657534,
+          0.26666666666666666,
+          0.4931506849315068,
+          0.5066666666666667
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.2465753424657534,
+          0.5066666666666667,
+          0.4931506849315068,
+          0.76
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.2465753424657534,
+      0.26666666666666666,
+      0.7534246575342466,
+      0.76
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.2515
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.05259
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.05036
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.08937
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0810_03.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      89,
+      88
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.47191011235955055,
+          0.2159090909090909,
+          0.797752808988764,
+          0.7840909090909091
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.20224719101123595,
+          0.2159090909090909,
+          0.47191011235955055,
+          0.7840909090909091
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "1x2",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.20224719101123595,
+      0.2159090909090909,
+      0.797752808988764,
+      0.7840909090909091
+    ],
+    "alternatives": [
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.15765
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.02039
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.33781
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -0.677
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": -0.78513
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0558_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      72,
+      71
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.5138888888888888,
+          0.23943661971830985,
+          0.7638888888888888,
+          0.5211267605633803
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.5138888888888888,
+          0.5211267605633803,
+          0.7638888888888888,
+          0.7605633802816901
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25,
+          0.23943661971830985,
+          0.5138888888888888,
+          0.5211267605633803
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.25,
+          0.5211267605633803,
+          0.5138888888888888,
+          0.7605633802816901
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.25,
+      0.23943661971830985,
+      0.7638888888888888,
+      0.7605633802816901
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.49921
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.14245
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.11449
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.07072
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0257_01.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      119,
+      139
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.4789915966386555,
+          0.2302158273381295,
+          0.773109243697479,
+          0.49640287769784175
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.4789915966386555,
+          0.49640287769784175,
+          0.773109243697479,
+          0.7913669064748201
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.18487394957983194,
+          0.2302158273381295,
+          0.4789915966386555,
+          0.49640287769784175
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      },
+      {
+        "char": "",
+        "box": [
+          0.18487394957983194,
+          0.49640287769784175,
+          0.4789915966386555,
+          0.7913669064748201
+        ],
+        "polarity": "bai",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。"
+    ],
+    "layout": "2x2",
+    "polarity": "bai",
+    "seal_bounds": [
+      0.18487394957983194,
+      0.2302158273381295,
+      0.773109243697479,
+      0.7913669064748201
+    ],
+    "alternatives": [
+      {
+        "layout": "2x2",
+        "heuristic_score": 0.57382
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": 0.18399
+      },
+      {
+        "layout": "3x2",
+        "heuristic_score": 0.06644
+      },
+      {
+        "layout": "2x3",
+        "heuristic_score": -0.02721
+      },
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.03787
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1798_02.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      126,
+      168
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.23809523809523808,
+          0.21428571428571427,
+          0.7619047619047619,
+          0.7857142857142857
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.23809523809523808,
+      0.21428571428571427,
+      0.7619047619047619,
+      0.7857142857142857
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.13114
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.64419
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.80881
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -0.95547
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -1.09895
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p1663_04.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      114,
+      115
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.19298245614035087,
+          0.2,
+          0.7982456140350878,
+          0.808695652173913
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.19298245614035087,
+      0.2,
+      0.7982456140350878,
+      0.808695652173913
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": -0.00504
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -0.65468
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -0.66066
+      },
+      {
+        "layout": "2x2",
+        "heuristic_score": -0.83518
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.14333
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  },
+  {
+    "file": "tzsf_yt_p0025_03.png",
+    "engine": "OpenCV colour/frame/projection-v1",
+    "ai_inference": false,
+    "task": "unlabelled_glyph_proposals",
+    "source_image_size": [
+      59,
+      59
+    ],
+    "coordinate_space": "normalized_exif_oriented_original_image_xy_0_1",
+    "options": {
+      "layout": "auto",
+      "polarity": "auto",
+      "frame_inset": 0.025
+    },
+    "human_review_required": true,
+    "character_labels_assigned": false,
+    "style_labels_assigned": false,
+    "font_split_assigned": false,
+    "reading_order": "right-column-first display convention; not historically verified",
+    "glyphs": [
+      {
+        "char": "",
+        "box": [
+          0.2711864406779661,
+          0.2711864406779661,
+          0.7457627118644068,
+          0.7457627118644068
+        ],
+        "polarity": "zhu",
+        "mirrored": false,
+        "reviewed": false,
+        "proposal_method": "projection_grid",
+        "box_reviewed": false
+      }
+    ],
+    "status": "needs_review",
+    "warnings": [
+      "候选框不是已识别的汉字；须检查边界、朱白文及释文。",
+      "朱白文依据红白比例估计；残损和边框可能影响判断。",
+      "未检测到足够稳定的字间隔，保留整印候选；可指定行列或手动框选。"
+    ],
+    "layout": "1x1",
+    "polarity": "zhu",
+    "seal_bounds": [
+      0.2711864406779661,
+      0.2711864406779661,
+      0.7457627118644068,
+      0.7457627118644068
+    ],
+    "alternatives": [
+      {
+        "layout": "1x1",
+        "heuristic_score": 0.0
+      },
+      {
+        "layout": "1x2",
+        "heuristic_score": -1.07793
+      },
+      {
+        "layout": "2x1",
+        "heuristic_score": -1.16623
+      },
+      {
+        "layout": "1x3",
+        "heuristic_score": -1.39622
+      },
+      {
+        "layout": "3x1",
+        "heuristic_score": -1.66492
+      }
+    ],
+    "score_description": "Layout ranking heuristic, not a probability or segmentation accuracy"
+  }
+]
