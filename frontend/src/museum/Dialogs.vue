@@ -31,6 +31,6 @@ function saveImage(){const a=document.createElement('a');a.href=m.value?.data?.i
 <div v-else-if="m.kind==='account-feature'"><p>此区保留参考图中的视觉入口。当前没有接入{{m.title.includes('会员')?'付费会员':m.title.includes('订单')?'支付或实体订单':'公开发布服务'}}，图示数字与状态只在“视觉示例”模式中展示。</p><p>可用功能：本机作品、收藏、参数方案、实际图片与STL文件导出。</p><button class="im-gold-button" @click="close">返回作品管理</button></div>
 <div v-else-if="m.kind==='experience'"><p>{{m.data?.index===0?'完整AR需要设备摄像头、定位与模型跟踪，目前尚未接入。':'参考场景尚未制作成可漫游的三维模型。'}}当前可查看实际生成的三维印面，支持真实旋转、缩放与STL导出。</p><button class="im-gold-button" @click="show('mesh','数字展柜 · 真实模型',{url:current?.artifacts.filter(a=>a.kind==='stl').at(-1)?.url})">打开真实三维展柜</button></div>
 <div v-else-if="m.kind==='stories'||m.kind==='timeline'"><p>这些画面展示参考图里的文化叙事。项目已收录的文献与出处可在知识库查看；未经核验的图示故事不作为史实结论。</p><RouterLink to="/knowledge" @click="close">查看带来源的资料</RouterLink></div>
-<div v-else><p>当前展示的是用户提供的视觉参考。篆刻风格、钮饰、复杂纹样与石材雕塑尚未接入生成模型；可以保存设计参数，继续准备经过人工审核的训练字形。真实输出目前支持规范字排版、图像处理和可制造的三维印面。</p><div class="im-dialog-actions"><RouterLink to="/font" @click="close">字形训练与标注</RouterLink><RouterLink to="/reconstruction" @click="close">真实三维工作台</RouterLink></div></div>
+<div v-else><p>当前展示的是用户提供的视觉参考。篆刻风格、钮饰、复杂纹样与石材雕塑尚未接入生成模型；可以保存设计参数，继续准备经过人工审核的训练字形。真实输出目前支持规范字排版、图像处理和可制造的三维印面。</p><div class="im-dialog-actions"><RouterLink to="/reconstruction" @click="close">真实三维工作台</RouterLink></div></div>
 </section></div>
 </template>
