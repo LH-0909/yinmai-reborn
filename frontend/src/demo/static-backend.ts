@@ -16,6 +16,23 @@ function json(payload: unknown, status = 200): Response {
   return new Response(JSON.stringify(payload), {status, headers: {'Content-Type': 'application/json; charset=utf-8'}})
 }
 
+/** Seal photos live behind /api/files/…; the demo mirrors them under demo/files/. */
+let fileMap: Record<string, string> | null = null
+
+async function demoSeals(): Promise<any[]> {
+  const [seals, files] = await Promise.all([load('seals'), load('files')])
+  if (!fileMap) fileMap = files as Record<string, string>
+  const rewrite = (url: string) => {
+    const target = fileMap?.[url]
+    return target ? BASE + target : url
+  }
+  return (seals as any[]).map((seal) => ({
+    ...seal,
+    original_url: rewrite(seal.original_url || ''),
+    artifacts: (seal.artifacts || []).map((a: any) => ({...a, url: rewrite(a.url || '')})),
+  }))
+}
+
 const PERIOD_GROUPS = ['战国', '秦', '西汉', '东汉', '汉', '三国', '东晋', '西晋', '晋', '十六国', '南北朝', '隋', '唐', '五代', '辽', '北宋', '南宋', '宋', '西夏', '金', '元', '明', '清', '民国', '近现代']
 
 function periodGroup(row: any): string {
@@ -133,10 +150,10 @@ async function handle(url: URL, method: string): Promise<Response> {
   if (path === '/knowledge') return json(knowledge(await load('knowledge'), url.searchParams))
   if (path === '/studio/state') return json(await load('studio-state'))
   if (path === '/studio/catalog') return json(await load('studio-catalog'))
-  if (path === '/seals') return json(await load('seals'))
+  if (path === '/seals') return json(await demoSeals())
   if (path.startsWith('/seals/')) {
-    const seals = await load('seals')
-    const hit = (seals as any[]).find((s) => path === `/seals/${s.id}`)
+    const seals = await demoSeals()
+    const hit = seals.find((s) => path === `/seals/${s.id}`)
     return hit ? json(hit) : json({detail: '演示快照中没有这条记录'}, 404)
   }
   if (path === '/events') return json(await load('events'))
